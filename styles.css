@@ -183,7 +183,6 @@ li a {
 }
 
 /* celebrant */
-
 section {
 	padding: 4rem;
 }
@@ -198,8 +197,6 @@ section {
 	align-items: center;
 	justify-content: space-between;
 	gap: 7.2rem;
-
-	border: 2px solid brown;
 }
 
 .images {
