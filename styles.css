@@ -25,12 +25,34 @@ html {
 
 /* header */
 header {
-	background-color: var(--primary-color);
+	/* background-color: var(--primary-color); */
 
+	color: var(--white);
 	height: 100vh;
 
 	background-image: url("./images/hero.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+nav {
+	width: 80%;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid orange;
+	padding: 4rem 0;
+}
+
+.right {
+	display: flex;
+
+	border: 2px solid red;
+}
+
+.right img {
+	width: 40px;
+	height: 40px;
 }
