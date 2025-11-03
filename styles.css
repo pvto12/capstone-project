@@ -122,7 +122,11 @@ li a {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	translate: (-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.hero-content {
+	color: var(--white);
 }
 
 /* countdown */
