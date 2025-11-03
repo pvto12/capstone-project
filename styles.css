@@ -67,15 +67,11 @@ nav {
 }
 
 .right h2 {
-	/* font-size: 1.68rem;
-	letter-spacing: 0.04rem;
-	word-spacing: 0.08rem;
-	margin-bottom: 0.4rem; */
 	margin: 0;
 	font-size: 1.2rem;
 	letter-spacing: 0.04rem;
 	word-spacing: 0.08rem;
-	/* margin-bottom: 0.4rem; */
+	margin-bottom: 0.4rem;
 }
 
 .right p {
@@ -133,17 +129,12 @@ li a {
 	display: flex;
 	justify-content: space-between;
 	width: 48%;
-	/* margin: 0 auto; */
-	/* text-align: center; */
-
 	position: absolute;
 	bottom: -3.12rem;
 	left: 26%;
 	right: 26%;
-
 	background-color: var(--primary-color);
 	padding: 1.2rem 10rem;
-
 	border-radius: 3.6rem;
 	color: var(--white);
 }
@@ -183,14 +174,9 @@ main {
 	/* Specific adjustments for laptops */
 
 	.right img {
-		/* for higher width */
 		width: 40px;
 		height: 40px;
 		margin-right: 1.2rem;
-
-		/* width: 20px;
-		height: 20px;
-		margin-right: 0.4rem; */
 	}
 
 	.right h2 {
@@ -198,10 +184,6 @@ main {
 		letter-spacing: 0.04rem;
 		word-spacing: 0.08rem;
 		margin-bottom: 0.4rem;
-		/* font-size: 1.2rem;
-		letter-spacing: 0.04rem;
-		word-spacing: 0.08rem; */
-		/* margin-bottom: 0.4rem; */
 	}
 
 	.right p {
