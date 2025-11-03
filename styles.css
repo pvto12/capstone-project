@@ -10,7 +10,10 @@
 
 html {
 	font-size: 62.5%;
+}
 
+body {
+	font-size: 1.6rem;
 	font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -29,6 +32,7 @@ header {
 
 	color: var(--white);
 	height: 100vh;
+	font-size: 1.2rem;
 
 	background-image: url("./images/hero.png");
 	background-position: top;
@@ -37,11 +41,13 @@ header {
 }
 
 nav {
-	width: 80%;
+	width: 96%;
 	margin: 0 auto;
 
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+
 	border: 2px solid orange;
 	padding: 4rem 0;
 }
@@ -55,4 +61,56 @@ nav {
 .right img {
 	width: 40px;
 	height: 40px;
+	margin-right: 2rem;
+}
+
+.right h2 {
+	font-size: 1.68rem;
+	letter-spacing: 0.04rem;
+	word-spacing: 0.08rem;
+	margin-bottom: 0.4rem;
+}
+
+.right p {
+	font-size: 1.04rem;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+	/* width: 100%; */
+}
+
+.left ul {
+	display: flex;
+	list-style: none;
+}
+
+li a {
+	margin: 0 2rem;
+	color: var(--white);
+	text-decoration: none;
+	padding: 0.4rem 1.6rem;
+	padding: 0.8rem 2rem;
+
+	border: 2px solid green;
+}
+
+.left img {
+	margin: 0 2rem;
+	width: 1.6rem;
+	cursor: pointer;
+}
+
+.left button {
+	background-color: var(--primary-color);
+	color: var(--white);
+	padding: 0.8rem 2.4rem;
+
+	border-radius: 4rem;
+	font-weight: 700;
+	cursor: pointer;
+
+	outline: none;
+	border: none;
 }
