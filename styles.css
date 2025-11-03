@@ -139,6 +139,7 @@ li a {
 	font-weight: 700;
 	cursor: pointer;
 	outline: none;
+	margin: 0 2rem;
 }
 
 .cta button:first-child {
