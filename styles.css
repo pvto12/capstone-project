@@ -104,3 +104,24 @@ li a {
 	outline: none;
 	border: none;
 }
+
+/* media queries */
+@media (max-width: 1439px) {
+	/* CSS rules for screens narrower than 1440px */
+	/* Adjust layout, element sizes, font sizes, hide/show elements as needed */
+}
+
+/* Example for a common laptop breakpoint */
+@media (max-width: 1200px) {
+	/* Specific adjustments for laptops */
+}
+
+/* Example for a tablet breakpoint */
+@media (min-width: 768px) {
+	/* Specific adjustments for tablets */
+}
+
+/* Example for a mobile breakpoint */
+@media (max-width: 480px) {
+	/* Specific adjustments for mobile phones */
+}
