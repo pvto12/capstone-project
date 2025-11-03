@@ -5,3 +5,12 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+html {
+	font-size: 62.5%;
+}
+
+:root {
+	--white: #ffffff;
+	--primary-color: #579ec2;
+}
