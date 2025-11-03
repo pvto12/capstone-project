@@ -20,3 +20,12 @@ html {
 	--secondary-color: #333333;
 	--gray-color: #d9d9d9;
 }
+
+/* pg structure */
+
+/* header */
+header {
+	background-color: var(--primary-color);
+
+	height: 75vh;
+}
