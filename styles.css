@@ -28,12 +28,9 @@ body {
 
 /* header */
 header {
-	/* background-color: var(--primary-color); */
-
 	color: var(--white);
 	height: 100vh;
 	font-size: 1.2rem;
-
 	background-image: url("./images/hero.png");
 	background-position: top;
 	background-repeat: no-repeat;
@@ -78,7 +75,6 @@ nav {
 .left {
 	display: flex;
 	align-items: center;
-	/* width: 100%; */
 }
 
 .left ul {
@@ -92,8 +88,6 @@ li a {
 	text-decoration: none;
 	padding: 0.4rem 1.6rem;
 	padding: 0.8rem 2rem;
-
-	border: 2px solid green;
 }
 
 .left img {
@@ -106,11 +100,9 @@ li a {
 	background-color: var(--primary-color);
 	color: var(--white);
 	padding: 0.8rem 2.4rem;
-
 	border-radius: 4rem;
 	font-weight: 700;
 	cursor: pointer;
-
 	outline: none;
 	border: none;
 }
