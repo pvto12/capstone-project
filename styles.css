@@ -150,15 +150,26 @@ h1 {
 	width: 90%;
 }
 
+.cta {
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+}
+
 .cta button {
 	background-color: transparent;
 	color: var(--white);
-	padding: 01.2rem 1.6rem;
+	padding: 1.6rem;
 	border-radius: 2.4rem;
 	font-weight: 700;
 	cursor: pointer;
 	outline: none;
-	margin: 0 2rem;
+
+	font-size: 1.6rem;
+
+	width: 88%;
+	margin: 1.2rem auto;
 }
 
 .cta button:first-child {
