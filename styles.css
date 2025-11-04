@@ -354,16 +354,16 @@ section {
 	text-align: center;
 }
 
-.celebrants {
+.celebrant {
 	margin: 2.8rem 0;
 }
 
-.celebrants img {
+.celebrant img {
 	width: 100%;
 	margin-bottom: 1.2rem;
 }
 
-.celebrants h5 {
+.celebrant h5 {
 	margin-bottom: 0.48rem;
 	font-size: 1.6rem;
 }
