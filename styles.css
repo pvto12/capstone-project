@@ -336,6 +336,49 @@ section {
 	font-size: 1.6rem;
 }
 
+/* Wishes */
+.heading {
+	display: flex;
+	align-items: center;
+
+	margin: 1.2rem 0;
+}
+
+.heading img {
+	width: 5.2rem;
+	margin-right: 1.6rem;
+}
+
+.name-time h5 {
+	/* margin-bottom: 0; */
+	font-size: 1.6rem;
+}
+
+.name-time p {
+	font-size: 1.2rem;
+	margin: 0;
+}
+
+.wish p:first-child {
+	margin: 1.6rem 0;
+}
+
+.reply {
+	display: flex;
+
+	align-items: center;
+}
+
+.reply p:first-child {
+	border: 1px solid red;
+	margin-right: 1.6rem;
+	text-decoration: underline;
+}
+
+.emoji img {
+	margin: 0;
+}
+
 /* footer */
 footer {
 	background-color: var(--secondary-color);
