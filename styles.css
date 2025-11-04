@@ -122,9 +122,6 @@ li a {
 }
 
 /* main */
-main {
-	/* width: 100vw; */
-}
 
 main {
 	margin: 8rem 0;
@@ -241,6 +238,8 @@ h1 {
 section {
 	padding: 2.4rem;
 	position: relative;
+
+	border: 2px solid red;
 }
 
 .celebration-icons {
@@ -255,6 +254,7 @@ section {
 .pop-right img {
 	width: 52px;
 	height: 52px;
+	object-fit: contain;
 }
 
 .pop-left img {
@@ -366,7 +366,7 @@ section {
 }
 
 .celebrant img {
-	width: 100%;
+	/* width: 100%; */
 	margin-bottom: 1.2rem;
 }
 
