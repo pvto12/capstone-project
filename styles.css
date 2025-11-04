@@ -49,6 +49,16 @@ nav {
 	padding: 4rem 0;
 }
 
+.hamburger {
+	color: var(--white);
+	fill: white;
+
+	height: 3.2rem;
+
+	margin-right: 0.48rem;
+	cursor: pointer;
+}
+
 .right {
 	display: flex;
 	align-items: center;
