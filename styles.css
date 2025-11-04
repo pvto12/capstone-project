@@ -22,6 +22,7 @@ body {
 	--primary-color: #579ec2;
 	--secondary-color: #333333;
 	--gray-color: #d9d9d9;
+	--bg-color: #cfe5f3;
 }
 
 /* pg structure */
@@ -117,6 +118,11 @@ li a {
 main {
 	/* width: 100vw; */
 }
+
+main {
+	margin: 8rem 0;
+}
+
 /* hero */
 .hero {
 	display: flex;
@@ -339,8 +345,8 @@ section {
 	color: var(--primary-color);
 }
 
-main {
-	margin: 8rem 0;
+/* Countdown */
+.bg-color-changed {
 }
 
 /* media queries */
