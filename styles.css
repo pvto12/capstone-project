@@ -286,7 +286,6 @@ section {
 	position: absolute;
 	top: 5%;
 	left: 0%;
-
 	width: 10rem;
 }
 
@@ -307,15 +306,8 @@ section {
 	font-weight: 700;
 }
 
-.content .cta {
-	/* width: 100%; */
-
-	/* border: 2px solid green; */
-}
-
 .content .cta button {
 	width: 100%;
-
 	margin-left: 0;
 	border: 1px solid var(--primary-color);
 }
