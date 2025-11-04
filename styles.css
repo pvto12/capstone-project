@@ -242,8 +242,6 @@ section {
 .pop-right img {
 	width: 52px;
 	height: 52px;
-
-	/* border: 2px solid green; */
 }
 
 .pop-left img {
@@ -272,22 +270,41 @@ section {
 }
 
 .celebrant-content {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 7.2rem;
+	/* display: flex; */
+	/* align-items: center; */
+	/* justify-content: center; */
+	/* gap: 7.2rem; */
+
+	margin: 4.8rem 0;
+
+	padding: 2.4rem 0;
 }
 
 .images {
 	position: relative;
+
+	margin-bottom: 3.6rem;
+}
+
+.images img:first-child {
+	/* position: absolute;
+	top: 5%;
+	left: 0%; */
+
+	/* width: 5rem; */
+	width: 100%;
 }
 
 .images img:last-child {
 	position: absolute;
-	top: 10%;
+	top: 5%;
 	left: 0%;
 
 	width: 10rem;
+}
+
+.content {
+	text-align: justify;
 }
 
 .content p {
@@ -303,7 +320,15 @@ section {
 	font-weight: 700;
 }
 
+.content .cta {
+	/* width: 100%; */
+
+	/* border: 2px solid green; */
+}
+
 .content .cta button {
+	width: 100%;
+
 	margin-left: 0;
 	border: 1px solid var(--primary-color);
 }
