@@ -368,6 +368,11 @@ section {
 	font-size: 1.6rem;
 }
 
+/* footer */
+footer {
+	background-color: var(--secondary-color);
+}
+
 /* media queries */
 @media (max-width: 1439px) {
 	/* CSS rules for screens narrower than 1440px */
