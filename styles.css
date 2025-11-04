@@ -224,6 +224,14 @@ section {
 	font-size: 1.6rem;
 }
 
+.salutation p {
+	font-weight: 700;
+}
+
+.content span {
+	font-weight: 700;
+}
+
 .content .cta button {
 	margin-left: 0;
 	border: 1px solid var(--primary-color);
