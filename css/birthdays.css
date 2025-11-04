@@ -14,9 +14,16 @@ body {
 }
 
 /* nav-bar-area */
-#nav-bar{
+
+#header{
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-bar{
     display: flex;
-    padding: 49px 80px;
+    padding: 49px 60px;
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -24,7 +31,6 @@ body {
 
 .nav-bar-left{
     display: flex;
-
     gap: 15px
 }
 
@@ -85,13 +91,15 @@ li a{
     border-radius: 60px;
 }
 
-/* hero section */
 .hero{
-    background-image: url(../images/hero.png);
-    background-size: cover;
-    height: 100vh;
-    margin-top: -9%;
-    padding: 20% 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
 .hero-text{
@@ -129,7 +137,28 @@ li a{
   transform-origin: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
+    .nav-bar-left-texts h5{
+        font-size: 12px;
+    }
+
+    .nav-bar-left-texts h6{
+    font-size: 10px;
+    }
+
+    .nav-bar-left{
+        gap: 10px;
+    }
+
+    .nav-logo{
+        width: 25px;
+        height: 30px;
+    }
+
+    .nav-bar{
+        padding: 20px 30px;
+    }
+
     .hamburger{
         display: block;
     }
@@ -176,11 +205,6 @@ li a{
     }
 
     /* hero section */
-    .hero{
-    height: 70vh;
-    margin-top: -20%;
-    padding: 25%;
-}
 
 .hero h1{
     font-weight: 800;
