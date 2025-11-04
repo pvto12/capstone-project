@@ -50,12 +50,9 @@ nav {
 }
 
 .hamburger {
-	color: var(--white);
-	fill: white;
-
 	height: 3.2rem;
 
-	margin-right: 0.48rem;
+	margin-right: 0.4rem;
 	cursor: pointer;
 }
 
