@@ -185,11 +185,21 @@ li a {
 /* celebrant */
 section {
 	padding: 4.4rem;
+
+	border: 2px solid red;
 }
 
 .celebrant-title {
 	text-align: center;
 	margin-bottom: 4rem;
+}
+
+.title {
+	font-size: 3.6rem;
+}
+
+.celebrant-title p {
+	font-size: 1.52rem;
 }
 
 .celebrant-content {
@@ -213,6 +223,7 @@ section {
 
 .content p {
 	margin-bottom: 2rem;
+	font-size: 1.6rem;
 }
 
 .content .cta button {
