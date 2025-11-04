@@ -185,8 +185,6 @@ li a {
 /* celebrant */
 section {
 	padding: 4.4rem;
-
-	border: 2px solid red;
 }
 
 .celebrant-title {
@@ -234,8 +232,6 @@ section {
 .content .cta button:last-child {
 	border: 1px solid var(--primary-color);
 	color: var(--primary-color);
-}
-.celebrant-content .cta {
 }
 
 main {
