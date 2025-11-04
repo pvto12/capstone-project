@@ -23,6 +23,8 @@ body {
 	--secondary-color: #333333;
 	--gray-color: #d9d9d9;
 	--bg-color: #cfe5f3;
+	--post-color: #767676;
+	--post-bg: #f6f6f6;
 }
 
 /* pg structure */
@@ -338,14 +340,12 @@ section {
 
 /* Wishes */
 .wish {
-	border: 1px solid red;
 	margin: 1.6rem 0;
 }
 
 .heading {
 	display: flex;
 	align-items: center;
-
 	margin: 1.2rem 0;
 }
 
@@ -355,7 +355,6 @@ section {
 }
 
 .name-time h5 {
-	/* margin-bottom: 0; */
 	font-size: 1.6rem;
 }
 
@@ -370,7 +369,6 @@ section {
 
 .reply {
 	display: flex;
-
 	align-items: center;
 }
 
@@ -383,6 +381,58 @@ section {
 .emoji img {
 	margin: 0;
 	cursor: pointer;
+}
+
+/* comment */
+.comment {
+	background-color: var(--post-bg);
+	color: var(--post-color);
+	width: 88%;
+
+	margin: 2rem auto;
+}
+
+.comment p {
+	margin-bottom: 4rem;
+}
+
+.comment input {
+	/* border: 1px solid red; */
+	border: none;
+	outline: none;
+	width: 100%;
+
+	background-color: var(--post-bg);
+	border-bottom: 1.6px solid #d9d9d9;
+}
+
+.social-btns {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 3.2rem 0;
+}
+
+.icon-emoji img {
+	/* display: flex; */
+	/* flex: 1; */
+	/* justify-content: space-between; */
+	/* align-items: center; */
+
+	margin-right: 1.2rem;
+	cursor: pointer;
+}
+
+.archive button {
+	background-color: var(--primary-color);
+	color: var(--white);
+	padding: 0.8rem 2.4rem;
+	border-radius: 4rem;
+	font-weight: 700;
+	cursor: pointer;
+	outline: none;
+	border: none;
 }
 
 /* footer */
