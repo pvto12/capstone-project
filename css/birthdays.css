@@ -21,7 +21,7 @@ body {
 /*header-area */
 
 #header{
-    background-image: url(../images/hero.png);
+    background-image: url(../images/hero_desktop.png);
     background-size: cover;
     background-position: center;
     height: 100vh;

@@ -1,0 +1,338 @@
+root {
+	--white: #ffffff;
+	--primary-color: #579ec2;
+	--secondary-color: #333333;
+	--gray-color: #d9d9d9;
+	--bg-color: #cfe5f3;
+}
+
+* {
+
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+z
+body {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	color: white;
+}
+
+
+/* .main{
+    
+    
+	
+} */
+
+.top{
+	display: flex;
+	 justify-content: space-between;
+	width: 96%;
+	padding: 90px 30px;
+	color: white;
+}
+
+.logo-main{
+    display: flex;
+   
+   color: white;
+	gap: 10px;
+
+}
+
+.logo-main img{
+    width: 15%;
+    height: 8vh;
+    
+}
+
+.text{
+    line-height: 1.5rem;
+	line-height: 1.5rem;
+}
+
+.text h1{
+    font-size: 1.3rem;
+	font-size: 1.3rem;
+}
+
+.text p{
+    font-size: 14px;
+	font-weight: lighter;
+}
+nav{
+    display: flex;
+    gap: 50px;
+
+}
+
+
+nav img{
+    width: 15%;
+	display: flex;
+	gap: 0 20px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+	display: flex;
+	gap: 40px;
+
+}
+nav ul li{
+    list-style: none;
+	list-style: none;
+	
+}
+
+nav ul li a{
+    text-decoration: none;
+	text-decoration: none;
+	color: var(--white);
+}
+.wow{
+	display: none;
+}
+ .icon img{
+	width: 60%;
+	margin-left: 1rem;
+ }
+ .pro{ 
+	/* width: 4%; */
+	margin-top: -0.1rem;
+	/* height: 4vh;  */
+	border-radius: 50%; 
+	position: absolute;
+	overflow: hidden;
+} 
+	.pro img{
+		 width: 100%; 
+			background-color: #333333;
+		 position: relative; }
+
+ .arc{
+	margin-top: 6rem;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	font-size: 5rem;
+	color: white;
+
+ }
+
+ 
+ .arc p{
+font-size: 1.7rem;
+ }
+
+ .hero{
+	margin-top: 5rem;
+ }
+
+ .year{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 20px;
+ }
+
+
+ .year-btn-1{
+	border: 1px solid  gray;
+	background: #579ec2;
+	padding: 15px 80px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 25px;
+	cursor: pointer;
+	
+ }
+
+ .year-btn{
+	border: 1px solid  gray;
+	background: var(--white);
+	padding: 15px 80px;
+	color: gray;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 25px;
+	cursor: pointer;
+ }
+ .container{
+	margin-top: 4rem;
+ }
+
+ .row-1{
+	margin-top: 2rem;
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
+ }
+
+ .box-1{
+	width: 30%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #579ec2;
+	height: 70vh;
+	border-radius: 30px;
+	
+ }
+
+ .box-1 img{
+	margin-top: 3rem;
+ }
+
+	.box-1 p{
+		color: white;
+	}
+
+ .box-1 h1{
+	font-size: 1.2rem;
+	margin-top: 1rem;
+	line-height: 2rem;
+	color: white;
+	font-weight: lighter;
+ }
+ .mini{
+	font-size: 16px;
+	display: flex;
+	text-align: center;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+ }
+
+ /* .mini img{
+	/* margin-top: ; 
+ } */
+ 
+  .view{
+	margin-top: 2rem;
+	padding: 15px 50px;
+	background: #ffffff;
+	border: none;
+	color: #579ec2;
+	font-weight: bold;
+	border-radius: 20px;
+  }
+
+
+  /* footer{
+	
+  } */
+
+  @media (max-width: 768px) {
+	body{
+		width: 100%;
+		  
+  overflow-y: auto;
+}
+
+
+	
+
+	.top{
+		gap: 10px;
+		padding: 20px 20px;
+	}
+
+	.logo-main img{
+		width: 15%;
+		height: 6vh;
+	}
+	.text{
+		line-height: 1rem;
+	}
+	.text h1{
+		font-size: 14px;
+		width: 114%;
+	}
+	.text p{
+		width: 114%;
+		font-size: 9px;
+	}
+	nav {
+		display: none;
+	}
+	 .icon{
+		display: flex;
+	 }
+	 .wow{display: flex;}
+	 .icon{
+		width: 30%;
+	 }
+	 .pro{
+		/* width: 4%; */
+		
+	 }
+
+.arc{
+	font-size: 2rem
+}
+.arc p{
+	font-size: 16px;
+}
+
+.year{
+	display: block;
+	line-height: 2rem;
+	bottom: 0;
+}
+.year-btn{
+	margin-top: 1rem;
+}
+
+.row-1{
+	display: block;
+	justify-content: center;
+}
+
+.box-1{
+	justify-content: center;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 1rem;
+}
+
+
+.pro{
+     /* width: 5%;
+	height: 5%;  */
+     border-radius: 50%;
+     overflow: hidden;
+      justify-content: center;
+	  margin-left: 2rem;
+}
+
+.pro img{
+    width: 170%;
+     position: relative;}  
+
+
+	 .icon img{
+	width: 90%;
+	margin-top: -0.4rem;
+	height: 4vh;
+	margin-left: 1rem;
+ }
+ /* .main{
+	background-image: ;
+ } */
+
+  }
+
+
+
+
+
+
+
