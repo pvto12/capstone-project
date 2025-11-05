@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+header.main {
+
+  display: flex;
+  height: 300px; /* TEMP: give it visible height */
+  background-image: url('../archive image/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+   padding: 50px;
+  justify-content: space-between;
+}
+.logo-main{
+    display: flex;
+   
+    gap: 10px;
+
+}
+
+.logo-main img{
+    width: 15%;
+    height: 8vh;
+}
+.text{
+    line-height: 1.5rem;
+}
+
+.text h1{
+    font-size: 1.3rem;
+}
+.text p{
+    font-size: 14px;
+}
+nav{
+    display: flex;
+    gap: 50px;
+
+}
+
+
+nav img{
+    width: 15%;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.pro{
+    border: none;
+    position: absolute;
+}
