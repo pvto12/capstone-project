@@ -21,11 +21,11 @@ body {
 }
 
 
-.main{
+/* .main{
     
     
 	
-}
+} */
 
 .top{
 	display: flex;
@@ -203,9 +203,9 @@ font-size: 1.7rem;
 	text-align: center;
  }
 
- .mini img{
-	margin-top: ;
- }
+ /* .mini img{
+	/* margin-top: ; 
+ } */
  
   .view{
 	margin-top: 2rem;
@@ -218,9 +218,9 @@ font-size: 1.7rem;
   }
 
 
-  footer{
+  /* footer{
 	
-  }
+  } */
 
   @media (max-width: 768px) {
 	body{
@@ -315,9 +315,9 @@ font-size: 1.7rem;
 	height: 4vh;
 	margin-left: 1rem;
  }
- .main{
+ /* .main{
 	background-image: ;
- }
+ } */
 
   }
 
