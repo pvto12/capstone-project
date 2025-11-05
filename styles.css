@@ -88,17 +88,38 @@ nav {
 
 .left ul {
 	display: flex;
+	/* align-items: center; */
+	flex-direction: column;
 	list-style: none;
-	align-items: center;
-	visibility: none;
-	display: none;
+	z-index: 120;
+	padding: 2rem;
+
+	height: 100vh;
+	margin: 0;
+	width: 24rem;
+
+	background-color: var(--secondary-color);
+	position: absolute;
+	left: 0;
+	top: 9.6rem;
+
+	/* visibility: none; */
+	/* display: none; */
+}
+
+.left li {
+	margin: 0;
 }
 
 li a {
-	margin: 0 2rem;
+	padding: 4rem 0;
+	width: 100%;
+	display: block;
+	/* margin: 0 2rem; */
 	color: var(--white);
+	/* color: var(--secondary-color); */
 	text-decoration: none;
-	padding: 0.8rem 2rem;
+	/* padding: 0.8rem 2rem; */
 	font-size: 1.6rem;
 	font-weight: 700;
 }
