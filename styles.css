@@ -88,29 +88,22 @@ nav {
 }
 
 .show-or-hide {
-	position: fixed;
-	left: -100%;
-	top: 9.6rem;
-
-	display: block;
+	display: none;
 }
 
 .left ul {
 	display: flex;
-	/* align-items: center; */
 	flex-direction: column;
 	list-style: none;
 	z-index: 120;
 	padding: 2rem;
-
 	height: 100vh;
 	margin: 0;
 	width: 24rem;
-
 	background-color: var(--nav-bg);
-
-	/* visibility: none; */
-	/* display: none; */
+	position: fixed;
+	left: 0;
+	top: 9.6rem;
 }
 
 .left li {
@@ -563,14 +556,12 @@ footer {
 	.left img {
 		margin: 0 2rem;
 		width: 1.6rem;
-		/* margin: 0 1.2rem;
-	width: 1.2rem; */
 		cursor: pointer;
 	}
 
-	.show-or-hide {
+	/* ul {
 		display: none;
-	}
+	} */
 
 	.left ul {
 		display: flex;
