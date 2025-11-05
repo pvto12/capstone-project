@@ -59,7 +59,14 @@ nav ul li a{
     color: #000;
 }
 
-.pro{
-    border: none;
-    position: absolute;
+/* .pro{
+    width: 7%;
+     border-radius: 50%;
+     overflow: hidden;
+      justify-content: center;
 }
+
+.pro img{
+    width: 100%;
+    position: relative;
+} */
