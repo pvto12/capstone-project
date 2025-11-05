@@ -182,6 +182,7 @@ h1 {
 	background-color: var(--primary-color);
 	border: none;
 }
+
 .cta button:last-child {
 	border: 2px solid var(--white);
 }
@@ -467,7 +468,7 @@ section {
 	align-items: center;
 	justify-content: space-between;
 
-	border: 2px solid blue;
+	/* border: 2px solid blue; */
 	width: 9.6rem;
 	margin: 2rem auto;
 	/* justify-content: space-between; */
@@ -475,7 +476,6 @@ section {
 
 .reactions > div {
 	/* width: 4rem; */
-	border: 2px solid red;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -495,12 +495,30 @@ section {
 	font-weight: 700;
 	cursor: pointer;
 	outline: none;
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	width: 20rem;
 	margin: 1.2rem auto;
 
 	border: none;
+}
+
+.archive + button {
+	/* border: 2px solid red; */
+
+	border: 1px solid var(--primary-color);
+
+	color: var(--primary-color);
+	background-color: transparent;
+	padding: 1.6rem;
+	border-radius: 2.4rem;
+	font-weight: 700;
+	cursor: pointer;
 	outline: none;
+	font-size: 1.6rem;
+	width: 100%;
+	margin: 1.2rem auto;
+
+	/* border: none; */
 }
 
 /* footer */
