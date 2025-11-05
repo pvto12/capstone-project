@@ -458,8 +458,16 @@ section {
 	margin: 1.2rem 0;
 }
 
+.reactions {
+	display: flex;
+	/* border: 2px solid red; */
+	justify-content: center;
+	align-items: center;
+
+	/* width: 1.2rem; */
+}
+
 .reactions img {
-	border: 2px solid red;
 	width: 2.4rem;
 }
 
