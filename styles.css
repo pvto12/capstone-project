@@ -553,18 +553,17 @@ footer {
 		cursor: pointer;
 	}
 
-	/* ul {
-		display: none;
-	} */
+	.show-or-hide {
+		display: block;
+	}
 
-	.left ul {
+	/* .left ul {
 		display: flex;
 		list-style: none;
 		align-items: center;
 
 		visibility: visible;
-		/* display: block; */
-	}
+	} */
 
 	.left button {
 		background-color: var(--primary-color);
