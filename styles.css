@@ -122,10 +122,6 @@ li a {
 
 /* main */
 
-main {
-	margin: 8rem 0;
-}
-
 /* hero */
 .hero {
 	display: flex;
@@ -432,10 +428,6 @@ section {
 }
 
 /* Archives */
-.bg-color-changed.remove-margin {
-	margin-bottom: 0;
-	/* border: 2px solid red; */
-}
 
 .archives {
 	color: var(--white);
