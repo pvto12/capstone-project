@@ -432,6 +432,11 @@ section {
 }
 
 /* Archives */
+.bg-color-changed.remove-margin {
+	margin-bottom: 0;
+	/* border: 2px solid red; */
+}
+
 .archives {
 	color: var(--white);
 }
@@ -503,8 +508,6 @@ section {
 }
 
 .archive + button {
-	/* border: 2px solid red; */
-
 	border: 1px solid var(--primary-color);
 
 	color: var(--primary-color);
