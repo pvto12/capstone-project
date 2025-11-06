@@ -736,6 +736,8 @@ footer{
 
 .footer-bar{
     flex-direction: column;
+    justify-content: center;
+    justify-self: center;
     gap: 20px;
 }
 
