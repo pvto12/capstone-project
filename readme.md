@@ -21,4 +21,5 @@ git pull origin main
 - git commit -m "add what you did"
 - git remote add origin https://github.com/pvto12/capstone-project.git
 - git branch -m main
-- git push -u origin main
+- 
+
