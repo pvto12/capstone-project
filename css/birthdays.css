@@ -16,6 +16,7 @@ body {
     --card-color: #d9d9d9;
     --main: #333333;
     --btn-color: #579cc2;
+    --btn-color-2: rgba(154,205,230,0.18);
 }
 
 /*header-area */
@@ -273,9 +274,129 @@ li a{
     font-size: 14px;
 }
 
+/* upcoming birthdays */
+#upcoming{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px 100px;
+    background-color: var(--btn-color-2);
+}
 
+.upcoming-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+}
 
+.upcoming-text h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--main);
+}
 
+.upcoming-text h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--main);
+}
+
+.upcoming-calendar{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 30px;
+}
+
+.upcoming-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-1{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.card-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-3{
+    padding: 6px 10px;
+    text-align: center;
+}
+
+.card-2 h4{
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--main);
+}
+
+.card-2 h5{
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--main);
+}
+
+.card-4{
+    background-color: var(--btn-color);
+    padding: 10px;
+}
+
+.card-4 h4{
+    color: var(--primary-color);
+}
+
+.card-id{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-id-1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-id h2{
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--main);
+    padding-top: 10px;
+}
+
+.card-id h3{
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--card-text);
+}
+
+.see-past-btn{
+    border: 1px solid var(--btn-color);
+    border-radius: 100px;
+    padding: 15px 10px;
+    background-color: var(--btn-color-2);
+    max-width: 193px;
+    margin-top: 10px;
+}
+
+.card-id h4{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--btn-color);
+}
+
+.upcoming-card-img{
+    max-width: 193px;
+    max-height: 193px;
+    border-radius: 30px;
+}
 
 
 @media (max-width: 1200px) {
@@ -319,8 +440,8 @@ li a{
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    #nav-bar{
-        padding: 15px;
+    .nav-bar{
+        padding: 10px;
     }
 
     .nav-menu{
@@ -370,6 +491,83 @@ li a{
         width: 60px;
         height: 60px;
     }
+
+    .celebrant-text h2{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .grid-row{
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 100px 0px;
+    justify-self: center;
+    }
+
+    /* upcoming birthdays */
+    #upcoming{
+        padding: 80px 20px;
+        gap: 70px;
+    }
+
+    .upcoming-card-img{
+        max-width: 81px;
+        max-height: 81px;
+        border-radius: 10px;
+    }
+
+    .upcoming-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+    }
+
+    .upcoming-text h2{
+        font-size: 20px;
+    }
+
+.upcoming-text h3{
+    font-size: 14px;
+}
+
+.card-1{
+    gap: 12px;
+}
+
+
+.card-3{
+    padding: 6px 10px;
+    text-align: center;
+}
+
+.card-2 h4{
+    font-size: 14px;
+}
+
+.card-2 h5{
+    font-size: 20px;
+}
+
+
+.card-id{
+    gap: 5px;
+}
+
+.card-id h2{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.card-id h3{
+    font-size: 14px;
+}
+
+.see-past-btn{
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
 
 }
 
