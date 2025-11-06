@@ -657,7 +657,7 @@ a {
 .hamburger img {
 	margin-top: 1rem;
   width: 150%;
-  margin-left: ;
+  margin-left: -0.5rem;
 }
 
 .hamburger {
