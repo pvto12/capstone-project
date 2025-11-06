@@ -605,11 +605,11 @@ footer {
 .mobile-menu {
   position: fixed;
   top: 0;
-  height: 100vh;
+  height: 60vh;
   width: 60%;
   color: white;
   transition: 0.4s ease;
-  padding: 2rem 1.5rem;
+
 }
 
 .mobile-menu {
@@ -624,14 +624,14 @@ footer {
 }
 
 .mobile-menu li {
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
+
+ 
   list-style: none;
   color: white;
 }
 
 .mobile-menu li a {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: white;
 }
 
@@ -645,7 +645,7 @@ li {
 }
 
 a {
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   color: white;
 }
@@ -655,28 +655,23 @@ a {
 }
 
 .hamburger img {
-  width: 140%;
+	margin-top: 1rem;
+  width: 150%;
   margin-left: -1rem;
 }
 
 .hamburger {
   width: 3rem;
   display: flex;
-  margin-top: -;
   color: white;
 }
 
 .mobile-menu {
   display: block;
-  gap: 50px;
   list-style: none;
   background: var(--primary-color);
-  color: black;
   padding-top: 13.5%;
-  height: 80vh;
   transition: 1s;
-  line-height: 0.5rem;
-  position: absolute;
    z-index: 999;
 }
 
@@ -686,7 +681,7 @@ a {
 }
 
 .mobile-menu button {
-  background: rgb(27, 21, 14);
+ 
   padding: 20px 30px;
 }
 
@@ -698,13 +693,13 @@ a {
 
 .mobile-menu li {
   width: 98%;
-  margin-bottom: 8px;
-  color: black;
+
+  color: white;
 }
 
 .mobile-menu li a {
   margin-left: 2rem;
-  color: black;
+  color: white;
 }
 
 .mobile-menu {
