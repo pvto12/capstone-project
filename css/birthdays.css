@@ -89,6 +89,10 @@ li a{
     color: white;
 }
 
+li a:hover{
+    color: var(--btn-color);
+}
+
 .user-icon{
     background-image: url(../images/user-img.jpg);
     background-position: center;
@@ -265,6 +269,12 @@ li a{
     border: none;
 }
 
+.wish-btn:hover{
+    color: var(--btn-color);
+    background-color: var(--card-color);
+    border: 1px solid var(--btn-color);
+}
+
 .see-more-btn{
     border: 1px solid var(--btn-color);
     color: var(--btn-color);
@@ -272,6 +282,10 @@ li a{
     padding: 20px 0px;
 }
 
+.see-more-btn:hover{
+    background-color: var(--btn-color);
+    color: var(--primary-color);
+}
 .wishes-btn{
     display: flex;
     flex-direction: column;
@@ -322,6 +336,13 @@ li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid var(--btn-color);
+    padding-bottom: 10px;
+}
+
+.upcoming-card:last-child{
+    border-bottom: none;
+    padding-bottom: 0px;
 }
 
 .card-1{
@@ -338,6 +359,7 @@ li a{
 .card-3{
     padding: 6px 10px;
     text-align: center;
+    background-color: var(--primary-color);
 }
 
 .card-2 h4{
