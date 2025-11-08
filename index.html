@@ -10,35 +10,7 @@
     <div class="container">
       <header>
         <nav class="nav">
-          <div class="mini">
-            <div class="hamburger">
-              <button onclick="menuToggle(this)">
-                <img src="images/blue-removebg-preview.png" alt="Menu" />
-              </button>
-            </div>
-
-            <ul class="mobile-menu">
-              <li>
-                <button onclick="closeToggle()">
-                  <img src="images/blue-removebg-preview.png" alt="" />
-                </button>
-              </li>
-
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="html/birthdays.html">Birthdays</a>
-              </li>
-              <li>
-                <a href="archive.html">Archive</a>
-              </li>
-              <li>
-                <a href="index.html">Settings</a>
-              </li>
-            </ul>
-          </div>
-
+         <img src="images/mobile_menu.png" alt="">
           <!-- <img src="./images/icon-close.svg" alt="" class="close"/> -->
 
           <div class="right">
@@ -410,41 +382,6 @@
 
     <script src="./js/index.js"></script>
 
-
-
-
-	
-<!-- hamburger script -->
-
-
-<script>
-              const navbar = document.querySelector('.mobile-menu');
-
-              function menuToggle(button) {
-          navbar.classList.add("active");
-          button.classList.add('active');
-          document.body.classList.add('active');
-
-          // Optional: change padding dynamically
-          navbar.style.padding = "20px";
-      }
-
-
-                  const ul = document.getElementsByClassName("mobile-menu")
-      ul.style.padding("20px")
-
-
-
-              
-
-
-function closeToggle() {
-    navbar.classList.remove("active");
-    document.querySelector('.hamburger button').classList.remove('active');
-    document.body.classList.remove('active');
-}
-
-    </script>
 
 
   </body>
