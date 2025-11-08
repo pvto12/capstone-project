@@ -542,6 +542,9 @@ footer .right .logo-text p {
 	width: 100%;
 	cursor: pointer;
 	padding: 0.64rem 0;
+
+	/* border: 2px solid green; */
+	margin: 0.8rem 0;
 }
 
 .footer-links ul li a {
