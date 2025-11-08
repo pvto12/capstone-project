@@ -10,12 +10,21 @@ root {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  max-width: 100%;
 }
+
+
+
+html, body {
+  overflow-x: hidden;
+}
+
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: white;
-  overflow-y: hidden;
+  overflow-x: hidden; /* ✅ prevents horizontal scroll */
+  overflow-y: auto;   /* ✅ allows vertical scroll */
 }
 
 /* .main{
@@ -218,14 +227,15 @@ nav ul li a {
 @media (max-width: 768px) {
   header .header-mini {
     display: flex;
-	width: 100%;
-	overflow: hidden;
-  }
-  body {
     width: 100%;
-
-   
   }
+
+  body {
+    width: 100%; 
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
   .minii {
     display: flex;
   }
@@ -233,6 +243,7 @@ nav ul li a {
   .main background-image {
     height: 20vh;
   }
+
 
   .top {
 	top: -30px;
@@ -563,14 +574,17 @@ footer {
 }
 
 /* --- Responsive --- */
-/* @media (max-width: 750px) {
+@media (max-width: 750px) {
 	footer{
 		bottom: 0;
 	}
   .footer-container {
     flex-direction: column;
   }
-
+.foot-text p {
+    font-size: 14px;
+    color: #ccc;
+}
   .part-1,
   .part-2 {
     width: 100%;
@@ -581,4 +595,28 @@ footer {
     flex-direction: column;
     gap: 20px;
   }
-} */
+
+
+  .aboutus p {
+    margin-top: 1rem;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+    color: #ccc;
+	width: 100%;
+  }
+
+.butt{
+	display: flex;
+	bottom: 0;
+}
+  .bottom{
+	display: none;
+  }
+.copyright {
+	display: none;
+}
+}
+
+.butt{
+	display: none;
+}
