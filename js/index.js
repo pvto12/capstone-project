@@ -1,15 +1,22 @@
-// const hamburger = document.querySelector(".hamburger");
-// const unorderedList = document.querySelector(".show-or-hide");
-// let menuOpen = false;
+const hamburger = document.querySelector(".hamburger");
+const navbar = document.querySelector(".show-or-hide");
+let menuOpen = false;
 
-// const openAndClose = () => {
-// 	if (!menuOpen) {
-// 		unorderedList.style.display = "block";
-// 		menuOpen = true;
-// 	} else if (menuOpen) {
-// 		unorderedList.style.display = "none";
-// 		menuOpen = false;
-// 	}
-// };
+const openAndClose = () => {
+	console.log("clicked");
 
-// hamburger.addEventListener("click", openAndClose);
+	if (!menuOpen) {
+		navbar.style.display = "block";
+		hamburger.src = "./images/icon-close.svg";
+		hamburger.style.color = "white";
+		hamburger.style.height = "25px";
+		hamburger.style.width = "25px";
+		menuOpen = true;
+	} else if (menuOpen) {
+		navbar.style.display = "none";
+		menuOpen = false;
+		hamburger.src = "./images/mobile_menu.png";
+	}
+};
+
+hamburger.addEventListener("click", openAndClose);
