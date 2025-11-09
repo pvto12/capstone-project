@@ -49,7 +49,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 4rem 0;
-	position: relative;
+	/* position: relative; */
 	z-index: 1;
 }
 
@@ -182,6 +182,7 @@ h1 {
 .count-down-container {
 	width: 88%;
 	margin: 0 auto;
+	position: relative;
 }
 
 .count-down {
@@ -189,9 +190,13 @@ h1 {
 	justify-content: space-between;
 	width: 80%;
 	position: absolute;
-	bottom: -2.56rem;
+	top: -5.6rem;
+	/* top: -260%; */
 	left: 10%;
 	right: 10%;
+
+	transform: translate(0.5%, 50%);
+
 	background-color: var(--primary-color);
 	padding: 0.8rem 2.4rem;
 	border-radius: 3.6rem;
