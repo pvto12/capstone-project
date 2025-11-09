@@ -281,8 +281,8 @@ section {
 
 .images img:last-child {
 	position: absolute;
-	top: 2.8rem;
-	left: -2rem;
+	top: 4.8rem;
+	left: -2.4rem;
 	width: 10rem;
 }
 
@@ -653,5 +653,46 @@ footer .right .logo-text p {
 	/* Specific adjustments for tablets */
 	body {
 		background-color: green;
+	}
+
+	.images img:last-child {
+		/* position: absolute; */
+		/* top: 4.8rem; */
+		/* left: -2rem; */
+		width: 10rem;
+
+		/* border: 2px solid red; */
+	}
+}
+
+@media (min-width: 630px) {
+	/* Specific adjustments for tablets */
+	body {
+		background-color: green;
+	}
+
+	.images img:last-child {
+		/* position: absolute; */
+		/* top: 4rem; */
+		/* left: -5.6rem; */
+		/* width: 10rem; */
+
+		/* border: 2px solid red; */
+	}
+}
+
+@media (min-width: 500px) {
+	/* Specific adjustments for tablets */
+	body {
+		background-color: green;
+	}
+
+	.images img:last-child {
+		position: absolute;
+		top: 4.8rem;
+		left: -0.04rem;
+		width: 10rem;
+
+		/* border: 2px solid red; */
 	}
 }
