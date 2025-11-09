@@ -659,7 +659,7 @@ footer .right .logo-text p {
 		/* position: absolute; */
 		/* top: 4.8rem; */
 		/* left: -2rem; */
-		width: 10rem;
+		/* width: 10rem; */
 
 		/* border: 2px solid red; */
 	}
@@ -676,6 +676,7 @@ footer .right .logo-text p {
 		/* top: 4rem; */
 		/* left: -5.6rem; */
 		/* width: 10rem; */
+		left: -4.8rem;
 
 		/* border: 2px solid red; */
 	}
@@ -690,7 +691,7 @@ footer .right .logo-text p {
 	.images img:last-child {
 		position: absolute;
 		top: 4.8rem;
-		left: -0.04rem;
+		left: 0.12rem;
 		width: 10rem;
 
 		/* border: 2px solid red; */
