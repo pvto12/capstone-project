@@ -288,12 +288,8 @@ section {
 	position: absolute;
 	top: 4.8rem;
 	left: 1.4rem;
-	/* right: 4rem; */
 	max-width: 10rem;
-
 	transform: translate(-25%, -25%);
-
-	/* border: 2px solid red; */
 }
 
 .content {
@@ -638,14 +634,6 @@ footer .right .logo-text p {
 		display: block;
 	}
 
-	/* .left ul {
-		display: flex;
-		list-style: none;
-		align-items: center;
-
-		visibility: visible;
-	} */
-
 	.left button {
 		background-color: var(--primary-color);
 		color: var(--white);
@@ -662,7 +650,11 @@ footer .right .logo-text p {
 @media (min-width: 768px) {
 	/* Specific adjustments for tablets */
 	body {
-		/* background-color: green; */
+		background-color: green;
+	}
+
+	.celebrant-content {
+		display: flex;
 	}
 
 	.images img:last-child {
