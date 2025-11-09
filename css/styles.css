@@ -433,6 +433,10 @@ section {
 .archives {
 	color: var(--white);
 }
+/* 
+.archives-container + button {
+	padding: 4rem;
+} */
 
 .archive {
 	padding: 4rem 0;
@@ -501,6 +505,12 @@ section {
 	font-size: 1.6rem;
 	width: 100%;
 	margin: 1.2rem auto;
+	border: 2px solid red;
+}
+
+#arc-btn a {
+	text-decoration: none;
+	color: var(--primary-color);
 }
 
 /* footer */
@@ -725,13 +735,19 @@ footer .right .logo-text p {
 		width: 100%;
 		max-width: 90rem;
 		margin: 0 auto;
+		gap: 1.2rem;
+	}
+
+	.archives-container + button {
 	}
 
 	.archive {
-		padding: 4rem;
+		padding: 4rem 2.4rem;
 		background-color: var(--primary-color);
 		margin: 2.8rem 0;
 		border-radius: 1.2rem;
+		width: 32%;
+		margin: 0 auto;
 	}
 
 	footer {
