@@ -607,7 +607,14 @@ footer .right .logo-text p {
 		/* background-color: blue; */
 	}
 
-	.right img {
+	.archive {
+		padding: 4rem;
+		background-color: var(--primary-color);
+		margin: 2.8rem 0;
+		border-radius: 1.2rem;
+	}
+
+	/* .right img {
 		width: 40px;
 		height: 40px;
 		margin-right: 1.2rem;
@@ -643,7 +650,7 @@ footer .right .logo-text p {
 		cursor: pointer;
 		outline: none;
 		border: none;
-	}
+	} */
 }
 
 /* Example for a tablet breakpoint */
@@ -716,12 +723,12 @@ footer .right .logo-text p {
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
-		max-width: 84rem;
+		max-width: 90rem;
 		margin: 0 auto;
 	}
 
 	.archive {
-		padding: 4rem 2rem;
+		padding: 4rem;
 		background-color: var(--primary-color);
 		margin: 2.8rem 0;
 		border-radius: 1.2rem;
