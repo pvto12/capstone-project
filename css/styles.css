@@ -663,6 +663,11 @@ footer .right .logo-text p {
 		width: 40%;
 	}
 
+	.count-down-container {
+		width: 50%;
+		max-width: 60rem;
+	}
+
 	.celebrant-content {
 		display: flex;
 		gap: 2rem;
