@@ -595,7 +595,7 @@ footer .right .logo-text p {
 	/* CSS rules for screens narrower than 1440px */
 	/* Adjust layout, element sizes, font sizes, hide/show elements as needed */
 	body {
-		background-color: red;
+		/* background-color: red; */
 	}
 }
 
@@ -604,7 +604,7 @@ footer .right .logo-text p {
 	/* Specific adjustments for laptops */
 
 	body {
-		background-color: blue;
+		/* background-color: blue; */
 	}
 
 	.right img {
@@ -697,8 +697,8 @@ footer .right .logo-text p {
 	}
 
 	.celebrants {
-		display: flex;
-		flex-wrap: wrap;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 		gap: 1.2rem;
 		justify-content: space-between;
 	}
@@ -710,7 +710,6 @@ footer .right .logo-text p {
 
 	.wish {
 		flex: 1;
-		/* width: 44%; */
 	}
 
 	.archives-container {
@@ -744,10 +743,6 @@ footer .right .logo-text p {
 		justify-content: space-between;
 	}
 
-	.footer-right {
-		/* align-items: center; */
-	}
-
 	.footer-right .right {
 		display: flex;
 		align-items: center;
@@ -765,96 +760,6 @@ footer .right .logo-text p {
 	.footer-links {
 		margin-top: 2rem;
 	}
-
-	/*
-footer {
-	background-color: var(--secondary-color);
-	color: var(--white);
-	padding: 2.4rem;
-}
-
-footer .right img {
-	width: auto;
-	height: auto;
-}
-
-footer .right {
-	display: flex;
-	gap: 1.6rem;
-	margin: 2rem 0 4rem 0;
-}
-
-footer .right .logo-text h2 {
-	font-size: 1.6rem;
-}
-
-footer .right .logo-text p {
-	font-size: 1.2rem;
-}
-
-.footer-content {
-	margin: 4rem 0;
-}
-
-.footer-content h3,
-.contact h3 {
-	margin: 2rem 0;
-}
-
-.footer-content p {
-	margin: 2rem 0;
-	text-align: justify;
-}
-
-.footer-links ul {
-	padding-left: 0;
-}
-
-.footer-links ul li {
-	list-style: none;
-	width: 100%;
-	cursor: pointer;
-	padding: 0.64rem 0;
-	text-align: left;
-	margin: 0.8rem 0;
-}
-
-.footer-links ul li a {
-	color: var(--white);
-}
-
-.contact p {
-	margin: 1.6rem 0;
-}
-
-.contact p > span {
-	margin-left: 0.8rem;
-}
-
-.privacy-policy ul {
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	font-size: 1.2rem;
-	padding: 0;
-	width: 100%;
-}
-
-.privacy-policy ul li {
-	padding: 0;
-}
-
-.privacy-policy ul li a {
-	color: var(--post-color);
-	text-decoration: none;
-}
-
-.right-reserved p {
-	color: var(--post-color);
-	font-size: 1.2rem;
-}
-
-
-    */
 }
 
 @media (min-width: 701px) {
@@ -871,7 +776,7 @@ footer .right .logo-text p {
 @media (min-width: 600px) and (max-width: 700px) {
 	/* Specific adjustments for tablets */
 	body {
-		background-color: red;
+		/* background-color: red; */
 	}
 
 	.images img:last-child {
@@ -882,7 +787,7 @@ footer .right .logo-text p {
 @media (min-width: 490px) and (max-width: 599px) {
 	/* Specific adjustments for tablets */
 	body {
-		background-color: green;
+		/* background-color: green; */
 	}
 
 	.images img:last-child {
