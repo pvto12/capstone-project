@@ -662,14 +662,14 @@ footer .right .logo-text p {
 @media (min-width: 768px) {
 	/* Specific adjustments for tablets */
 	body {
-		background-color: green;
+		/* background-color: green; */
 	}
 
 	.images img:last-child {
 		/* position: absolute; */
 		/* top: 80rem; */
 		/* left: -180rem; */
-		transform: translate(-100%, -150%);
+		transform: translate(20%, 10%);
 		/* width: 10rem; */
 
 		/* border: 2px solid red; */
@@ -678,10 +678,10 @@ footer .right .logo-text p {
 	}
 }
 
-@media (min-width: 630px) {
+@media (min-width: 701px) {
 	/* Specific adjustments for tablets */
 	body {
-		background-color: green;
+		/* background-color: black; */
 	}
 
 	.images img:last-child {
@@ -690,19 +690,37 @@ footer .right .logo-text p {
 		/* left: -5.6rem; */
 		/* width: 10rem; */
 		/* left: -4.8rem; */
-		transform: translate(30%, 50%);
+		transform: translate(80%, -15%);
 
 		/* border: 2px solid red; */
 	}
 }
 
-@media (min-width: 490px) {
+@media (min-width: 600px) and (max-width: 700px) {
+	/* Specific adjustments for tablets */
+	body {
+		background-color: red;
+	}
+
+	.images img:last-child {
+		/* position: absolute; */
+		/* top: 4rem; */
+		/* left: -5.6rem; */
+		/* width: 10rem; */
+		/* left: -4.8rem; */
+		transform: translate(76%, -15%);
+
+		/* border: 2px solid red; */
+	}
+}
+
+@media (min-width: 490px) and (max-width: 599px) {
 	/* Specific adjustments for tablets */
 	body {
 		background-color: green;
 	}
 
 	.images img:last-child {
-		transform: translate(-5%, -25%);
+		transform: translate(25%, -25%);
 	}
 }
