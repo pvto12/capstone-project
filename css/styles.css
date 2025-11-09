@@ -73,7 +73,7 @@ header {
 
 .show-or-hide {
 	background-color: var(--white);
-	width: 50vw;
+	width: 80vw;
 	display: none;
 }
 
@@ -81,6 +81,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	z-index: 100;
+	text-align: center;
 }
 
 li {
@@ -171,6 +172,7 @@ h1 {
 .cta button:last-child {
 	border: 2px solid var(--white);
 }
+
 #cta-btn a {
 	text-decoration: none;
 	color: var(--white);
