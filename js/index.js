@@ -3,7 +3,7 @@ const navbar = document.querySelector(".show-or-hide");
 let menuOpen = false;
 
 const openAndClose = () => {
-	console.log("clicked");
+	// console.log("clicked");
 
 	if (!menuOpen) {
 		navbar.style.display = "block";

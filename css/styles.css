@@ -52,25 +52,25 @@ header {
 	z-index: 1;
 }
 
-.right img {
+.nav.mobile .right img {
 	width: 30px;
 	height: 30px;
 }
 
-.hamburger {
+.nav.mobile .hamburger {
 	width: 35px;
 	height: 40px;
 	cursor: pointer;
 }
 
-.left {
+.nav.mobile .left {
 	display: flex;
 	position: absolute;
 	right: 0;
 	top: 9.2rem;
 }
 
-.show-or-hide {
+.nav.mobile .show-or-hide {
 	background-color: var(--white);
 	width: 80vw;
 	height: 60vh;
@@ -78,25 +78,25 @@ header {
 	z-index: 50;
 }
 
-ul {
+.nav.mobile ul {
 	display: flex;
 	flex-direction: column;
 	z-index: 100;
 	text-align: center;
 }
 
-li {
+.nav.mobile li {
 	width: 100%;
 	padding: 1.6rem;
 	margin: 1.2rem 0;
 	list-style: none;
 }
 
-li a {
+.nav.mobile li a {
 	text-decoration: none;
 }
 
-.left button {
+.nav.mobile .left button {
 	background-color: var(--primary-color);
 	color: var(--white);
 	padding: 1.2rem 1.6rem;
@@ -617,6 +617,27 @@ footer .right .logo-text p {
 		background-color: var(--primary-color);
 		margin: 2.8rem 0;
 		border-radius: 1.2rem;
+	}
+
+	.nav.mobile {
+		display: none;
+		visibility: hidden;
+	}
+
+	.nav.desktop {
+		display: block;
+	}
+
+	.nav.desktop .right {
+		display: flex;
+	}
+
+	.nav.desktop .left {
+		display: flex;
+	}
+
+	.show-or-hide {
+		display: block;
 	}
 
 	/* .right img {
