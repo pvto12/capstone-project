@@ -736,7 +736,9 @@ footer .right .logo-text p {
 	}
 
 	.footer-right {
+		/* align-items: center; */
 	}
+
 	.footer-right .right {
 		display: flex;
 		align-items: center;
@@ -749,6 +751,10 @@ footer .right .logo-text p {
 
 	.footer-content {
 		width: 30rem;
+	}
+
+	.footer-links {
+		margin-top: 2rem;
 	}
 
 	/*
