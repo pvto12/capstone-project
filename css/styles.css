@@ -653,8 +653,30 @@ footer .right .logo-text p {
 		background-color: green;
 	}
 
+	.cta {
+		display: flex;
+		flex-direction: row;
+		width: 72%;
+	}
+
+	.cta button {
+		width: 40%;
+	}
+
 	.celebrant-content {
 		display: flex;
+		gap: 2rem;
+		justify-content: space-between;
+	}
+
+	.images {
+		/* flex: 1; */
+		width: 44%;
+		border: 2px solid red;
+	}
+
+	.celebrant-content .content {
+		width: 50%;
 	}
 
 	.images img:last-child {
