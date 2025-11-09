@@ -548,6 +548,7 @@ footer .right .logo-text p {
 	width: 100%;
 	cursor: pointer;
 	padding: 0.64rem 0;
+	text-align: left;
 
 	/* border: 2px solid green; */
 	margin: 0.8rem 0;
