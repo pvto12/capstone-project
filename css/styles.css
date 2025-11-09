@@ -588,11 +588,18 @@ footer .right .logo-text p {
 @media (max-width: 1439px) {
 	/* CSS rules for screens narrower than 1440px */
 	/* Adjust layout, element sizes, font sizes, hide/show elements as needed */
+	body {
+		background-color: red;
+	}
 }
 
 /* Example for a common laptop breakpoint */
 @media (min-width: 1200px) {
 	/* Specific adjustments for laptops */
+
+	body {
+		background-color: blue;
+	}
 
 	.right img {
 		width: 40px;
@@ -644,9 +651,7 @@ footer .right .logo-text p {
 /* Example for a tablet breakpoint */
 @media (min-width: 768px) {
 	/* Specific adjustments for tablets */
-}
-
-/* Example for a mobile breakpoint */
-@media (max-width: 375px) {
-	/* Specific adjustments for mobile phones */
+	body {
+		background-color: green;
+	}
 }
