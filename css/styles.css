@@ -658,15 +658,7 @@ footer .right .logo-text p {
 	}
 
 	.images img:last-child {
-		/* position: absolute; */
-		/* top: 80rem; */
-		/* left: -180rem; */
 		transform: translate(20%, 10%);
-		/* width: 10rem; */
-
-		/* border: 2px solid red; */
-
-		/* transform: translate(0%, -20%); */
 	}
 }
 
@@ -677,14 +669,7 @@ footer .right .logo-text p {
 	}
 
 	.images img:last-child {
-		/* position: absolute; */
-		/* top: 4rem; */
-		/* left: -5.6rem; */
-		/* width: 10rem; */
-		/* left: -4.8rem; */
 		transform: translate(80%, -15%);
-
-		/* border: 2px solid red; */
 	}
 }
 
@@ -695,14 +680,7 @@ footer .right .logo-text p {
 	}
 
 	.images img:last-child {
-		/* position: absolute; */
-		/* top: 4rem; */
-		/* left: -5.6rem; */
-		/* width: 10rem; */
-		/* left: -4.8rem; */
 		transform: translate(76%, -15%);
-
-		/* border: 2px solid red; */
 	}
 }
 
