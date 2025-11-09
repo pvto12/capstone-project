@@ -724,68 +724,6 @@ footer .right .logo-text p {
 		margin: 2.8rem 0;
 		border-radius: 1.2rem;
 	}
-
-	/* .archive > img {
-		width: 8rem;
-		margin: 1.2rem 0;
-	} */
-
-	/* .archive > p {
-		font-weight: 700;
-		font-size: 2rem;
-	} */
-
-	/* .year + h5 {
-		font-weight: 500;
-		margin: 1.2rem 0;
-	} */
-
-	/* .reactions {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		width: 9.6rem;
-		margin: 2rem auto;
-	} */
-
-	/* .reactions > div {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-size: 1.2rem;
-	} */
-
-	/* .reactions img {
-		width: 2.4rem;
-	} */
-
-	/* .reactions + button {
-		color: var(--primary-color);
-		background-color: var(--white);
-		padding: 1.6rem;
-		border-radius: 2.4rem;
-		font-weight: 700;
-		cursor: pointer;
-		outline: none;
-		font-size: 1.2rem;
-		width: 20rem;
-		margin: 1.2rem auto;
-		border: none;
-	} */
-
-	/* .archive + button {
-	border: 1px solid var(--primary-color);
-	color: var(--primary-color);
-	background-color: transparent;
-	padding: 1.6rem;
-	border-radius: 2.4rem;
-	font-weight: 700;
-	cursor: pointer;
-	outline: none;
-	font-size: 1.6rem;
-	width: 100%;
-	margin: 1.2rem auto;
-} */
 }
 
 @media (min-width: 701px) {
