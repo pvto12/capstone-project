@@ -281,8 +281,8 @@ section {
 
 .images img:last-child {
 	position: absolute;
-	top: 5%;
-	left: 0%;
+	top: 2.8rem;
+	left: -2rem;
 	width: 10rem;
 }
 
@@ -585,7 +585,7 @@ footer .right .logo-text p {
 }
 
 /* media queries */
-@media (max-width: 1439px) {
+@media (min-width: 1439px) {
 	/* CSS rules for screens narrower than 1440px */
 	/* Adjust layout, element sizes, font sizes, hide/show elements as needed */
 	body {
