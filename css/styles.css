@@ -74,7 +74,9 @@ header {
 .show-or-hide {
 	background-color: var(--white);
 	width: 80vw;
+	height: 60vh;
 	display: none;
+	z-index: 50;
 }
 
 ul {
@@ -86,7 +88,7 @@ ul {
 
 li {
 	width: 100%;
-	padding: 1.2rem 1.6rem;
+	padding: 1.6rem;
 	margin: 1.2rem 0;
 	list-style: none;
 }
@@ -173,10 +175,10 @@ h1 {
 	border: 2px solid var(--white);
 }
 
-#cta-btn a {
+/* #cta-btn a {
 	text-decoration: none;
 	color: var(--white);
-}
+} */
 
 /* countdown */
 .count-down-container {
