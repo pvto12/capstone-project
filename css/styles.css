@@ -714,8 +714,6 @@ footer .right .logo-text p {
 		width: 100%;
 		max-width: 84rem;
 		margin: 0 auto;
-
-		border: 2px solid red;
 	}
 
 	.archive {
@@ -733,6 +731,12 @@ footer .right .logo-text p {
 		display: flex;
 		justify-content: space-between;
 		gap: 4.8rem;
+	}
+
+	.footer-container + div {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 
 	.footer-right {
