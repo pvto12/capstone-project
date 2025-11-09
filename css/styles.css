@@ -702,10 +702,12 @@ footer .right .logo-text p {
 
 	.wishes {
 		display: flex;
+		gap: 2rem;
 	}
 
 	.wish {
 		flex: 1;
+		/* width: 44%; */
 	}
 }
 
