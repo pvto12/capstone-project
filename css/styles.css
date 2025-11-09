@@ -195,7 +195,7 @@ h1 {
 	left: 10%;
 	right: 10%;
 
-	transform: translate(0.5%, 50%);
+	transform: translate(0.5%, -4%);
 
 	background-color: var(--primary-color);
 	padding: 0.8rem 2.4rem;
