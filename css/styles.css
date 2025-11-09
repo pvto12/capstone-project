@@ -734,18 +734,8 @@ footer .right .logo-text p {
 	}
 
 	.archives-container + button {
-		/* border: 1px solid var(--primary-color); */
-		/* color: var(--primary-color); */
-		/* background-color: transparent; */
-		/* padding: 1.6rem; */
-		/* border-radius: 2.4rem; */
-		/* font-weight: 700; */
-		/* cursor: pointer; */
-		/* outline: none; */
-		/* font-size: 1.6rem; */
 		width: 50%;
 		margin: 2rem auto;
-		/* border: 2px solid red; */
 	}
 
 	.archive {
