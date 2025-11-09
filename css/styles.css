@@ -699,6 +699,14 @@ footer .right .logo-text p {
 		gap: 1.2rem;
 		justify-content: space-between;
 	}
+
+	.wishes {
+		display: flex;
+	}
+
+	.wish {
+		flex: 1;
+	}
 }
 
 @media (min-width: 701px) {
