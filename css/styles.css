@@ -33,7 +33,7 @@ body {
 /* header */
 header {
 	color: var(--white);
-	background-image: url("./images/hero_mobile.png");
+	background-image: url("../images/hero_mobile.png");
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
