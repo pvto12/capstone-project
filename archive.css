@@ -256,15 +256,13 @@ nav ul li a {
     height: 6vh;
   }
   .text {
-    line-height: 1.5rem;
+    line-height: 1rem;
   }
   .text h1 {
-    font-size: 20px;
-    width: 114%;
+    font-size: 16px;
   }
   .text p {
-    width: 114%;
-    font-size: 14px;
+    font-size: 10px;
   }
   nav {
     display: none;
@@ -286,7 +284,7 @@ nav ul li a {
     font-size: 2.5rem;
   }
   .arc p {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .year {
@@ -389,8 +387,7 @@ a {
 }
 
 .hamburger img {
-  width: 140%;
-  margin-left: -1rem;
+  width: 80%;
 }
 
 .hamburger {
@@ -421,7 +418,7 @@ a {
 
 .mobile-menu button {
   background: rgb(27, 21, 14);
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 
 .active {
@@ -582,8 +579,11 @@ footer {
     flex-direction: column;
   }
 .foot-text p {
-    font-size: 14px;
+    font-size: 13px;
     color: #ccc;
+}
+.foot-text h1{
+  font-size: 1.3rem;
 }
   .part-1,
   .part-2 {
