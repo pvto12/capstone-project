@@ -246,7 +246,7 @@ nav ul li a {
 
 
   .top {
-	top: -30px;
+	
     gap: 10px;
     padding: 20px 20px;
   }
@@ -254,15 +254,17 @@ nav ul li a {
   .logo-main img {
     width: 15%;
     height: 6vh;
+    margin-top: 1rem;
   }
   .text {
-    line-height: 1rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
   }
   .text h1 {
-    font-size: 16px;
+    font-size: 19px;
   }
   .text p {
-    font-size: 10px;
+    font-size: 12px;
   }
   nav {
     display: none;
@@ -383,17 +385,17 @@ a {
 }
 
 .hamburger {
-  margin-top: -3%;
+  
 }
 
 .hamburger img {
-  width: 80%;
+  width: 100%;
 }
 
 .hamburger {
   width: 3rem;
   display: flex;
-  margin-top: -;
+  margin-top: 1rem;
   color: white;
 }
 
