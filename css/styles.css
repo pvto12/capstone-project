@@ -824,8 +824,17 @@ footer .right .logo-text p {
 		display: block;
 	}
 
+	.nav.desktop div:first-child {
+		border: 2px solid red;
+
+		display: flex;
+		justify-content: space-between;
+	}
+
 	.nav.desktop .right {
 		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 
 	.nav.desktop .right img {
@@ -834,14 +843,55 @@ footer .right .logo-text p {
 
 	.nav.desktop .right .logo-text {
 		font-size: 1.6rem;
+		max-width: 32rem;
+
+		border: 2px solid green;
 	}
 
 	.nav.desktop .left {
 		display: flex;
+		align-items: center;
+		/* flex: 1; */
+		border: 2px solid yellow;
 	}
 
 	.show-or-hide {
 		display: block;
+	}
+
+	.show-or-hide ul {
+		display: flex;
+		align-items: center;
+		width: 48rem;
+	}
+
+	.show-or-hide ul li {
+		list-style: none;
+		margin: 0 1.2rem;
+	}
+
+	.show-or-hide ul li a {
+		font-size: 2.4rem;
+		color: var(--white);
+		text-decoration: none;
+	}
+
+	.show-or-hide + img {
+		width: 2.4rem;
+		height: 2.4rem;
+		margin: 0 2.4rem;
+	}
+
+	.nav.desktop div > button {
+		background-color: var(--primary-color);
+		color: var(--white);
+		padding: 1.2rem 4rem;
+		border-radius: 4rem;
+		font-weight: 700;
+		cursor: pointer;
+		outline: none;
+		border: none;
+		font-size: 1.6rem;
 	}
 
 	.images img:last-child {
