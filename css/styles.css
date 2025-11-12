@@ -612,54 +612,28 @@ footer .right .logo-text p {
 }
 
 /* media queries */
-@media (min-width: 1439px) {
-	/* CSS rules for screens narrower than 1440px */
-	/* Adjust layout, element sizes, font sizes, hide/show elements as needed */
-	body {
-		/* background-color: red; */
+@media (min-width: 450px) {
+	/* Specific adjustments for tablets */
+	.images img:last-child {
+		position: absolute;
+		top: 4rem;
+		left: 2rem;
+		transform: translate(-2rem, -2rem);
 	}
 }
 
-/* Example for a common laptop breakpoint */
-@media (min-width: 1200px) {
-	/* Specific adjustments for laptops */
+@media (min-width: 580px) {
+	/* Specific adjustments for tablets */
 
-	.archive {
-		padding: 4rem;
-		background-color: var(--primary-color);
-		margin: 2.8rem 0;
-		border-radius: 1.2rem;
+	h1 {
+		width: 90%;
+		max-width: 40rem;
 	}
 
-	.nav.mobile {
-		display: none;
-		visibility: hidden;
+	.hero-content p {
+		width: 90%;
+		max-width: 40rem;
 	}
-
-	.nav.desktop {
-		display: block;
-	}
-
-	.nav.desktop .right {
-		display: flex;
-	}
-
-	.nav.desktop .left {
-		display: flex;
-	}
-
-	.show-or-hide {
-		display: block;
-	}
-}
-
-@media (max-width: 1100px) {
-}
-
-@media (max-width: 980px) {
-}
-
-@media (max-width: 768px) {
 }
 
 /* Example for a tablet breakpoint */
@@ -790,30 +764,48 @@ footer .right .logo-text p {
 	}
 }
 
-@media (min-width: 701px) {
-	/* Specific adjustments for tablets */
+@media (max-width: 980px) {
 }
 
-@media (min-width: 580px) {
-	/* Specific adjustments for tablets */
+/* @media (max-width: 1100px) {
+} */
 
-	h1 {
-		width: 90%;
-		max-width: 40rem;
+@media (min-width: 1200px) {
+	/* Specific adjustments for laptops */
+
+	.archive {
+		padding: 4rem;
+		background-color: var(--primary-color);
+		margin: 2.8rem 0;
+		border-radius: 1.2rem;
 	}
 
-	.hero-content p {
-		width: 90%;
-		max-width: 40rem;
+	.nav.mobile {
+		display: none;
+		visibility: hidden;
+	}
+
+	.nav.desktop {
+		display: block;
+	}
+
+	.nav.desktop .right {
+		display: flex;
+	}
+
+	.nav.desktop .left {
+		display: flex;
+	}
+
+	.show-or-hide {
+		display: block;
 	}
 }
 
-@media (min-width: 500px) {
-	/* Specific adjustments for tablets */
-	.images img:last-child {
-		position: absolute;
-		top: 4rem;
-		left: 5.48rem;
-		transform: translate(-2rem, -2rem);
+@media (min-width: 1439px) {
+	/* CSS rules for screens narrower than 1440px */
+	/* Adjust layout, element sizes, font sizes, hide/show elements as needed */
+	body {
+		/* background-color: red; */
 	}
 }
