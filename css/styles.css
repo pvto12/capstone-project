@@ -562,6 +562,7 @@ footer .right .logo-text p {
 }
 
 .footer-links ul li a {
+	text-decoration: none;
 	color: var(--white);
 }
 
