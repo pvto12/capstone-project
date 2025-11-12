@@ -622,7 +622,7 @@ footer .right .logo-text p {
 	}
 }
 
-@media (min-width: 580px) {
+@media (min-width: 560px) {
 	/* Specific adjustments for tablets */
 
 	h1 {
@@ -633,6 +633,31 @@ footer .right .logo-text p {
 	.hero-content p {
 		width: 90%;
 		max-width: 40rem;
+	}
+
+	.images img:last-child {
+		position: absolute;
+		top: 4rem;
+		left: 7.6rem;
+		transform: translate(-2rem, -2rem);
+	}
+}
+
+@media (min-width: 640px) {
+	.images img:last-child {
+		position: absolute;
+		top: 4rem;
+		left: 12rem;
+		transform: translate(-2rem, -2rem);
+	}
+}
+
+@media (min-width: 720px) {
+	.images img:last-child {
+		position: absolute;
+		top: 4rem;
+		left: 16rem;
+		transform: translate(-2rem, -2rem);
 	}
 }
 
@@ -672,6 +697,13 @@ footer .right .logo-text p {
 
 	.images {
 		width: 44%;
+	}
+
+	.images img:last-child {
+		position: absolute;
+		top: 4rem;
+		left: 2rem;
+		transform: translate(-2rem, -2rem);
 	}
 
 	.celebrant-content .content {
