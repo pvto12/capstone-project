@@ -800,7 +800,7 @@ footer .right .logo-text p {
 	.images img:last-child {
 		position: absolute;
 		top: 4rem;
-		left: 5.2rem;
+		left: 6.4rem;
 		transform: translate(-2rem, -2rem);
 	}
 }
@@ -838,12 +838,23 @@ footer .right .logo-text p {
 	.show-or-hide {
 		display: block;
 	}
+
+	.images img:last-child {
+		position: absolute;
+		top: 4rem;
+		left: 8.4rem;
+		transform: translate(-2rem, -2rem);
+	}
 }
 
 @media (min-width: 1439px) {
 	/* CSS rules for screens narrower than 1440px */
 	/* Adjust layout, element sizes, font sizes, hide/show elements as needed */
-	body {
-		/* background-color: red; */
+
+	.images img:last-child {
+		position: absolute;
+		top: 4rem;
+		left: 16rem;
+		transform: translate(-2rem, -2rem);
 	}
 }
