@@ -654,6 +654,17 @@ footer .right .logo-text p {
 		display: block;
 	}
 
+	.images img:last-child {
+		position: absolute;
+		top: 10%;
+		left: -0.4%;
+
+		/* z-index: 150; */
+		transform: translate(10%, -0.4%);
+
+		/* border: 2px solid green; */
+	}
+
 	/* .right img {
 		width: 40px;
 		height: 40px;
