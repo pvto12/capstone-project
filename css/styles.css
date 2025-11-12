@@ -76,6 +76,8 @@ header {
 	height: 60vh;
 	display: none;
 	z-index: 50;
+
+	border-radius: 1.2rem;
 }
 
 .nav.mobile ul {
@@ -106,6 +108,8 @@ header {
 	cursor: pointer;
 	outline: none;
 	border: none;
+
+	border-radius: 0 0 1.2rem 1.2rem;
 }
 
 /* Desktop nav */
