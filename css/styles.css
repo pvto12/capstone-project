@@ -799,7 +799,7 @@ footer .right .logo-text p {
 	.footer-container {
 		display: flex;
 		justify-content: space-between;
-		gap: 4.8rem;
+		gap: 4.4rem;
 	}
 
 	.footer-container + div {
