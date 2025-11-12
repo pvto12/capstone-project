@@ -828,6 +828,14 @@ footer .right .logo-text p {
 		display: flex;
 	}
 
+	.nav.desktop .right img {
+		margin-right: 1.6rem;
+	}
+
+	.nav.desktop .right .logo-text {
+		font-size: 1.6rem;
+	}
+
 	.nav.desktop .left {
 		display: flex;
 	}
