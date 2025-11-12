@@ -278,9 +278,7 @@ nav ul li a {
   .icon {
     width: 30%;
   }
-  .pro {
-    /* width: 4%; */
-  }
+  
 
   .arc {
     font-size: 2.5rem;
@@ -330,9 +328,7 @@ nav ul li a {
     height: 4vh;
     margin-left: 1rem;
   }
-  .main style {
-    background-image: ;
-  }
+  
 }
 
 /* .hamburger starts here*/
@@ -384,9 +380,7 @@ a {
   color: white;
 }
 
-.hamburger {
-  
-}
+
 
 .hamburger img {
   width: 100%;
