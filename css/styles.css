@@ -624,10 +624,6 @@ footer .right .logo-text p {
 @media (min-width: 1200px) {
 	/* Specific adjustments for laptops */
 
-	body {
-		/* background-color: blue; */
-	}
-
 	.archive {
 		padding: 4rem;
 		background-color: var(--primary-color);
@@ -655,44 +651,6 @@ footer .right .logo-text p {
 	.show-or-hide {
 		display: block;
 	}
-
-	/* .right img {
-		width: 40px;
-		height: 40px;
-		margin-right: 1.2rem;
-	}
-
-	.right h2 {
-		font-size: 1.68rem;
-		letter-spacing: 0.04rem;
-		word-spacing: 0.08rem;
-		margin-bottom: 0.4rem;
-	}
-
-	.right p {
-		font-size: 1.04rem;
-	}
-
-	.left img {
-		margin: 0 2rem;
-		width: 1.6rem;
-		cursor: pointer;
-	}
-
-	.show-or-hide {
-		display: block;
-	}
-
-	.left button {
-		background-color: var(--primary-color);
-		color: var(--white);
-		padding: 0.8rem 2.4rem;
-		border-radius: 4rem;
-		font-weight: 700;
-		cursor: pointer;
-		outline: none;
-		border: none;
-	} */
 }
 
 @media (max-width: 1100px) {
