@@ -803,7 +803,6 @@ footer .right .logo-text p {
 
 @media (min-width: 1200px) {
 	/* Specific adjustments for laptops */
-
 	.archive {
 		padding: 4rem;
 		background-color: var(--primary-color);
@@ -895,7 +894,6 @@ footer .right .logo-text p {
 @media (min-width: 1439px) {
 	/* CSS rules for screens narrower than 1440px */
 	/* Adjust layout, element sizes, font sizes, hide/show elements as needed */
-
 	.images img:last-child {
 		position: absolute;
 		top: 4rem;
