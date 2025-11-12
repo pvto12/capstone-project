@@ -714,6 +714,8 @@ footer .right .logo-text p {
 
 	.cta button {
 		width: 40%;
+
+		/* border: 2px solid red; */
 	}
 
 	.count-down-container {
@@ -745,8 +747,10 @@ footer .right .logo-text p {
 	}
 
 	.content .cta button {
-		padding: 1.2rem;
+		padding: 1.6rem 1.56rem;
 		width: 100%;
+
+		font-size: 1.48rem;
 	}
 
 	.celebrants {
