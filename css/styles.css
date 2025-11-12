@@ -618,7 +618,6 @@ footer .right .logo-text p {
 
 @media (min-width: 560px) {
 	/* Specific adjustments for tablets */
-
 	h1 {
 		width: 90%;
 		max-width: 40rem;
@@ -716,7 +715,6 @@ footer .right .logo-text p {
 	.content .cta button {
 		padding: 1.6rem 1.56rem;
 		width: 100%;
-
 		font-size: 1.48rem;
 	}
 
@@ -802,9 +800,6 @@ footer .right .logo-text p {
 		transform: translate(-2rem, -2rem);
 	}
 }
-
-/* @media (max-width: 1100px) {
-} */
 
 @media (min-width: 1200px) {
 	/* Specific adjustments for laptops */
