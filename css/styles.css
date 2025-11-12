@@ -656,6 +656,11 @@ footer .right .logo-text p {
 		left: 16rem;
 		transform: translate(-2rem, -2rem);
 	}
+
+	.hero-content p {
+		width: 100%;
+		max-width: 64rem;
+	}
 }
 
 /* Example for a tablet breakpoint */
@@ -825,8 +830,6 @@ footer .right .logo-text p {
 	}
 
 	.nav.desktop div:first-child {
-		border: 2px solid red;
-
 		display: flex;
 		justify-content: space-between;
 	}
@@ -867,7 +870,7 @@ footer .right .logo-text p {
 	}
 
 	.show-or-hide ul li a {
-		font-size: 2.4rem;
+		font-size: 2rem;
 		color: var(--white);
 		text-decoration: none;
 	}
