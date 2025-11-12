@@ -869,6 +869,7 @@ footer .right .logo-text p {
 		width: 2.4rem;
 		height: 2.4rem;
 		margin: 0 2.4rem;
+		cursor: pointer;
 	}
 
 	.nav.desktop div > button {
