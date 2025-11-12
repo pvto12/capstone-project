@@ -831,6 +831,11 @@ footer .right .logo-text p {
 		/* background-color: red; */
 	}
 
+	.hero-content p {
+		/* font-size: ; */
+		width: 100%;
+	}
+
 	.images img:last-child {
 		transform: translate(76%, -15%);
 	}
