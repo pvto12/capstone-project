@@ -859,7 +859,7 @@ footer .right .logo-text p {
 @media (min-width: 490px) and (max-width: 599px) {
 	/* Specific adjustments for tablets */
 	body {
-		/* background-color: green; */
+		background-color: green;
 	}
 
 	.images img:last-child {
