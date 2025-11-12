@@ -844,15 +844,11 @@ footer .right .logo-text p {
 	.nav.desktop .right .logo-text {
 		font-size: 1.6rem;
 		max-width: 32rem;
-
-		border: 2px solid green;
 	}
 
 	.nav.desktop .left {
 		display: flex;
 		align-items: center;
-		/* flex: 1; */
-		border: 2px solid yellow;
 	}
 
 	.show-or-hide {
