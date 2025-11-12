@@ -291,27 +291,17 @@ section {
 	position: relative;
 	width: 100%;
 	max-width: 40rem;
+
 	border: 2px solid red;
 }
 
-/* .images img:last-child { */
-/* .images img:last-child { */
-/* position: absolute; */
-/* top: 24%; */
-/* left: -24.4%; */
-/* max-width: 10rem; */
-/* transform: translate(4%, -6.4%); */
-/* } */
-
 .images img:last-child {
 	position: absolute;
-	top: 4%;
-	left: 8%;
+	top: 4rem;
+	left: 12.8rem;
 	max-width: 10rem;
-	transform: translate(4%, 8%);
-
-	border: 2px solid red;
-	/* } */
+	transform: translate(-2rem, -2rem);
+	border: 2px solid green;
 }
 
 .content {
