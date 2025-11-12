@@ -298,7 +298,7 @@ section {
 .images img:last-child {
 	position: absolute;
 	top: 4rem;
-	left: 12.8rem;
+	left: 2rem;
 	max-width: 10rem;
 	transform: translate(-2rem, -2rem);
 	border: 2px solid green;
@@ -906,17 +906,13 @@ footer .right .logo-text p {
 	} */
 }
 
-@media (max-width: 599px) {
+@media (min-width: 500px) {
 	/* Specific adjustments for tablets */
-	/* .images img:last-child {
-		transform: translate(5%, 90%);
-	} */
-
-	/* .images img:last-child {
+	.images img:last-child {
 		position: absolute;
-		top: 4%;
-		left: 8.4%;
+		top: 4rem;
+		left: 5.48rem;
 		max-width: 10rem;
-		transform: translate(4%, 8.4%);
-	} */
+		transform: translate(-2rem, -2rem);
+	}
 }
