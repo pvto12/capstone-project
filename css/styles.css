@@ -714,8 +714,6 @@ footer .right .logo-text p {
 
 	.cta button {
 		width: 40%;
-
-		/* border: 2px solid red; */
 	}
 
 	.count-down-container {
@@ -731,6 +729,12 @@ footer .right .logo-text p {
 
 	.images {
 		width: 44%;
+	}
+
+	.images img:last-child {
+		/* top: 5%;
+		left: -25%;
+		transform: translate(5%, -25%); */
 	}
 
 	.celebrant-content .content {
@@ -858,10 +862,6 @@ footer .right .logo-text p {
 
 @media (min-width: 490px) and (max-width: 599px) {
 	/* Specific adjustments for tablets */
-	body {
-		background-color: green;
-	}
-
 	.images img:last-child {
 		transform: translate(25%, -25%);
 	}
