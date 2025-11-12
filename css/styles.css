@@ -291,8 +291,6 @@ section {
 	position: relative;
 	width: 100%;
 	max-width: 40rem;
-
-	border: 2px solid red;
 }
 
 .images img:last-child {
@@ -301,7 +299,6 @@ section {
 	left: 2rem;
 	max-width: 10rem;
 	transform: translate(-2rem, -2rem);
-	border: 2px solid green;
 }
 
 .content {
