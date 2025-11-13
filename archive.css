@@ -187,6 +187,19 @@ nav ul li a {
   border-radius: 30px;
 }
 
+
+
+
+.mini-3{
+  margin-top: 3rem;
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .box-image  {
   border-radius: 50%;
   border: none;
@@ -465,11 +478,12 @@ a {
   background: skyblue;
   color: white;
   padding-top: 13.5%;
-  height: 60vh;
+  height: 40vh;
   transition: 1s;
-  line-height: 1rem;
+  line-height: 2rem;
   position: absolute;
   z-index: 999;
+  border-radius: 20px;
 }
 
 .hamburger button {
@@ -488,7 +502,8 @@ a {
 
 .mobile-menu li {
   width: 98%;
-  margin-bottom: 8px;
+
+  margin-bottom: px;
   color: white;
 }
 
