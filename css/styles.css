@@ -96,10 +96,8 @@ header {
 }
 
 .nav.mobile li a {
-	/* border: 2px solid red; */
 	text-decoration: none;
 	padding: 1.6rem;
-
 	display: block;
 	width: 100%;
 	cursor: pointer;
@@ -118,8 +116,6 @@ header {
 	border-radius: 0 0 1.2rem 1.2rem;
 	padding: 1.6rem;
 	margin-top: 1.2rem;
-
-	/* margin-top: 5.2rem; */
 }
 
 /* Desktop nav */
