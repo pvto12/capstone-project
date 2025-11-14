@@ -73,11 +73,12 @@ header {
 .nav.mobile .show-or-hide {
 	background-color: var(--white);
 	width: 80vw;
-	height: 52vh;
+	/* height: 52vh; */
 	display: none;
 	z-index: 50;
 	border-radius: 1.2rem 1.2rem;
 	/* padding: 1.2rem 0; */
+	border: 2px solid red;
 }
 
 .nav.mobile ul {
