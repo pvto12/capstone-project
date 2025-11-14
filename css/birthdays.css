@@ -36,27 +36,9 @@ body {
     color: white;
 }
 
-.nav-bar-left{
-    display: flex;
-    gap: 15px
-}
-
-.nav-bar-left-texts{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.nav-bar-left-texts h5{
-    font-weight: 700;
-    font-size: 20px;
-    margin: 0;
-}
-
-.nav-bar-left-texts h6{
-    font-weight: 400;
-    font-size: 12px;
-    margin: 0;
+.nav-logo{
+    width: 200px;
+    height: 60px;
 }
 
 .nav-bar-right{
@@ -448,16 +430,9 @@ footer{
     max-width: 499px;
 }
 
-.top-frame{
-    margin: 10px;
-    gap: 15px;
-    display: flex;
-    align-items: center;
-}
-
 .footer-img{
-    width: 60px;
-    height: 69px;
+    width: 413px;
+    height: 87px;
 }
 
 .top-frame-text{
@@ -555,20 +530,9 @@ footer{
     #header{
         height: 70vh;
     }
-    .nav-bar-left-texts h5{
-        font-size: 12px;
-    }
-
-    .nav-bar-left-texts h6{
-    font-size: 10px;
-    }
-
-    .nav-bar-left{
-        gap: 10px;
-    }
 
     .nav-logo{
-        width: 25px;
+        width: 100px;
         height: 30px;
     }
 
@@ -735,16 +699,8 @@ footer{
 }
 
 .footer-img{
-    width: 30px;
-    height: 34px;
-}
-
-.top-frame-text h2{
-    font-size: 20px;
-}
-
-.top-frame-text h3{
-    font-size: 12px;
+    width: 165px;
+    height: 45px;
 }
 
 .about-us{
