@@ -534,8 +534,11 @@ footer .right img {
 
 footer .right {
 	display: flex;
+	align-items: center;
 	gap: 1.6rem;
 	margin: 2rem 0 4rem 0;
+
+	border: 2px solid green;
 }
 
 footer .right .logo-text h2 {
