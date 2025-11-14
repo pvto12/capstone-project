@@ -800,11 +800,6 @@ footer .right .logo-text p {
 }
 
 @media (min-width: 1100px) {
-	.nav.desktop .right img {
-		width: 30px;
-		height: 30px;
-	}
-
 	.images img:last-child {
 		position: absolute;
 		top: 4rem;
@@ -829,6 +824,11 @@ footer .right .logo-text p {
 
 	.nav.desktop {
 		display: block;
+	}
+
+	.nav.desktop .right img {
+		width: 44px;
+		height: 44px;
 	}
 
 	.nav.desktop div:first-child {
@@ -901,6 +901,13 @@ footer .right .logo-text p {
 		top: 4rem;
 		left: 8.4rem;
 		transform: translate(-2rem, -2rem);
+	}
+
+	footer .right img {
+		width: 44px;
+		height: 44px;
+
+		border: 2px solid red;
 	}
 }
 
