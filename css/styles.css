@@ -15,6 +15,7 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: "Plus Jakarta Sans", sans-serif;
+	/* overflow-y: hidden; */
 }
 
 :root {
@@ -282,6 +283,11 @@ section {
 .celebrant-content {
 	margin: 4.8rem 0;
 	padding: 2.4rem 0;
+	width: 100%;
+
+	margin: 0 auto;
+
+	/* border: 2px solid red; */
 }
 
 .images {
@@ -292,8 +298,8 @@ section {
 }
 
 .images img:first-child {
-	position: relative;
-	width: 100%;
+	/* position: relative; */
+	width: 90%;
 	max-width: 40rem;
 }
 
@@ -695,7 +701,7 @@ footer .right .logo-text p {
 
 	.celebrant-content {
 		display: flex;
-		gap: 2rem;
+		gap: 1.2rem;
 		justify-content: space-between;
 	}
 
@@ -711,7 +717,8 @@ footer .right .logo-text p {
 	}
 
 	.celebrant-content .content {
-		width: 52%;
+		/* width: 52%; */
+		flex: 1;
 	}
 
 	.content .cta {
@@ -901,6 +908,13 @@ footer .right .logo-text p {
 		top: 4rem;
 		left: 8.4rem;
 		transform: translate(-2rem, -2rem);
+	}
+
+	.content {
+		/* text-align: justify; */
+		/* width: 50px; */
+
+		/* border: 2px solid purple; */
 	}
 
 	footer .right img {
