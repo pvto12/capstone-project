@@ -710,12 +710,12 @@ footer .right .logo-text p {
 
 	.celebrant-content .images {
 		max-width: 44%;
-		/* flex: 1; */
+		flex: 1;
 	}
 
 	.celebrant-content .content {
 		width: 52%;
-		/* flex: 1; */
+		flex: 1;
 		max-width: 40rem;
 
 		border: 2px solid green;
