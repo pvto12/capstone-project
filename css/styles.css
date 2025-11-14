@@ -79,39 +79,16 @@ header {
 }
 
 .nav.mobile ul {
-	/* width: 100%; */
 	display: flex;
-	/* border: 2px solid purple; */
 	flex-direction: column;
 	justify-content: center;
-	/* z-index: 100; */
-
-	/* padding: 1.2rem 0; */
 	background-color: var(--white);
-
 	border-radius: 1.2rem;
-
-	/* border: 2px solid purple; */
-
-	/* text-align: center; */
-	/* height: auto; */
-	/* justify-content: space-between; */
-	/* align-items: center; */
 }
 
 .nav.mobile li {
-	/* border: 2px solid red; */
-	/* margin: 0; */
-	/* padding: 0; */
-	/* width: 100%; */
-	/* max-height: 3.6rem; */
 	list-style: none;
 	text-align: center;
-
-	/* display: flex;
-	align-items: center;
-	justify-content: center; */
-	/* margin: 0.72rem; */
 }
 
 .nav.mobile li:first-child {
