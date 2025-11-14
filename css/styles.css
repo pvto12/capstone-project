@@ -15,8 +15,8 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: "Plus Jakarta Sans", sans-serif;
-	/* overflow: hidden; */
-	width: 100%;
+	overflow-x: hidden;
+	/* width: 100vw; */
 }
 
 :root {
@@ -676,6 +676,10 @@ footer .right .logo-text p {
 /* Example for a tablet breakpoint */
 @media (min-width: 768px) {
 	/* Specific adjustments for tablets */
+	body {
+		border: 2px solid green;
+	}
+
 	h1 {
 		width: 100%;
 		max-width: 100rem;
@@ -700,12 +704,19 @@ footer .right .logo-text p {
 		max-width: 60rem;
 	}
 
+	.celebrant {
+		width: 90%;
+		margin: 0 auto;
+
+		border: 2px solid red;
+	}
+
 	.celebrant-content {
 		display: flex;
 		gap: 0.8rem;
-		justify-content: space-between;
+		justify-content: space-around;
 
-		width: 100%;
+		/* width: 100%; */
 	}
 
 	.celebrant-content .images {
@@ -714,7 +725,7 @@ footer .right .logo-text p {
 	}
 
 	.celebrant-content .content {
-		width: 52%;
+		/* width: 52%; */
 		flex: 1;
 		max-width: 40rem;
 
