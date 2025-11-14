@@ -74,12 +74,8 @@ header {
 .nav.mobile .show-or-hide {
 	width: 64vw;
 	height: auto;
-
 	display: none;
 	z-index: 100;
-	/* padding: 8rem; */
-	/* border: 2px solid blue; */
-	/* border-radius: 1.2rem 1.2rem; */
 }
 
 .nav.mobile ul {
@@ -118,6 +114,10 @@ header {
 	/* margin: 0.72rem; */
 }
 
+.nav.mobile li:first-child {
+	padding-top: 1.2rem;
+}
+
 .nav.mobile li a {
 	/* border: 2px solid red; */
 	text-decoration: none;
@@ -140,6 +140,7 @@ header {
 	border: none;
 	border-radius: 0 0 1.2rem 1.2rem;
 	padding: 1.6rem;
+	margin-top: 1.2rem;
 
 	/* margin-top: 5.2rem; */
 }
