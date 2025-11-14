@@ -705,21 +705,14 @@ footer .right .logo-text p {
 		display: flex;
 		gap: 0.8rem;
 		justify-content: space-around;
-
-		/* width: 100%; */
 	}
 
 	.celebrant-content .images {
 		max-width: 44%;
-		/* flex: 1; */
 	}
 
 	.celebrant-content .content {
 		width: 52%;
-		/* flex: 1; */
-		/* max-width: 40rem; */
-
-		/* border: 2px solid green; */
 	}
 
 	.images {
@@ -739,7 +732,6 @@ footer .right .logo-text p {
 	}
 
 	.content .cta button {
-		/* padding: 1.6rem 1.56rem; */
 		padding: 1.6rem 1.24rem;
 		width: 100%;
 		font-size: 1.48rem;
