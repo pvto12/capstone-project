@@ -73,6 +73,7 @@ header {
 
 .nav.mobile .show-or-hide {
 	width: 64vw;
+	max-width: 36rem;
 	height: auto;
 	display: none;
 	z-index: 100;
@@ -527,16 +528,15 @@ footer {
 	padding: 2.4rem;
 }
 
-footer .right img {
-	width: 30px;
-	height: 30px;
-}
-
 footer .right {
 	display: flex;
 	align-items: center;
 	gap: 1.6rem;
-	margin: 2rem 0 4rem 0;
+}
+
+footer .right img {
+	width: 30px;
+	height: 30px;
 }
 
 footer .right .logo-text h2 {
@@ -800,6 +800,11 @@ footer .right .logo-text p {
 }
 
 @media (min-width: 1100px) {
+	.nav.desktop .right img {
+		width: 30px;
+		height: 30px;
+	}
+
 	.images img:last-child {
 		position: absolute;
 		top: 4rem;
@@ -808,7 +813,7 @@ footer .right .logo-text p {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
 	/* Specific adjustments for laptops */
 	.archive {
 		padding: 4rem;
