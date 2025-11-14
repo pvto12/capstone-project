@@ -73,10 +73,11 @@ header {
 .nav.mobile .show-or-hide {
 	background-color: var(--white);
 	width: 80vw;
-	height: 60vh;
+	height: 52vh;
 	display: none;
 	z-index: 50;
-	border-radius: 1.2rem 1.2rem 0 0;
+	border-radius: 1.2rem 1.2rem;
+	/* padding: 1.2rem 0; */
 }
 
 .nav.mobile ul {
@@ -84,7 +85,7 @@ header {
 	flex-direction: column;
 	z-index: 100;
 	text-align: center;
-	height: 100%;
+	height: auto;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -92,11 +93,22 @@ header {
 .nav.mobile li {
 	width: 100%;
 	padding: 1.2rem;
+	max-height: 3.6rem;
 	list-style: none;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0.72rem;
+
+	/* border: 2px solid red; */
 }
 
 .nav.mobile li a {
 	text-decoration: none;
+
+	width: 100%;
+	cursor: pointer;
 }
 
 .nav.mobile .left button {
@@ -110,6 +122,8 @@ header {
 	outline: none;
 	border: none;
 	border-radius: 0 0 1.2rem 1.2rem;
+
+	margin-top: 5.2rem;
 }
 
 /* Desktop nav */
