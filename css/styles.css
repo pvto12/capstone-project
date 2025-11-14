@@ -285,21 +285,16 @@ section {
 	margin: 4.8rem 0;
 	padding: 2.4rem 0;
 	width: 100%;
-
 	margin: 0 auto;
-
-	/* border: 2px solid red; */
 }
 
 .images {
 	margin-bottom: 3.6rem;
-
 	text-align: center;
 	position: relative;
 }
 
 .images img:first-child {
-	/* position: relative; */
 	width: 90%;
 	max-width: 40rem;
 }
@@ -676,9 +671,6 @@ footer .right .logo-text p {
 /* Example for a tablet breakpoint */
 @media (min-width: 768px) {
 	/* Specific adjustments for tablets */
-	body {
-		border: 2px solid green;
-	}
 
 	h1 {
 		width: 100%;
@@ -705,10 +697,8 @@ footer .right .logo-text p {
 	}
 
 	.celebrant {
-		width: 90%;
-		margin: 0 auto;
-
-		border: 2px solid red;
+		/* width: 90%; */
+		/* margin: 0 auto; */
 	}
 
 	.celebrant-content {
@@ -721,15 +711,15 @@ footer .right .logo-text p {
 
 	.celebrant-content .images {
 		max-width: 44%;
-		flex: 1;
+		/* flex: 1; */
 	}
 
 	.celebrant-content .content {
-		/* width: 52%; */
-		flex: 1;
-		max-width: 40rem;
+		width: 52%;
+		/* flex: 1; */
+		/* max-width: 40rem; */
 
-		border: 2px solid green;
+		/* border: 2px solid green; */
 	}
 
 	.images {
@@ -749,7 +739,8 @@ footer .right .logo-text p {
 	}
 
 	.content .cta button {
-		padding: 1.6rem 1.56rem;
+		/* padding: 1.6rem 1.56rem; */
+		padding: 1.6rem 1.24rem;
 		width: 100%;
 		font-size: 1.48rem;
 	}
@@ -830,7 +821,7 @@ footer .right .logo-text p {
 
 @media (min-width: 1000px) {
 	.celebrant-content {
-		width: 100%;
+		/* width: 100%; */
 	}
 }
 
