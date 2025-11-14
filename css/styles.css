@@ -73,10 +73,12 @@ header {
 
 .nav.mobile .show-or-hide {
 	width: 64vw;
-	height: 52vh;
+	height: auto;
 
 	display: none;
 	z-index: 100;
+	/* padding: 8rem; */
+	border: 2px solid blue;
 	/* border-radius: 1.2rem 1.2rem; */
 	/* padding: 1.2rem 0; */
 }
