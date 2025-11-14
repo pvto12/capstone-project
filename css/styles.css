@@ -16,7 +16,6 @@ body {
 	font-size: 1.6rem;
 	font-family: "Plus Jakarta Sans", sans-serif;
 	overflow-x: hidden;
-	/* width: 100vw; */
 }
 
 :root {
@@ -139,6 +138,7 @@ header {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	z-index: 1;
 }
 
 .hero-content {
@@ -696,11 +696,6 @@ footer .right .logo-text p {
 		max-width: 60rem;
 	}
 
-	.celebrant {
-		/* width: 90%; */
-		/* margin: 0 auto; */
-	}
-
 	.celebrant-content {
 		display: flex;
 		gap: 0.8rem;
@@ -819,7 +814,7 @@ footer .right .logo-text p {
 	}
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1000px) {
 	.images img:last-child {
 		position: absolute;
 		top: 4rem;
