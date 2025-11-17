@@ -914,11 +914,6 @@ footer .right .logo-text p {
 		left: 8.4rem;
 		transform: translate(-2rem, -2rem);
 	}
-
-	/* footer .right img {
-		width: 44px;
-		height: 44px;
-	} */
 }
 
 @media (min-width: 1439px) {
