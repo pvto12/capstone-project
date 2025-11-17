@@ -841,11 +841,6 @@ footer .right .logo-text p {
 		display: block;
 	}
 
-	.nav.nav.desktop .right img {
-		width: 72px;
-		height: 30px;
-	}
-
 	.nav.desktop div:first-child {
 		display: flex;
 		justify-content: space-between;
@@ -859,6 +854,8 @@ footer .right .logo-text p {
 
 	.nav.desktop .right img {
 		margin-right: 1.6rem;
+		width: 72px;
+		height: 30px;
 	}
 
 	.nav.desktop .right .logo-text {
