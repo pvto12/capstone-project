@@ -792,9 +792,14 @@ footer .right .logo-text p {
 		align-items: center;
 	}
 
-	footer .right img {
+	/* footer .right img {
 		width: 24px;
 		height: 24px;
+	} */
+
+	footer .right img {
+		width: 72px;
+		height: 30px;
 	}
 
 	.footer-content {
@@ -924,10 +929,10 @@ footer .right .logo-text p {
 		transform: translate(-2rem, -2rem);
 	}
 
-	footer .right img {
+	/* footer .right img {
 		width: 44px;
 		height: 44px;
-	}
+	} */
 }
 
 @media (min-width: 1439px) {
