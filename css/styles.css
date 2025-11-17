@@ -792,11 +792,6 @@ footer .right .logo-text p {
 		align-items: center;
 	}
 
-	/* footer .right img {
-		width: 24px;
-		height: 24px;
-	} */
-
 	footer .right img {
 		width: 72px;
 		height: 30px;
@@ -853,7 +848,7 @@ footer .right .logo-text p {
 	} */
 
 	.nav.nav.desktop .right img {
-		width: 60px;
+		width: 72px;
 		height: 30px;
 	}
 
