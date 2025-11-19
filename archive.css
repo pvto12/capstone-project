@@ -23,6 +23,7 @@ body {
   color: white;
   overflow-x: hidden; /* prevents horizontal scroll */
   overflow-y: auto; /*  allows vertical scroll */
+
 }
 
 /* .main{
@@ -31,68 +32,51 @@ body {
 	
 } */
 
-.top {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 90px 30px;
-  color: white;
+header{
+    padding: 0px 70px;
 }
 
-.logo-main {
-  display: flex;
-
-  color: white;
-  gap: 10px;
+.main{
+  padding-top: 70px;
 }
+
 
 .logo-main img {
-  width: 15%;
-  height: 8vh;
+  width: 27%;
 }
 
-.text {
-  line-height: 1.5rem;
-}
-
-.text h1 {
-  font-size: 1rem;
-}
-
-.text p {
-  font-size: 11px;
-}
 nav {
   display: flex;
   gap: 50px;
+  margin-top: 1rem;
 }
 
 nav img {
-  width: 15%;
   display: flex;
-  gap: 0 20px;
+ 
 }
 nav ul {
   display: flex;
-  gap: 30px;
   display: flex;
   gap: 40px;
 }
 nav ul li {
   list-style: none;
-  list-style: none;
 }
 
 nav ul li a {
   text-decoration: none;
-  text-decoration: none;
   color: var(--white);
+}
+
+.top{
+  display: flex;
 }
 .wow {
   display: none;
 }
 .icon img {
-  width: 60%;
+  width: 100%;
   margin-left: 1rem;
 }
 .pro {
@@ -289,11 +273,14 @@ nav ul li a {
     display: flex;
     width: 100%;
   }
+  .top{
+   margin-top: -3rem;
+  }
 
   body {
     width: 100%;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto; 
   }
 
   .minii {
@@ -304,25 +291,15 @@ nav ul li a {
     height: 20vh;
   }
 
-  .top {
-    gap: 10px;
-    padding: 20px 20px;
-  }
+  top {
+    width: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
 
   .logo-main img {
-    width: 15%;
-    height: 6vh;
+    width: 75%;
     margin-top: 1rem;
-  }
-  .text {
-    margin-top: 1rem;
-    line-height: 1.5rem;
-  }
-  .text h1 {
-    font-size: 19px;
-  }
-  .text p {
-    font-size: 12px;
   }
   nav {
     display: none;
@@ -341,10 +318,10 @@ nav ul li a {
   }
 
   .arc {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .arc p {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .year {
@@ -472,6 +449,7 @@ a {
 }
 
 .mobile-menu {
+  margin-top: ;
   display: block;
   gap: 50px;
   list-style: none;
@@ -483,6 +461,7 @@ a {
   line-height: 2rem;
   position: absolute;
   z-index: 999;
+  position: fixed;
   border-radius: 20px;
 }
 
