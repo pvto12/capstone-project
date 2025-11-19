@@ -387,6 +387,10 @@ nav ul li a {
     background-image: ;
   }
 }
+nav li a:hover{
+  color: #579ec2;
+}
+
 
 /* .hamburger starts here*/
 
