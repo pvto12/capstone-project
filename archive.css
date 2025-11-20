@@ -106,38 +106,38 @@ nav ul li a {
   font-size: 1.7rem;
 }
 
-.hero {
+.form{
   margin-top: 5rem;
-}
-
-.year {
-  display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  gap: 20px;
+  padding: 0px 30px;
+  color: #d9d9d9;
+  display: flex;
+  gap: 30px;
+  
 }
 
-.year-btn-1 {
-  border: 1px solid gray;
-  background: #579ec2;
-  padding: 15px 80px;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-  border-radius: 25px;
-  cursor: pointer;
+
+.search{
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242 1.156a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg>') 
+              no-repeat 10px center;
+padding: 10px 150px;
+border-radius: 20px;
+text-align: left;
+border: 1px solid rgb(233, 233, 241);
+
+}
+.filter{
+   border: 1px solid rgb(233, 233, 241);
+  padding: 10px 40px;
+  border-radius: 20px;
+  
 }
 
-.year-btn {
-  border: 1px solid gray;
-  background: var(--white);
-  padding: 15px 80px;
-  color: gray;
-  font-size: 14px;
-  font-weight: bold;
-  border-radius: 25px;
-  cursor: pointer;
+.sort{
+  border: 1px solid rgb(233, 233, 241);
+  padding: 10px 40px;
+  border-radius: 20px;
 }
 .container {
   margin-top: 4rem;
@@ -300,6 +300,7 @@ nav ul li a {
   .logo-main img {
     width: 75%;
     margin-top: 1rem;
+    margin-left: -3rem;
   }
   nav {
     display: none;
@@ -313,24 +314,15 @@ nav ul li a {
   .icon {
     width: 30%;
   }
-  .pro {
-    /* width: 4%; */
-  }
+  /* .pro {
+  width: 4%; 
+  } */
 
   .arc {
     font-size: 2.3rem;
   }
   .arc p {
     font-size: 15px;
-  }
-
-  .year {
-    display: block;
-    line-height: 2rem;
-    bottom: 0;
-  }
-  .year-btn {
-    margin-top: 1rem;
   }
 
   .row-1 {
@@ -441,8 +433,10 @@ a {
   color: white;
 }
 
+
 .hamburger img {
-  width: 100%;
+    width: 70%;
+    margin-left: 4rem;
 }
 
 .hamburger {
@@ -453,15 +447,14 @@ a {
 }
 
 .mobile-menu {
-  margin-top: ;
+  margin-top: 5rem;
   display: block;
   gap: 50px;
   list-style: none;
-  background: skyblue;
-  color: white;
+  background: white;
+  color: skyblue;
   padding-top: 13.5%;
-  height: 40vh;
-  transition: 1s;
+  height: 50vh;
   line-height: 2rem;
   position: absolute;
   z-index: 999;
@@ -477,7 +470,11 @@ a {
 .mobile-menu button {
   background: rgb(27, 21, 14);
   padding: 10px 30px;
+  margin-top: -5rem;
+
 }
+
+
 
 .active {
   right: 0;
@@ -492,7 +489,9 @@ a {
 
 .mobile-menu li a {
   margin-left: 2rem;
-  color: white;
+  color: blue;
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 .mobile-menu {
@@ -505,6 +504,8 @@ a {
 .mobile-menu li button {
   background: rgb(192, 236, 253);
   border: none;
+  width: 100%;
+  margin-top: -3rem;
 }
 
 .mobile-menu img {
@@ -518,7 +519,7 @@ a {
 footer {
   background: #333333;
   color: #fff;
-  padding: 80px 40px;
+  padding: 80px 80px;
   margin-top: 7rem;
 }
 
@@ -541,18 +542,8 @@ footer {
 }
 
 .foot-logo img {
-  width: 50px;
-  height: auto;
-}
-
-.foot-text h1 {
-  font-size: 1.4rem;
-  margin-bottom: 5px;
-}
-
-.foot-text p {
-  font-size: 1rem;
-  color: #ccc;
+  width: 50%;
+  
 }
 
 /* --- About Us --- */
@@ -630,6 +621,8 @@ footer {
   font-weight: bold;
 }
 
+
+
 /* --- Responsive --- */
 @media (max-width: 750px) {
   footer {
@@ -667,6 +660,7 @@ footer {
   .butt {
     display: flex;
     bottom: 0;
+    color: #fff;
   }
   .bottom {
     display: none;
