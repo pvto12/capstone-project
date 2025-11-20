@@ -75,7 +75,24 @@ header{
 
 .notif{
  display: flex;
- /* gap: 3.5rem; */
- justify-content: center;
- justify-content: space-evenly;
+ gap: 3.5rem;
+ 
 }
+.notif-left ul{
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  justify-content: space-around;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#notif-btn{
+  width: 17rem;
+  height: 3rem;
+  background-color: #579EC2;
+  border: none;
+  border-radius: 2rem;
+}
+
