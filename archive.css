@@ -121,23 +121,86 @@ nav ul li a {
 .search{
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242 1.156a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg>') 
               no-repeat 10px center;
-padding: 10px 150px;
+padding: 10px 180px;
 border-radius: 20px;
+font-weight: bold;
 text-align: left;
 border: 1px solid rgb(233, 233, 241);
+
 
 }
 .filter{
    border: 1px solid rgb(233, 233, 241);
-  padding: 10px 40px;
+  padding: 10px 60px;
   border-radius: 20px;
+  font-weight: bold;
+  text-align: left;
   
 }
 
 .sort{
   border: 1px solid rgb(233, 233, 241);
-  padding: 10px 40px;
+  padding: 10px 60px;
   border-radius: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+::placeholder{
+  text-align: left;
+}
+
+.formm{
+  display: none;
+}
+
+
+
+@media (max-width: 750px) {
+  .form{
+    display: none;
+  }
+
+  .formm{
+  display: block;
+  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  color: #d9d9d9;
+  }
+  .up{
+    display: flex;
+    display: 20px;
+    
+  }
+
+  .filterr{
+border: 1px solid rgb(233, 233, 241);
+  padding: 15px 0px;
+  width: 140px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: left;
+  }
+
+  .sortt{
+border: 1px solid rgb(233, 233, 241);
+  padding: 15px 0px;
+  width: 140px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 1rem;
+  text-align: left;
+  }
+
+  .searchh{
+    border: 1px solid rgb(233, 233, 241);
+    margin-top: 1rem;
+    padding: 15px 57px;
+    border-radius: 20px;
+font-weight: bold;
+
+  }
 }
 .container {
   margin-top: 4rem;
@@ -626,6 +689,7 @@ footer {
 /* --- Responsive --- */
 @media (max-width: 750px) {
   footer {
+    padding: 80px 30px;
     bottom: 0;
   }
   .footer-container {
@@ -659,7 +723,7 @@ footer {
 
   .butt {
     display: flex;
-    bottom: 0;
+   
     color: #fff;
   }
   .bottom {
@@ -668,8 +732,37 @@ footer {
   .copyright {
     display: none;
   }
+
+.buttt{
+  display: flex;
+  margin-top: 2rem;
+  color: gray;
+
+}
+  .bottomm {
+  margin-top: 3rem;
+  display: flex;
+
 }
 
-.butt {
+.bottomm p {
+  color: gray;
+  border-right: 2px solid gray;
+  padding: 0 4px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.buttt {
+  display: flex;
+}
+
+
+
+
+}
+
+.buttt {
   display: none;
 }
+
