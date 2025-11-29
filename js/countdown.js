@@ -18,10 +18,10 @@ const handleCountdown = (birthday) => {
 		// 1d = 24hr
 
 		// values in miliseconds
-		const oneDay = 24 * 60 * 60 * 1000;
-		const oneHour = 60 * 60 * 1000;
-		const oneMinute = 60 * 1000;
 		const oneSeconds = 1000;
+		const oneMinute = 1000 * 60;
+		const oneHour = 1000 * 60 * 60;
+		const oneDay = 1000 * 60 * 60 * 24;
 
 		// Calculations for days only
 		const days = Math.floor(daysDiff / oneDay);
