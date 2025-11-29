@@ -618,7 +618,7 @@ footer .right .logo-text p {
 .form-container {
 	z-index: 100;
 	height: auto;
-	width: 50%;
+	width: auto;
 
 	position: absolute;
 	top: 50%;
