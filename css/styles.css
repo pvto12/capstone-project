@@ -618,7 +618,7 @@ footer .right .logo-text p {
 .form-container {
 	z-index: 100;
 	height: auto;
-	width: auto;
+	width: 72%;
 
 	position: absolute;
 	top: 50%;
@@ -850,6 +850,10 @@ button {
 		font-size: 1.48rem;
 	}
 
+	.form-container {
+		width: 50%;
+	}
+
 	.form-container form {
 		display: flex;
 		flex-direction: column;
@@ -857,7 +861,7 @@ button {
 		width: 70%;
 		margin: 0 auto;
 
-		max-width: 32rem;
+		/* max-width: 32rem; */
 	}
 }
 
