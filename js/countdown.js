@@ -11,7 +11,6 @@ const handleCountdown = (birthday) => {
 	const setCountdown = setInterval(() => {
 		const today = new Date().getTime();
 		let daysDiff = birthDate - today;
-		console.log(daysDiff);
 
 		// 1s = 1000ms
 		// 1m = 60s

@@ -614,6 +614,45 @@ footer .right .logo-text p {
 	font-size: 1.2rem;
 }
 
+/* modal */
+.form-container {
+	z-index: 100;
+	height: auto;
+	width: 50%;
+
+	border: 2px solid green;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -40%);
+	background-color: var(--post-bg);
+}
+
+.form-container form {
+	display: flex;
+	flex-direction: column;
+
+	width: 70%;
+	margin: 0 auto;
+
+	max-width: 32rem;
+}
+
+.form-container label {
+	margin: 2rem 0;
+}
+
+.form-container input {
+	display: block;
+	width: 100%;
+}
+
+button {
+	margin-top: 2rem;
+}
+
 /* media queries */
 @media (min-width: 450px) {
 	/* Specific adjustments for tablets */
