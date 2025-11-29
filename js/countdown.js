@@ -11,6 +11,7 @@ const handleCountdown = (birthday) => {
 	const setCountdown = setInterval(() => {
 		const today = new Date().getTime();
 		let daysDiff = birthDate - today;
+		console.log(daysDiff);
 
 		// 1s = 1000ms
 		// 1m = 60s
@@ -38,7 +39,9 @@ const handleCountdown = (birthday) => {
 			hoursEl.textContent = String(hours).padStart(2, "0");
 			minutesEl.textContent = String(minutes).padStart(2, "0");
 			secondsEl.textContent = String(seconds).padStart(2, "0");
-		} else {
+		}
+		//    else if (birthDate<)
+		else {
 			clearInterval(setCountdown);
 
 			countDownContainer.innerHTML = "Happy Birthday";
@@ -46,7 +49,6 @@ const handleCountdown = (birthday) => {
 	}, 1000);
 };
 
-const birthday = "12-01-2025";
+// date format: Month-day-year
+const birthday = "11-28-2026";
 handleCountdown(birthday);
-
-// console.log(showDetail());
