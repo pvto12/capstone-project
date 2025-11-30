@@ -632,18 +632,14 @@ footer .right .logo-text p {
 
 .close-container {
 	width: 100%;
-	border: 2px solid green;
 
 	position: relative;
 }
 
 .close-form {
-	/* display: block; */
-	/* width: 2rem; */
-
 	position: absolute;
-	right: 0.8rem;
-	top: 0.8rem;
+	right: 2.4rem;
+	top: 1.6rem;
 }
 
 .form-container form {
@@ -652,8 +648,6 @@ footer .right .logo-text p {
 
 	width: 90%;
 	margin: 0 auto;
-
-	/* max-width: 32rem; */
 }
 
 .form-container label {
