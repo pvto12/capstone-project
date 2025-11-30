@@ -640,6 +640,8 @@ footer .right .logo-text p {
 	position: absolute;
 	right: 2.4rem;
 	top: 1.6rem;
+	cursor: pointer;
+	width: 2rem;
 }
 
 .form-container form {
