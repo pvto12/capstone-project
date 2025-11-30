@@ -626,6 +626,24 @@ footer .right .logo-text p {
 
 	transform: translate(-50%, -40%);
 	background-color: var(--post-bg);
+
+	/* display: flex; */
+}
+
+.close-container {
+	width: 100%;
+	border: 2px solid green;
+
+	position: relative;
+}
+
+.close-form {
+	/* display: block; */
+	/* width: 2rem; */
+
+	position: absolute;
+	right: 0.8rem;
+	top: 0.8rem;
 }
 
 .form-container form {
