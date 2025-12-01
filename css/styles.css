@@ -652,7 +652,6 @@ footer .right .logo-text p {
 
 	width: 90%;
 	margin: 2rem auto;
-	/* border: 2px solid red; */
 }
 
 .form-container label {
@@ -674,6 +673,7 @@ select {
 input[type="submit"] {
 	margin: 2rem 0;
 	cursor: pointer;
+	background-color: var(--gray-color);
 }
 
 /* media queries */
@@ -891,10 +891,8 @@ input[type="submit"] {
 		display: flex;
 		flex-direction: column;
 
-		width: 70%;
-		margin: 0 auto;
-
-		/* max-width: 32rem; */
+		width: 88%;
+		margin: 3.2rem auto;
 	}
 }
 
