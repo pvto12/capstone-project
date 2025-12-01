@@ -9,6 +9,7 @@ const celebrant = document.querySelector("#celebrant");
 const sender = document.querySelector("#sender");
 const wishes = document.querySelector("#wishes");
 
+// ds is an array and can be used to populate the birthday page
 const birthdays = JSON.parse(localStorage.getItem("day")) || [];
 
 closeBtn.addEventListener("click", () => {
