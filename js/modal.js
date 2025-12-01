@@ -9,8 +9,7 @@ const celebrant = document.querySelector("#celebrant");
 const sender = document.querySelector("#sender");
 const wishes = document.querySelector("#wishes");
 
-const birthdays = localStorage.getItem("day") || [];
-console.log(birthdays);
+const birthdays = JSON.parse(localStorage.getItem("day")) || [];
 
 closeBtn.addEventListener("click", () => {
 	formContainer.style.display = "none";
@@ -44,7 +43,7 @@ formContainer.addEventListener("submit", (e) => {
 	birthdays.push(createBirthdate);
 	birthdays.sort((a, b) => b.id - a.id);
 
-	localStorage.setItem("day", JSON.stringify(createBirthdate));
+	localStorage.setItem("day", JSON.stringify(birthdays));
 
 	formContainer.style.display = "none";
 });
@@ -53,6 +52,8 @@ function init() {
 	formContainer.style.display = "none";
 
 	localStorage.getItem("day");
+
+	console.log(birthdays);
 }
 
 init();
