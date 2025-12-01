@@ -25,11 +25,11 @@ formContainer.addEventListener("submit", (e) => {
 	e.preventDefault();
 
 	// get d input values
-	const salutation = document.querySelector("#salutation").value;
-	const firstname = document.querySelector("#firstname").value;
-	const lastname = document.querySelector("#lastname").value;
-	const gender = document.querySelector("#gender").value;
-	const dob = document.querySelector("#dob").value;
+	let salutation = document.querySelector("#salutation").value;
+	let firstname = document.querySelector("#firstname").value;
+	let lastname = document.querySelector("#lastname").value;
+	let gender = document.querySelector("#gender").value;
+	let dob = document.querySelector("#dob").value;
 
 	const createBirthdate = {
 		id: new Date().getTime(),
@@ -48,6 +48,13 @@ formContainer.addEventListener("submit", (e) => {
 	localStorage.setItem("day", JSON.stringify(birthdays));
 
 	formContainer.style.display = "none";
+
+	// return form values to empty strings
+	salutation = "";
+	firstname = "";
+	lastname = "";
+	gender = "";
+	dob = "";
 });
 
 function init() {
