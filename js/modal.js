@@ -41,6 +41,8 @@ formContainer.addEventListener("submit", (e) => {
 	};
 
 	birthdays.push(createBirthdate);
+
+	// sort birthdays by ranking d last one as d 1st
 	birthdays.sort((a, b) => b.id - a.id);
 
 	localStorage.setItem("day", JSON.stringify(birthdays));
