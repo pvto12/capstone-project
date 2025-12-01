@@ -627,12 +627,13 @@ footer .right .logo-text p {
 	transform: translate(-50%, -40%);
 	background-color: var(--post-bg);
 
+	border-radius: 0.8rem;
+
 	/* display: flex; */
 }
 
 .close-container {
 	width: 100%;
-
 	position: relative;
 }
 
@@ -660,6 +661,12 @@ footer .right .logo-text p {
 select {
 	display: block;
 	width: 100%;
+	margin: 1.2rem 0;
+	padding: 1.2rem;
+	font-size: 1.6rem;
+
+	border: none;
+	outline: none;
 }
 
 input[type="submit"] {
