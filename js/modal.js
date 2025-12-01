@@ -30,12 +30,8 @@ teamMember.addEventListener("click", () => {
 formContainer.addEventListener("submit", (e) => {
 	e.preventDefault();
 
-	console.log("clicked");
 	formContainer.style.display = "none";
 });
-
-// 	// formContainer.style.display = "none";
-// });
 
 function init() {
 	formContainer.style.display = "none";
