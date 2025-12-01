@@ -641,7 +641,7 @@ footer .right .logo-text p {
 	right: 2.4rem;
 	top: 1.6rem;
 	cursor: pointer;
-	width: 1.6rem;
+	width: 1.2rem;
 }
 
 .form-container form {
@@ -856,6 +856,10 @@ input[type="submit"] {
 	.footer-links {
 		margin-top: 2rem;
 	}
+
+	.form-container {
+		top: 70%;
+	}
 }
 
 @media (min-width: 1000px) {
@@ -867,6 +871,10 @@ input[type="submit"] {
 
 	.form-container {
 		width: 50%;
+	}
+
+	.close-form {
+		width: 2rem;
 	}
 
 	.form-container form {
