@@ -12,6 +12,8 @@ const openAndClose = () => {
 		hamburger.style.height = "25px";
 		hamburger.style.width = "25px";
 		menuOpen = true;
+
+		formContainer.style.display = "none";
 	} else if (menuOpen) {
 		navbar.style.display = "none";
 		menuOpen = false;

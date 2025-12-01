@@ -9,12 +9,17 @@ const celebrant = document.querySelector("#celebrant");
 const sender = document.querySelector("#sender");
 const wishes = document.querySelector("#wishes");
 
+// navbar
+// const navbar = document.querySelector(".show-or-hide");
+
 closeBtn.addEventListener("click", () => {
 	formContainer.style.display = "none";
 });
 
 teamMember.addEventListener("click", () => {
 	formContainer.style.display = "block";
+
+	navbar.style.display = "none";
 });
 
 formContainer.addEventListener("submit", (e) => {
