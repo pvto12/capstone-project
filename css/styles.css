@@ -656,7 +656,8 @@ footer .right .logo-text p {
 	margin: 2rem 0;
 }
 
-.form-container input {
+.form-container input,
+select {
 	display: block;
 	width: 100%;
 }
