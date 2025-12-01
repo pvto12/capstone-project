@@ -9,22 +9,12 @@ const celebrant = document.querySelector("#celebrant");
 const sender = document.querySelector("#sender");
 const wishes = document.querySelector("#wishes");
 
-function closeForm() {
-	closeBtn.addEventListener("click", () => {
-		// console.log("clicked");
-
-		formContainer.style.display = "none";
-	});
-}
-
-closeForm();
+closeBtn.addEventListener("click", () => {
+	formContainer.style.display = "none";
+});
 
 teamMember.addEventListener("click", () => {
 	formContainer.style.display = "block";
-
-	// console.log(formContainer);
-
-	// let;
 });
 
 formContainer.addEventListener("submit", (e) => {
