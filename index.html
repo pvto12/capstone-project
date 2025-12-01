@@ -544,38 +544,54 @@
 				</div>
 
 				<form action="" id="birthday-wishes">
-					<label for="celebrant">
-						Celebrant
+					<label for="salutation">
+						Salutation
+
+						<select id="salutation">
+							<option value="Mr">Mr</option>
+							<option value="Mrs">Mrs</option>
+							<option value="Miss">Miss</option>
+						</select>
+					</label>
+
+					<label for="firstname">
+						Firstname
 
 						<input
 							type="text"
-							name="username"
-							id="celebrant"
-							placeholder="Who's Birthday is it today?"
+							name="firstname"
+							id="firstname"
+							placeholder="Enter your firstname"
 						/>
 					</label>
 
-					<label for="sender">
-						Sender
+					<label for="lastname">
+						Lastname
 
 						<input
 							type="text"
-							name="sender"
-							id="sender"
-							placeholder="Your Name"
+							name="lastname"
+							id="lastname"
+							placeholder="Enter your lastname"
 						/>
+					</label>
+
+					<label for="lastname">
+						Birthday
+
+						<input type="date" name="lastname" id="lastname" />
 					</label>
 
 					<!-- <label for="wishes"> Birthday Wishes </label> -->
 
-					<textarea
+					<!-- <textarea
 						type="text"
 						name="wishes"
 						id="wishes"
 						placeholder="Enterr your well wishes"
 						cols="30"
-						rows="15"
-					></textarea>
+						rowxs="15"
+					></textarea> -->
 
 					<input type="submit" id="wishes-btn" value="Send Wishes" />
 				</form>
