@@ -766,3 +766,19 @@ footer {
   display: none;
 }
 
+
+.form-box{
+    justify-self: center;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    background-color: aqua;
+    margin: 30px;
+    color: black
+}
+
+.form-box button{
+    margin-top: 20px;
+}
+

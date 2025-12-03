@@ -515,6 +515,21 @@ footer{
     height: 22px;
 }
 
+.form-box{
+    justify-self: center;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    background-color: aqua;
+    margin: 30px;
+}
+
+.form-box button{
+    margin-top: 20px;
+}
+
+
 /* smaller screen for responsiveness */
 @media (max-width: 1200px) {
     #header{

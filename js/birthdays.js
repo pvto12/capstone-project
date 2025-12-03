@@ -5,3 +5,4 @@ hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navmenu.classList.toggle("active");
 })
+

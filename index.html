@@ -548,6 +548,7 @@
 						Salutation
 
 						<select id="salutation">
+							<option value=""></option>
 							<option value="Mr">Mr</option>
 							<option value="Mrs">Mrs</option>
 							<option value="Miss">Miss</option>
@@ -576,19 +577,20 @@
 						/>
 					</label>
 
-					<label for="lastname">
+					<label for="gender">
 						Gender
 
 						<select id="gender">
+							<option value=""></option>
 							<option value="male">Male</option>
 							<option value="female">Female</option>
 						</select>
 					</label>
 
-					<label for="lastname">
+					<label for="DOB">
 						Birthday
 
-						<input type="date" name="lastname" id="lastname" />
+						<input type="date" name="DOB" id="DOB" />
 					</label>
 
 					<!-- <label for="wishes"> Birthday Wishes </label> -->
@@ -602,7 +604,8 @@
 						rowxs="15"
 					></textarea> -->
 
-					<input type="submit" id="wishes-btn" value="Send Wishes" />
+					<!-- <input type="submit" id="wishes-btn" value="Submit Form" /> -->
+					<button type="submit">Submit Form</button>
 				</form>
 			</div>
 		</div>
@@ -610,5 +613,6 @@
 		<script src="./js/index.js"></script>
 		<script src="./js/countdown.js"></script>
 		<script src="./js/modal.js"></script>
+		<script src="./js/form.js"></script>
 	</body>
 </html>
