@@ -200,6 +200,7 @@ h1 {
 	width: 88%;
 	margin: 0 auto;
 	position: relative;
+	z-index: 50;
 }
 
 .count-down {
@@ -616,7 +617,7 @@ footer .right .logo-text p {
 
 /* modal */
 .form-container {
-	z-index: 100;
+	z-index: 70;
 	height: auto;
 	width: 72%;
 
@@ -627,12 +628,13 @@ footer .right .logo-text p {
 	transform: translate(-50%, -40%);
 	background-color: var(--post-bg);
 
+	border-radius: 0.8rem;
+
 	/* display: flex; */
 }
 
 .close-container {
 	width: 100%;
-
 	position: relative;
 }
 
@@ -641,7 +643,7 @@ footer .right .logo-text p {
 	right: 2.4rem;
 	top: 1.6rem;
 	cursor: pointer;
-	width: 1.6rem;
+	width: 1.2rem;
 }
 
 .form-container form {
@@ -649,7 +651,7 @@ footer .right .logo-text p {
 	flex-direction: column;
 
 	width: 90%;
-	margin: 0 auto;
+	margin: 2rem auto;
 }
 
 .form-container label {
@@ -660,10 +662,18 @@ footer .right .logo-text p {
 select {
 	display: block;
 	width: 100%;
+	margin: 1.2rem 0;
+	padding: 1.2rem;
+	font-size: 1.6rem;
+
+	border: none;
+	outline: none;
 }
 
 input[type="submit"] {
 	margin: 2rem 0;
+	cursor: pointer;
+	background-color: var(--gray-color);
 }
 
 /* media queries */
@@ -856,6 +866,10 @@ input[type="submit"] {
 	.footer-links {
 		margin-top: 2rem;
 	}
+
+	.form-container {
+		top: 70%;
+	}
 }
 
 @media (min-width: 1000px) {
@@ -869,14 +883,16 @@ input[type="submit"] {
 		width: 50%;
 	}
 
+	.close-form {
+		width: 2rem;
+	}
+
 	.form-container form {
 		display: flex;
 		flex-direction: column;
 
-		width: 70%;
-		margin: 0 auto;
-
-		/* max-width: 32rem; */
+		width: 88%;
+		margin: 3.2rem auto;
 	}
 }
 
