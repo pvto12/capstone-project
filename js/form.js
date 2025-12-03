@@ -96,6 +96,13 @@ document.addEventListener("DOMContentLoaded", function(){
 })
 
 //clearing data
+document.addEventListener("DOMContentLoaded", function () {
+    const clearBtn = document.getElementById("clear-data-btn");
+
+    if (clearBtn) {
+        clearBtn.addEventListener("click", clearAllData);
+    }
+});
 function clearAllData(){
     localStorage.removeItem("present");
     localStorage.removeItem("upcoming");
