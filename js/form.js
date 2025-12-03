@@ -40,7 +40,7 @@ function Form(){
 	}
 	else if (dobMonth > todayMonth || (dobMonth === todayMonth && dobDay > todayDay)){
 		listName = "upcoming";
-		redirectPage = "./html/settings-notif.html";
+		redirectPage = "./html/upcoming.html";
 	}
 	else {
 		listName = "archive";
@@ -69,9 +69,9 @@ function loadData(listName){
 
     container.innerHTML = list.map(item => `
         <div class="record">
-            <p>${item.salutation} ${item.firstName} ${item.lastName}</p>
-            <p>Gender: ${item.gender}</p>
-            <p>Date of Birth: ${item.dob}</p>
+            <p><strong>Name:</strong> ${item.salutation} ${item.firstName} ${item.lastName}</p>
+            <p><strong>Gender:</strong> ${item.gender}</p>
+            <p><strong>Date of Birth:</strong> ${item.dob}</p>
         </div>
     `).join("");
 }
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function(){
 	if (window.location.pathname.includes("birthdays.html")){
 		loadData("present");
 	}
-	if (window.location.pathname.includes("settings-notif.html")){
+	if (window.location.pathname.includes("upcoming.html")){
 		loadData("upcoming");
 	} 
 	if (window.location.pathname.includes("archive.html")){
@@ -101,6 +101,6 @@ function clearAllData(){
     localStorage.removeItem("upcoming");
     localStorage.removeItem("archive");
     alert("All entry has been cleared!");
-    location.reload(); // refresh page after clearing
+    location.reload(); 
 }
 

@@ -8,13 +8,48 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="../css/settings-notif.css">
-<script src="../js/form.js" defer></script>
+ <link rel="stylesheet" href="../css/upcoming.css">
+ <script src="../js/upcoming.js" defer></script>
+ <script src="../js/form.js" defer></script>
 
 </head>
 
 <body>
- <div class="container">
+    <section id="header">
+        <div class="nav-bar">
+            <div class="nav-bar-left">
+                <img src="../images/momento logo2.png" alt="" class="nav-logo">
+            </div>
+                    
+            <div class="nav-bar-right">
+                <div class="nav-bar-right-texts nav-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="birthdays.html">Birthdays</a></li>
+                    <li><a href="../html/upcoming.html">Upcoming</a></li>
+                    <li><a href="../archive.html">Archive</a></li>
+                </div>
+                
+                    <div class="hamburger">                
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Upcoming</h1>
+                <h3>Get ready to Celebrate: The countdown is on!</h3>
+            </div>
+        </div>
+    </section>
+
+    <div class="form-box">
+      <div id="dataContainer"></div>
+      <button class="wish-btn" onclick="clearAllData()">Clear All Birthday Data</button>
+    </div>
+
+ <!-- <div class="container">
   <header>
    <div class="hero">
     <div class="nav-bar">
@@ -80,14 +115,7 @@
     </div>
    </div>
   </main>
- </div>
-
-
-
-    <div class="form-box">
-        <div id="dataContainer"></div>
-        <button onclick="clearAllData()">Clear All Birthday Data</button>
-    </div>
+ </div> -->
 
 </body>
 

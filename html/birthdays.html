@@ -23,8 +23,8 @@
                     <div class="nav-bar-right-texts nav-menu">
                         <li><a href="../index.html">Home</a></li>
                         <li><a href="birthdays.html">Birthdays</a></li>
+                        <li><a href="../html/upcoming.html">Upcoming</a></li>
                         <li><a href="../archive.html">Archive</a></li>
-                        <li><a href="../html/settings-notif.html">Settings</a></li>
                     </div>
                 
                         <div class="hamburger">                
@@ -37,7 +37,7 @@
             <div class="hero">
                 <div class="hero-text">
                     <h1>Birthdays</h1>
-                    <h3>Have a front row view of all the celebrants and upcoming birthdays</h3>
+                    <h3>Have a front row view of all the celebrants</h3>
                 </div>
             </div>
         </section>
@@ -47,10 +47,12 @@
                 <h2>Celebrant of the day</h2>
                 <h3>Septa's legend is a day older today</h3>
             </div>
-            <div class="diamond"></div>
-            <div class="grid-row">
-                <div class="grid-card">
-                    <div class="top-bar">
+            <!-- <div class="grid-row"> -->
+                <div class="form-box">
+                    <div id="dataContainer"></div>
+                    <button class="wish-btn" onclick="clearAllData()">Clear All Birthday Data</button>
+
+                    <!-- <div class="top-bar">
                         <img src="../images/img_1.png" alt="" class="top-bar-img">
                         <div class="top-bar-text">
                             <h2>Jennifer Adeyinka</h2>
@@ -67,14 +69,14 @@
                         daily. <br><br> So ditch your keyboards, grab a slice of cake, and help us celebrate the human who 
                         makes coming to work feel like a highly functional, slightly ridiculous party. <br><br><span>Happy Birthday Jennifer,<br>
                         You deserve it!</span></h2><br><br>
-                    </div>
-                    <div class="wishes-btn">
+                    </div> -->
+                    <!-- <div class="wishes-btn">
                         <button class="wish-btn"><h4>Add a Wish</h4></button>
                         <button class="see-more-btn"><h4>See Birthday Wishes</h4></button>
-                    </div>
+                    </div> -->
                 </div>
 
-                <div class="grid-card">
+                <!-- <div class="grid-card">
                     <div class="top-bar">
                         <img src="../images/img-card.jpg" alt="" class="top-bar-img1">
                         <div class="top-bar-text">
@@ -118,10 +120,10 @@
                         <button class="wish-btn"><h4>Add a Wish</h4></button>
                         <button class="see-more-btn"><h4>See Birthday Wishes</h4></button>
                     </div>
-                </div>
+                </div> -->
 
 
-            </div>
+            <!-- </div> -->
         </section>
 
         <section id="upcoming">
@@ -226,10 +228,6 @@
 
         </section>
 
-        <div class="form-box">
-            <div id="dataContainer"></div>
-            <button onclick="clearAllData()">Clear All Birthday Data</button>
-        </div>
 
         <footer>
             <div class="footer-1">
