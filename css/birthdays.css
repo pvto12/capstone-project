@@ -160,7 +160,7 @@ li a:hover{
     flex-direction: column;
     background-color: var(--card-color);
     border-radius: 30px;
-    max-width: 350px;
+    width: 350px;
     min-height: 400px;
     padding: 40px;
     margin: 70px 0px;
