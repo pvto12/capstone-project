@@ -728,3 +728,41 @@ footer {
   display: none;
 }
 
+/*form data*/
+.form-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    color: black;
+    border-radius: 30px;
+    width: 350px;
+    min-height: 400px;
+    padding: 40px;
+    margin: 70px 0px;
+    justify-self: center;
+    align-items: center;
+}
+
+#dataContainer{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+
+}
+
+.wish-btn{
+    background-color: #579cc2;
+    color: white;
+    border-radius: 100px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.wish-btn:hover{
+    color: #579cc2;
+    background-color: #d9d9d9;
+    border: 1px solid #579cc2;
+}
+

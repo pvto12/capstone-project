@@ -123,7 +123,7 @@ li a:hover{
     width: 350px;
     min-height: 400px;
     padding: 40px;
-    margin: 70px;
+    margin: 70px 0px;
     justify-self: center;
     align-items: center;
 }
