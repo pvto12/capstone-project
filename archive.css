@@ -167,21 +167,23 @@ nav ul li a {
 
   .filterr {
     border: 1px solid rgb(233, 233, 241);
-    width: 40%;
+    width: 50%;
     border-radius: 20px;
     font-weight: bold;
     text-align: left;
      height: 7vh;
+     outline: none;
   }
 
   .sortt {
     border: 1px solid rgb(233, 233, 241);
-    width: 40%;
+    width: 50%;
     height: 7vh;
     border-radius: 20px;
     font-weight: bold;
     margin-left: 1rem;
     text-align: left;
+    outline: none;
   }
 
   .searchh {
@@ -189,6 +191,15 @@ nav ul li a {
     margin-top: 1rem;
     border-radius: 20px;
     font-weight: bold;
+  }
+
+  .searchh:focus{
+    border: 1px solid #579ec2;
+     outline: #579ec2;
+  }
+
+  .sortt{
+    outline: none;
   }
 }
 .container {
@@ -427,14 +438,7 @@ nav li a:hover {
   width: 60%;
   color: white;
   transition: 0.4s ease;
-  padding: 2rem 1.5rem;
-}
 
-.mobile-menu {
-  color: white;
-}
-.mobile-menu li a {
-  color: white;
 }
 
 .mobile-menu.active {
@@ -443,7 +447,6 @@ nav li a:hover {
 
 .mobile-menu li {
   margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
   list-style: none;
   color: white;
 }
@@ -483,12 +486,11 @@ a {
 .mobile-menu {
   margin-top: 2rem;
   display: block;
-  gap: 50px;
   list-style: none;
   background: white;
   color: skyblue;
   padding-top: 13.5%;
-  height: 50vh;
+  height: 38.8vh;
   line-height: 2rem;
   position: absolute;
   z-index: 999;
@@ -513,14 +515,13 @@ a {
 .mobile-menu li {
   width: 100%;
 
-  margin-bottom: px;
-  color: white;
 }
 
 .mobile-menu li a {
-  margin-left: 2rem;
   color: blue;
-  font-size: 18px;
+  font-size: 20px;
+  text-align: center;
+
 }
 
 .mobile-menu {
@@ -735,7 +736,7 @@ footer {
 .searchh{
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242 1.156a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg>')
     no-repeat 10px center;
-     width: 88%;
+     width: 100%;
   height: 7vh;
   padding: 25px;
   border-radius: 20px;
