@@ -617,20 +617,21 @@ footer .right .logo-text p {
 
 /* modal */
 .form-container {
-	z-index: 70;
-	height: auto;
-	width: 72%;
+	/* z-index: 70; */
+	/* height: auto; */
+	/* width: 72%; */
 
-	position: absolute;
-	top: 50%;
-	left: 50%;
+	/* position: absolute; */
+	/* top: 50%; */
+	/* left: 50%; */
 
-	transform: translate(-50%, -40%);
-	background-color: var(--post-bg);
+	/* transform: translate(-50%, -40%); */
+	/* background-color: var(--post-bg); */
 
-	border-radius: 0.8rem;
+	/* border-radius: 0.8rem; */
 
 	/* display: flex; */
+	/* border: 2px solid red; */
 }
 
 .close-container {
@@ -647,27 +648,27 @@ footer .right .logo-text p {
 }
 
 .form-container form {
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
 
 	width: 90%;
-	margin: 2rem auto;
+	margin: 2rem auto; */
 }
 
 .form-container label {
-	margin: 2rem 0;
+	/* margin: 2rem 0; */
 }
 
 .form-container input,
 select {
-	display: block;
+	/* display: block;
 	width: 100%;
 	margin: 1.2rem 0;
 	padding: 1.2rem;
 	font-size: 1.6rem;
 
 	border: none;
-	outline: none;
+	outline: none; */
 }
 
 input[type="submit"] {
@@ -868,7 +869,7 @@ input[type="submit"] {
 	}
 
 	.form-container {
-		top: 70%;
+		/* top: 70%; */
 	}
 }
 
@@ -880,7 +881,7 @@ input[type="submit"] {
 	}
 
 	.form-container {
-		width: 50%;
+		/* width: 50%; */
 	}
 
 	.close-form {
@@ -888,11 +889,11 @@ input[type="submit"] {
 	}
 
 	.form-container form {
-		display: flex;
+		/* display: flex;
 		flex-direction: column;
 
 		width: 88%;
-		margin: 3.2rem auto;
+		margin: 3.2rem auto; */
 	}
 }
 
