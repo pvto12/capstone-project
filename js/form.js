@@ -14,6 +14,8 @@ function Form() {
 	let gender = document.getElementById("gender").value;
 	let dob = document.getElementById("dob").value;
 
+	const modifyDob = dob.split("-").reverse().join("-");
+
 	let dobDate = new Date(dob);
 	let dobMonth = dobDate.getMonth() + 1;
 	let dobDay = dobDate.getDate();
@@ -27,7 +29,7 @@ function Form() {
 		firstName: firstName,
 		lastName: lastName,
 		gender: gender,
-		dob: dob,
+		dob: modifyDob,
 	};
 
 	let redirectPage = "";

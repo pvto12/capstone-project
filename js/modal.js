@@ -36,13 +36,20 @@ formContainer.addEventListener("submit", (e) => {
 	let department = document.querySelector("#department").value;
 	let bio = document.querySelector("#bio").value;
 
+	const modifyDob = dob.split("-").reverse().join("-");
+	console.log(modifyDob);
+
 	const createBirthdate = {
 		id: new Date().getTime(),
 		salutation,
 		firstname,
 		lastname,
 		gender,
-		dob,
+		dob: modifyDob,
+		hobby,
+		quote,
+		department,
+		bio,
 	};
 
 	birthdays.push(createBirthdate);
@@ -60,6 +67,10 @@ formContainer.addEventListener("submit", (e) => {
 	lastname = "";
 	gender = "";
 	dob = "";
+	hobby = "";
+	quote = "";
+	department = "";
+	bio = "";
 });
 
 function init() {
