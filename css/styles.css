@@ -72,8 +72,6 @@ header {
 	position: absolute;
 	right: 0;
 	top: 9.2rem;
-
-	/* border: 2px solid red; */
 }
 
 .nav.mobile .show-or-hide {
@@ -98,9 +96,9 @@ header {
 	text-align: center;
 }
 
-.nav.mobile li:first-child {
-	/* padding-top: 1.2rem; */
-}
+/* .nav.mobile li:first-child {
+	padding-top: 1.2rem;
+} */
 
 .nav.mobile li a {
 	text-decoration: none;
