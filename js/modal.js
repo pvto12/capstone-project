@@ -37,7 +37,6 @@ formContainer.addEventListener("submit", (e) => {
 	let bio = document.querySelector("#bio").value;
 
 	const modifyDob = dob.split("-").reverse().join("-");
-	console.log(modifyDob);
 
 	const createBirthdate = {
 		id: new Date().getTime(),
