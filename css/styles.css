@@ -672,10 +672,24 @@ select {
 	outline: none;
 }
 
+textarea {
+	display: block;
+	width: 100%;
+	margin: 0.96rem 0;
+	padding: 0.96rem;
+	font-size: 1.6rem;
+
+	border: none;
+	outline: none;
+}
+
 input[type="submit"] {
 	margin: 2rem 0;
 	cursor: pointer;
-	background-color: var(--gray-color);
+	color: var(--white);
+
+	font-weight: 700;
+	background-color: var(--primary-color);
 }
 
 /* media queries */
