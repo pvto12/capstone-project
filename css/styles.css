@@ -632,8 +632,6 @@ footer .right .logo-text p {
 	background-color: var(--post-bg);
 
 	border-radius: 0.8rem;
-
-	border: 2px solid red;
 }
 
 .close-container {
@@ -683,13 +681,29 @@ textarea {
 	outline: none;
 }
 
-input[type="submit"] {
+/* input[type="submit"] {
 	margin: 2rem 0;
 	cursor: pointer;
 	color: var(--white);
 
 	font-weight: 700;
 	background-color: var(--primary-color);
+} */
+
+button[type="submit"] {
+	margin: 2rem 0;
+	cursor: pointer;
+	color: var(--white);
+	font-weight: 700;
+	background-color: var(--primary-color);
+
+	display: block;
+	width: 100%;
+	padding: 1.2rem;
+	font-size: 1.6rem;
+
+	border: none;
+	outline: none;
 }
 
 /* media queries */
