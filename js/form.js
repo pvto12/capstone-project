@@ -53,7 +53,7 @@ function Form(){
 	saveList(listName, list);
     }
 
-    alert("Success!!!\nPlease wait...");
+    alert("Your input was successful");
     window.location.href = redirectPage;
 }
 
