@@ -43,7 +43,7 @@ const handleCountdown = (birthday) => {
 		else {
 			clearInterval(setCountdown);
 
-			countDownContainer.innerHTML = "Happy Birthday";
+			// countDownContainer.innerHTML = "Happy Birthday";
 		}
 	}, 1000);
 };
