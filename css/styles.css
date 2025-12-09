@@ -80,7 +80,7 @@ header {
 	width: 64vw;
 	max-width: 36rem;
 	height: auto;
-	/* display: none; */
+	display: none;
 	z-index: 100;
 }
 
@@ -205,7 +205,7 @@ h1 {
 	width: 88%;
 	margin: 0 auto;
 	position: relative;
-	z-index: 50;
+	z-index: 5;
 }
 
 .count-down {
