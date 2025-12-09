@@ -68,16 +68,19 @@ header {
 
 .nav.mobile .left {
 	display: flex;
+	align-items: center;
 	position: absolute;
 	right: 0;
 	top: 9.2rem;
+
+	/* border: 2px solid red; */
 }
 
 .nav.mobile .show-or-hide {
 	width: 64vw;
 	max-width: 36rem;
 	height: auto;
-	display: none;
+	/* display: none; */
 	z-index: 100;
 }
 
@@ -85,6 +88,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	background-color: var(--white);
 	border-radius: 1.2rem;
 }
@@ -95,7 +99,7 @@ header {
 }
 
 .nav.mobile li:first-child {
-	padding-top: 1.2rem;
+	/* padding-top: 1.2rem; */
 }
 
 .nav.mobile li a {
