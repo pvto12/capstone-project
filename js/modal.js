@@ -31,6 +31,10 @@ formContainer.addEventListener("submit", (e) => {
 	let lastname = document.querySelector("#lastname").value;
 	let gender = document.querySelector("#gender").value;
 	let dob = document.querySelector("#dob").value;
+	let hobby = document.querySelector("#hobby").value;
+	let quote = document.querySelector("#quote").value;
+	let department = document.querySelector("#department").value;
+	let bio = document.querySelector("#bio").value;
 
 	const createBirthdate = {
 		id: new Date().getTime(),
@@ -67,7 +71,3 @@ function init() {
 }
 
 init();
-
-
-
-
