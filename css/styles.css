@@ -622,16 +622,13 @@ footer .right .logo-text p {
 	width: 72%;
 
 	position: absolute;
-	top: 70%;
+	top: 70vh;
 	left: 50%;
 
 	transform: translate(-50%, -40%);
 	background-color: var(--post-bg);
 
 	border-radius: 0.8rem;
-
-	/* display: flex; */
-	border: 2px solid red;
 }
 
 .close-container {
