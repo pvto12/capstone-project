@@ -1,19 +1,21 @@
 //form functionality and re-routing
-function getSavedList(key){
+function getSavedList(key) {
 	return JSON.parse(localStorage.getItem(key)) || [];
 }
 
-function saveList(key, list){
+function saveList(key, list) {
 	localStorage.setItem(key, JSON.stringify(list));
 }
 
-function Form(){
+function Form() {
 	let salutation = document.getElementById("salutation").value;
 	let firstName = document.getElementById("firstname").value;
 	let lastName = document.getElementById("lastname").value;
 	let gender = document.getElementById("gender").value;
-	let dob = document.getElementById("DOB").value;
-	
+	let dob = document.getElementById("dob").value;
+
+	const modifyDob = dob.split("-").reverse().join("-");
+
 	let dobDate = new Date(dob);
 	let dobMonth = dobDate.getMonth() + 1;
 	let dobDay = dobDate.getDate();
@@ -22,92 +24,106 @@ function Form(){
 	let todayMonth = today.getMonth() + 1;
 	let todayDay = today.getDate();
 
-
-	let record ={
+	let record = {
 		salutation: salutation,
 		firstName: firstName,
 		lastName: lastName,
-		gender:gender,
-		dob: dob
+		gender: gender,
+		dob: modifyDob,
 	};
 
 	let redirectPage = "";
 	let listName = "";
 
-	if (dobMonth === todayMonth && dobDay === todayDay){
+	if (dobMonth === todayMonth && dobDay === todayDay) {
 		listName = "present";
 		redirectPage = "./html/birthdays.html";
-	}
-	else if (dobMonth > todayMonth || (dobMonth === todayMonth && dobDay > todayDay)){
+	} else if (
+		dobMonth > todayMonth ||
+		(dobMonth === todayMonth && dobDay > todayDay)
+	) {
 		listName = "upcoming";
 		redirectPage = "./html/upcoming.html";
-	}
-	else {
+	} else {
 		listName = "archive";
 		redirectPage = "./archive.html";
 	}
 
 	let list = getSavedList(listName);
-    if (!list.some(item => item.firstName === record.firstName && item.lastName === record.lastName && item.dob === record.dob)) {
-	list.push(record);
-	saveList(listName, list);
-    }
+	if (
+		!list.some(
+			(item) =>
+				item.firstName === record.firstName &&
+				item.lastName === record.lastName &&
+				item.dob === record.dob
+		)
+	) {
+		list.push(record);
+		saveList(listName, list);
+	}
 
+<<<<<<< HEAD
     alert("Your input was successful");
     window.location.href = redirectPage;
+=======
+	alert("Success!!!\nPlease wait...");
+	window.location.href = redirectPage;
+>>>>>>> 479fd691c4f2da5ffe12cbb56eddd1fa6ebf0c8b
 }
 
+function loadData(listName) {
+	let list = JSON.parse(localStorage.getItem(listName)) || [];
+	let container = document.getElementById("dataContainer");
 
-function loadData(listName){
-    let list = JSON.parse(localStorage.getItem(listName)) || [];
-    let container = document.getElementById("dataContainer");
-    
-    if (list.length === 0){
-        container.innerHTML = "<p>No records yet.</p>";
-        return;
-    }
+	if (list.length === 0) {
+		container.innerHTML = "<p>No records yet.</p>";
+		return;
+	}
 
-    container.innerHTML = list.map(item => `
+	container.innerHTML = list
+		.map(
+			(item) => `
         <div class="record">
             <p><strong>Name:</strong> ${item.salutation} ${item.firstName} ${item.lastName}</p>
             <p><strong>Gender:</strong> ${item.gender}</p>
             <p><strong>Date of Birth:</strong> ${item.dob}</p>
         </div>
-    `).join("");
+    `
+		)
+		.join("");
 }
 
-document.addEventListener("DOMContentLoaded", function(){
-    const form = document.getElementById("birthday-wishes");
-    if (form){
-    form.addEventListener("submit", function(event){
-        event.preventDefault();
-        Form();
-    });
-    }
-	if (window.location.pathname.includes("birthdays.html")){
+document.addEventListener("DOMContentLoaded", function () {
+	const form = document.getElementById("birthday-wishes");
+	if (form) {
+		form.addEventListener("submit", function (event) {
+			event.preventDefault();
+			Form();
+		});
+	}
+	if (window.location.pathname.includes("birthdays.html")) {
 		loadData("present");
 	}
-	if (window.location.pathname.includes("upcoming.html")){
+	if (window.location.pathname.includes("upcoming.html")) {
 		loadData("upcoming");
-	} 
-	if (window.location.pathname.includes("archive.html")){
+	}
+	if (window.location.pathname.includes("archive.html")) {
 		loadData("archive");
 	}
-})
+});
 
 //clearing data
 document.addEventListener("DOMContentLoaded", function () {
-    const clearBtn = document.getElementById("clear-data-btn");
+	const clearBtn = document.getElementById("clear-data-btn");
 
-    if (clearBtn) {
-        clearBtn.addEventListener("click", clearAllData);
-    }
+	if (clearBtn) {
+		clearBtn.addEventListener("click", clearAllData);
+	}
 });
-function clearAllData(){
-    localStorage.removeItem("present");
-    localStorage.removeItem("upcoming");
-    localStorage.removeItem("archive");
-    alert("All entry has been cleared!");
-    location.reload(); 
+function clearAllData() {
+	localStorage.removeItem("present");
+	localStorage.removeItem("upcoming");
+	localStorage.removeItem("archive");
+	alert("All entry has been cleared!");
+	location.reload();
 }
-
