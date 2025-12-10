@@ -21,8 +21,8 @@ body {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: white;
-  overflow-x: hidden; /* prevents horizontal scroll */
-  overflow-y: auto; /*  allows vertical scroll */
+  overflow-x: hidden; 
+  overflow-y: auto; 
 }
 
 /* .main{
@@ -32,7 +32,7 @@ body {
 } */
 
 header {
-  padding: 0px 30px;
+  padding: 0px 50px;
 }
 
 .main {
@@ -47,6 +47,7 @@ nav {
   display: flex;
   gap: 50px;
   margin-top: 1rem;
+    margin-left: 5rem;
 }
 
 nav img {
@@ -54,8 +55,8 @@ nav img {
 }
 nav ul {
   display: flex;
-  display: flex;
-  gap: 40px;
+  gap: 30px;
+
 }
 nav ul li {
   list-style: none;
