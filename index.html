@@ -73,6 +73,10 @@
 											>Birthdays</a
 										>
 									</li>
+									<!-- added the upcoming link -->
+									 <li>
+										<a href="./html/upcoming.html">Upcoming</a>
+									</li>
 									<li>
 										<a href="./archive.html">Archive</a>
 									</li>
@@ -549,6 +553,7 @@
 						Salutation
 
 						<select id="salutation">
+							<option value="" disabled selected hidden></option>
 							<option value="Mr">Mr</option>
 							<option value="Mrs">Mrs</option>
 							<option value="Miss">Miss</option>
@@ -581,10 +586,12 @@
 						Gender
 
 						<select id="gender">
-							<option value="male">Male</option>
-							<option value="female">Female</option>
+							<option value="" disabled selected hidden></option>
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
 						</select>
 					</label>
+				
 
 					<label for="dob">
 						Birth date
@@ -611,14 +618,26 @@
 					<label for="department">
 						Department
 
-						<select id="department">
+						<!-- <select id="department">
 							<option value="dev">Web Development</option>
 							<option value="designer">UI/UX</option>
 							<option value="pm">Project Management</option>
 							<option value="tester">Web Testing</option>
+						</select> -->
+						<select id="department">
+							<option value="" disabled selected hidden></option>
+							<option value="Web Development">Web Development</option>
+							<option value="UI/UX">UI/UX</option>
+							<option value="Project Management">Project Management</option>
+							<option value="Web Testing">Web Testing</option>
 						</select>
 					</label>
 
+					<!-- Please note that i have to chane the value of the dropdowns
+					 because the value is different from the dropdown options it's affecting what
+					 is being displayed.
+					 I also want to add an empty tab before the dropdowns...instead of the option already being displayed
+					 Thanks -->
 					<label for="bio">Bio</label>
 					<textarea
 						type="text"

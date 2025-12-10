@@ -13,8 +13,12 @@ function Form() {
 	let lastName = document.getElementById("lastname").value;
 	let gender = document.getElementById("gender").value;
 	let dob = document.getElementById("dob").value;
+	let hobby = document.getElementById("hobby").value;
+	let quote = document.getElementById("quote").value;
+	let dept = document.getElementById("department").value;
+	let bio = document.getElementById("bio").value;
 
-	const modifyDob = dob.split("-").reverse().join("-");
+	// const modifyDob = dob.split("-").reverse().join("-");
 
 	let dobDate = new Date(dob);
 	let dobMonth = dobDate.getMonth() + 1;
@@ -24,12 +28,8 @@ function Form() {
 	let todayMonth = today.getMonth() + 1;
 	let todayDay = today.getDate();
 
-	let record = {
-		salutation: salutation,
-		firstName: firstName,
-		lastName: lastName,
-		gender: gender,
-		dob: modifyDob,
+	let record = {salutation, firstName, lastName, gender, dob, hobby,
+		quote, dept, bio
 	};
 
 	let redirectPage = "";
@@ -50,25 +50,16 @@ function Form() {
 	}
 
 	let list = getSavedList(listName);
-	if (
-		!list.some(
-			(item) =>
-				item.firstName === record.firstName &&
-				item.lastName === record.lastName &&
-				item.dob === record.dob
-		)
-	) {
+	if (!list.some((item) => 
+			item.firstName === record.firstName && 
+			item.lastName === record.lastName && item.dob === record.dob)) 
+	{
 		list.push(record);
 		saveList(listName, list);
 	}
 
-<<<<<<< HEAD
     alert("Your input was successful");
     window.location.href = redirectPage;
-=======
-	alert("Success!!!\nPlease wait...");
-	window.location.href = redirectPage;
->>>>>>> 479fd691c4f2da5ffe12cbb56eddd1fa6ebf0c8b
 }
 
 function loadData(listName) {
@@ -80,17 +71,17 @@ function loadData(listName) {
 		return;
 	}
 
-	container.innerHTML = list
-		.map(
-			(item) => `
+	container.innerHTML = list.map((item) => `
         <div class="record">
             <p><strong>Name:</strong> ${item.salutation} ${item.firstName} ${item.lastName}</p>
             <p><strong>Gender:</strong> ${item.gender}</p>
             <p><strong>Date of Birth:</strong> ${item.dob}</p>
+            <p><strong>Hobby:</strong> ${item.hobby}</p>
+            <p><strong>Quote:</strong> ${item.quote}</p>
+            <p><strong>Department:</strong> ${item.dept}</p>
+            <p><strong>Short Bio:</strong> ${item.bio}</p>
         </div>
-    `
-		)
-		.join("");
+    `).join("");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
