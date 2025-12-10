@@ -21,8 +21,8 @@ body {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: white;
-  overflow-x: hidden; /* prevents horizontal scroll */
-  overflow-y: auto; /*  allows vertical scroll */
+  overflow-x: hidden; 
+  overflow-y: auto; 
 }
 
 /* .main{
@@ -32,7 +32,7 @@ body {
 } */
 
 header {
-  padding: 0px 70px;
+  padding: 0px 50px;
 }
 
 .main {
@@ -47,6 +47,7 @@ nav {
   display: flex;
   gap: 50px;
   margin-top: 1rem;
+    margin-left: 5rem;
 }
 
 nav img {
@@ -54,8 +55,8 @@ nav img {
 }
 nav ul {
   display: flex;
-  display: flex;
-  gap: 40px;
+  gap: 30px;
+
 }
 nav ul li {
   list-style: none;
@@ -323,9 +324,11 @@ nav ul li a {
   header .header-mini {
     display: flex;
     width: 100%;
+    
   }
   .top {
     margin-top: -3rem;
+    padding: 0px 20px;
   }
 
   body {
@@ -389,12 +392,13 @@ nav ul li a {
   .box-2 {
     justify-content: center;
     width: 80%;
+    height: ;
     margin-left: 10%;
     margin-top: 1rem;
   }
   .box-image {
-    width: 44%;
-    height: 15vh;
+    width: 48%;
+    height: 20vh;
   }
 
   .box-image img {
