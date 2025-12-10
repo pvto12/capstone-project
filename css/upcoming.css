@@ -1,241 +1,234 @@
-*{
- padding: 0;
- margin: 0;
- box-sizing: border-box;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 /* html{
  font-size: 62.5%;
 } */
 
-body{
- font-family: 'Plus Jakarta Sans', sans-serif;
+body {
+	font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-#header{
-    background-image: url(../images/hero_desktop.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+#header {
+	background-image: url(../images/hero_desktop.png);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
 }
 
-.nav-bar{
-    display: flex;
-    padding: 49px 60px;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+.nav-bar {
+	display: flex;
+	padding: 49px 60px;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
 }
 
-.nav-logo{
-    width: 200px;
-    height: 60px;
+.nav-logo {
+	width: 200px;
+	height: 60px;
 }
 
-.nav-bar-right{
-    display: flex;
-    align-items: center;
-    gap: 72px;
+.nav-bar-right {
+	display: flex;
+	align-items: center;
+	gap: 72px;
 }
 
-.nav-bar-right-texts{
-    display: flex;
-    gap: 40px;
+.nav-bar-right-texts {
+	display: flex;
+	gap: 40px;
 }
 
-li{
-    list-style: none;
-
+li {
+	list-style: none;
 }
 
-li a{
-    font-weight: 600;
-    font-size: 16px;
-    margin: 0;
-    text-decoration: none;
-    color: white;
+li a {
+	font-weight: 600;
+	font-size: 16px;
+	margin: 0;
+	text-decoration: none;
+	color: white;
 }
 
-li a:hover{
-    color: #579cc2;
+li a:hover {
+	color: #579cc2;
 }
 
-.user-icon{
-    background-image: url(../images/user-img.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-    border-radius: 60px;
+.user-icon {
+	background-image: url(../images/user-img.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	border-radius: 60px;
 }
 
-.hero{
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    height: 70%;
-    align-items: center;
-    justify-content: center;
+.hero {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	height: 70%;
+	align-items: center;
+	justify-content: center;
 }
 
-.hero-text{
-    text-align: center;
-    color: white;
+.hero-text {
+	text-align: center;
+	color: white;
 }
 
-.hero h1{
-    font-weight: 800;
-    font-size: 175px;
+.hero h1 {
+	font-weight: 800;
+	font-size: 175px;
 }
 
-.hero h3{
-    font-weight: 600;
-    font-size: 25px;
-    gap: 12px;
+.hero h3 {
+	font-weight: 600;
+	font-size: 25px;
+	gap: 12px;
 }
 
 /* hamburger area */
-.hamburger{
-    display: none;
-    align-items: center;
-    cursor: pointer;
-    width: 30px;
+.hamburger {
+	display: none;
+	align-items: center;
+	cursor: pointer;
+	width: 30px;
 }
 
-.hamburger span{
-  display: block;
-  height: 3px;
-  width: 100%;
-  margin: 5px auto;
-  background: white;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  transform-origin: center;
+.hamburger span {
+	display: block;
+	height: 3px;
+	width: 100%;
+	margin: 5px auto;
+	background: white;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	transform-origin: center;
 }
 
 /*form data*/
-.form-box{
-    display: flex;
-    flex-direction: column;
-    background-color: #d9d9d9;
-    color: black;
-    border-radius: 30px;
-    width: 350px;
-    min-height: 400px;
-    padding: 40px;
-    margin: 70px 0px;
-    justify-self: center;
-    align-self: center;
+.form-box {
+	display: flex;
+	flex-direction: column;
+	background-color: #d9d9d9;
+	color: black;
+	border-radius: 30px;
+	width: 350px;
+	min-height: 400px;
+	padding: 40px;
+	margin: 70px auto;
+	justify-self: center;
+	align-self: center;
 }
 
-#dataContainer{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 20px;
-
+#dataContainer {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	gap: 20px;
 }
 
-.wish-btn{
-    background-color: #579cc2;
-    color: white;
-    border-radius: 100px;
-    padding: 20px;
-    border: none;
-    cursor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  : pointer;
+.wish-btn {
+	background-color: #579cc2;
+	color: white;
+	border-radius: 100px;
+	padding: 20px;
+	border: none;
+	cursor: pointer;
 }
 
-.wish-btn:hover{
-    color: #579cc2;
-    background-color: #d9d9d9;
-    border: 1px solid #579cc2;
+.wish-btn:hover {
+	color: #579cc2;
+	background-color: #d9d9d9;
+	border: 1px solid #579cc2;
 }
-
-
-
 
 /*smaller screens*/
 @media (max-width: 1200px) {
-  #header{
-        height: 70vh;
-    }
+	#header {
+		height: 70vh;
+	}
 
-    .nav-logo{
-        width: 100px;
-        height: 30px;
-    }
+	.nav-logo {
+		width: 100px;
+		height: 30px;
+	}
 
-    .nav-bar{
-        padding: 20px 30px;
-    }
+	.nav-bar {
+		padding: 20px 30px;
+	}
 
-    .hamburger{
-        display: block;
-    }
+	.hamburger {
+		display: block;
+	}
 
-    .hamburger.active span:nth-child(2){
-        opacity: 0;
-    }
+	.hamburger.active span:nth-child(2) {
+		opacity: 0;
+	}
 
-    .hamburger.active span:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-        background-color: #579cc2;
-    }
+	.hamburger.active span:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+		background-color: #579cc2;
+	}
 
-    .hamburger.active span:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-        background-color: #579cc2;
-    }
+	.hamburger.active span:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg);
+		background-color: #579cc2;
+	}
 
-    .nav-bar{
-        padding: 10px;
-    }
+	.nav-bar {
+		padding: 10px;
+	}
 
-    li a{
-      color: #579cc2;
-    }
+	li a {
+		color: #579cc2;
+	}
 
-    li a:hover{
-      color: #ccb257;
-    }
+	li a:hover {
+		color: #ccb257;
+	}
 
-    .nav-menu{
-        position: fixed;
-        top: 0;
-        right: 0;
-        gap: 25px;
-        flex-direction: column;
-        background-color: white;
-        width: 250px;
-        padding: 20px 0px;
-        height: 500px;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in-out;    
-    }
+	.nav-menu {
+		position: fixed;
+		top: 0;
+		right: 0;
+		gap: 25px;
+		flex-direction: column;
+		background-color: white;
+		width: 250px;
+		padding: 20px 0px;
+		height: 500px;
+		transform: translateX(100%);
+		transition: transform 0.3s ease-in-out;
+	}
 
-    .nav-menu.active{
-        padding: 20px ;
-        transform: translateX(0);
-    }
+	.nav-menu.active {
+		padding: 20px;
+		transform: translateX(0);
+	}
 
-    .nav-bar-right-icons{
-        gap: 20px;
-    }
+	.nav-bar-right-icons {
+		gap: 20px;
+	}
 
-    /* hero section */
-    .hero h1{
-        font-weight: 800;
-        font-size: 80px;
-    }
+	/* hero section */
+	.hero h1 {
+		font-weight: 800;
+		font-size: 80px;
+	}
 
-    .hero h3{
-        font-weight: 600;
-        font-size: 15px;
-        gap: 12px;
-    }
-
+	.hero h3 {
+		font-weight: 600;
+		font-size: 15px;
+		gap: 12px;
+	}
 }
-
 
 /* header{
  background-image: url(../images/hero_desktop.png);
@@ -320,6 +313,3 @@ li a:hover{
   border: none;
   border-radius: 2rem;
 } */
-
-
-

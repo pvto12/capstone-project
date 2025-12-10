@@ -32,14 +32,16 @@
 										>Birthdays</a
 									>
 								</li>
+
 								<li>
-									<a href="./html/upcoming.html">Upcoming</a>
+									<a href="#">Upcoming</a>
 								</li>
+
 								<li>
 									<a href="./archive.html">Archive</a>
 								</li>
 
-								<button>Sign Up</button>
+								<!-- <button>Sign Up</button> -->
 							</ul>
 						</div>
 					</div>
@@ -74,11 +76,15 @@
 										>
 									</li>
 									<li>
-										<a href="./html/upcoming.html">Upcoming</a>
+										<a href="#">Upcoming</a>
 									</li>
 									<li>
 										<a href="./archive.html">Archive</a>
 									</li>
+
+									<!-- <li>
+										<a href="#">Settings</a>
+									</li> -->
 								</ul>
 							</div>
 							<!-- COMMENTED OUT THE NOTIF-ICON AND SIGN UP -->
@@ -548,7 +554,6 @@
 						Salutation
 
 						<select id="salutation">
-							<option value=""></option>
 							<option value="Mr">Mr</option>
 							<option value="Mrs">Mrs</option>
 							<option value="Miss">Miss</option>
@@ -581,31 +586,61 @@
 						Gender
 
 						<select id="gender">
-							<option value=""></option>
 							<option value="male">Male</option>
 							<option value="female">Female</option>
 						</select>
 					</label>
 
-					<label for="DOB">
-						Birthday
+					<label for="dob">
+						Birth date
 
-						<input type="date" name="DOB" id="DOB" />
+						<input type="date" name="lastname" id="dob" />
 					</label>
 
-					<!-- <label for="wishes"> Birthday Wishes </label> -->
+					<label for="hobby">
+						Hobby
 
-					<!-- <textarea
+						<input type="text" name="hobby" id="hobby" />
+					</label>
+
+					<label for="quote">Favorite Quote</label>
+					<textarea
 						type="text"
-						name="wishes"
-						id="wishes"
-						placeholder="Enterr your well wishes"
-						cols="30"
-						rowxs="15"
-					></textarea> -->
+						name="quote"
+						id="quote"
+						placeholder="Enter Your Favorite Quote"
+						cols="10"
+						rows="5"
+					></textarea>
 
-					<!-- <input type="submit" id="wishes-btn" value="Submit Form" /> -->
-					<button type="submit">Submit Form</button>
+					<label for="department">
+						Department
+
+						<select id="department">
+							<option value="dev">Web Development</option>
+							<option value="designer">UI/UX</option>
+							<option value="pm">Project Management</option>
+							<option value="tester">Web Testing</option>
+						</select>
+					</label>
+
+					<label for="bio">Bio</label>
+					<textarea
+						type="text"
+						name="bio"
+						id="bio"
+						placeholder="Enter Brief Biography"
+						cols="10"
+						rows="5"
+					></textarea>
+
+					<!-- <input
+						type="submit"
+						id="wishes-btn"
+						value="Create Birthday"
+					/> -->
+
+					<button type="submit" id="wishes-btn">Submit Form</button>
 				</form>
 			</div>
 		</div>
