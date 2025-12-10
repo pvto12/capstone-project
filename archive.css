@@ -324,9 +324,11 @@ nav ul li a {
   header .header-mini {
     display: flex;
     width: 100%;
+    
   }
   .top {
     margin-top: -3rem;
+    padding: 0px 20px;
   }
 
   body {
