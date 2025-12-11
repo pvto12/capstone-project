@@ -160,7 +160,7 @@ li a:hover{
     flex-direction: column;
     background-color: var(--card-color);
     border-radius: 30px;
-    width: 350px;
+    width: 450px;
     min-height: 400px;
     padding: 40px;
     margin: 70px 0px;
@@ -173,7 +173,6 @@ li a:hover{
     flex-direction: column;
     flex-grow: 1;
     gap: 20px;
-
 }
 
 .top-bar{
@@ -627,6 +626,11 @@ footer{
     margin: 100px 0px;
     justify-self: center;
     justify-items: center;
+    }
+
+    /* form collection data */
+    .form-box{
+        width: 450px;
     }
 
     /* upcoming birthdays */
