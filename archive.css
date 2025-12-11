@@ -65,10 +65,14 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: var(--white);
+  font-weight: 600;
+    font-size: 16px;
 }
 
 .top {
   display: flex;
+  justify-content: space-between;
+   
 }
 .wow {
   display: none;
@@ -392,7 +396,7 @@ nav ul li a {
   .box-2 {
     justify-content: center;
     width: 80%;
-    height: ;
+    /* height: ; */
     margin-left: 10%;
     margin-top: 1rem;
   }
@@ -427,7 +431,7 @@ nav ul li a {
     margin-left: 1rem;
   }
   .main style {
-    background-image: ;
+    /* background-image: ; */
   }
 }
 nav li a:hover {

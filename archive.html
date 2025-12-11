@@ -1,16 +1,18 @@
- <!DOCTYPE html>
- <html>
- <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Archive</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='archive.css'>
-    <script src='main.js'></script>
-    <script src="./js/form.js" defer></script>
- </head>
- <body>
-    <header class="main" style=" background-image: url(images/hero_desktop.png);
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Archive</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='archive.css'>
+  <script src='main.js'></script>
+  <script src="./js/form.js" defer></script>
+</head>
+
+<body>
+  <header class="main" style=" background-image: url(images/hero_desktop.png);
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -20,73 +22,73 @@
 	z-index: 1;
 	position: relative;">
 
-       <div class="top">
-         <div class="logo-main">
-            <a href="index.html"><img src="images/momento_logo2.png" alt=""></a>
+    <div class="top">
+      <div class="logo-main">
+        <a href="index.html"><img src="images/momento_logo2.png" alt=""></a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="html/birthdays.html">Birthdays</a></li>
+          <li><a href="html/upcoming.html">Upcoming</a></li>
+          <li><a href="archive.html">Archive</a></li>
+
+
+          </li>   
+
+
+        </ul>
+
+
+
+
+
+      </nav>
+      <div class="minii">
+        <div class="hamburger">
+          <button onclick="menuToggle(this)">
+            <img src="images/mobile_menu.png" alt="Menu" />
+          </button>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="html/birthdays.html">Birthdays</a></li>
-                <li><a href="html/upcoming.html">Upcoming</a></li>
-                <li><a href="archive.html">Archive</a></li>
-    
-          
-</li>
+        <ul class="mobile-menu" style="text-align: center;">
+          <li>
+            <button onclick="closeToggle()">
+              <img src="images/icon-close.svg" alt="" />
+            </button>
+          </li>
+
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="html/birthdays.html">Birthdays</a>
+          </li>
+          <li>
+            <a href="archive.html">Archive</a>
+          </li>
+          <li style="background: skyblue; width: 100%; color: white; border-radius: 10px;">
+            <a href="index.html" style="color: white;">Sign Up</a>
+          </li>
+        </ul>
+      </div>
 
 
-            </ul>
 
-            
-
-             
-
-        </nav>
-         <div class="minii">
-            <div class="hamburger">
-              <button onclick="menuToggle(this)">
-                <img src="images/mobile_menu.png" alt="Menu" />
-              </button>
-            </div>
-
-            <ul class="mobile-menu" style="text-align: center;">
-              <li>
-                <button onclick="closeToggle()">
-                  <img src="images/icon-close.svg" alt="" />
-                </button>
-              </li>
-
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="html/birthdays.html">Birthdays</a>
-              </li>
-              <li>
-                <a href="archive.html">Archive</a>
-              </li>
-              <li style="background: skyblue; width: 100%; color: white; border-radius: 10px;">
-                <a href="index.html" style="color: white;">Sign Up</a>
-              </li>
-            </ul>
-          </div>
-
-       
-
-       </div >
-       
-        <div class="arc">
-            <h1>Archive</h1>
-            <p>Relive the memories from your previous birthday</p>
-        </div>
-    </header>
-
-    <div class="form-box">
-      <div id="dataContainer"></div>
-      <button class="wish-btn" id="clear-data-btn">Clear All Birthday Data</button>
     </div>
-<!-- 
+
+    <div class="arc">
+      <h1>Archive</h1>
+      <p>Relive the memories from your previous birthday</p>
+    </div>
+  </header>
+
+  <div class="form-box">
+    <div id="dataContainer"></div>
+    <button class="wish-btn" id="clear-data-btn">Clear All Birthday Data</button>
+  </div>
+  <!-- 
 
     <header class="header-mini-3" > 
         <div class="logo-main">
@@ -129,314 +131,327 @@
 
 
     </header> -->
-    <div class="hero">
-       <div class="form">
-  <input type="text" placeholder="Search" class="search" />
-  <input type="text" placeholder="      Filter by                                          &#9662;" class="filter" />
-  <input type="text" placeholder="     Sort by                                             &#9662;" class="sort" />
-   
-        
+  <div class="hero">
+    <div class="form">
+      <input type="text" placeholder="Search" class="search" />
+      <input type="text" placeholder="      Filter by                                          &#9662;"
+        class="filter" />
+      <input type="text" placeholder="     Sort by                                             &#9662;" class="sort" />
+
+
+    </div>
+
+
+    <div class="formm">
+      <div class="up">
+        <input type="text" placeholder="    Filter by                 &#9662; " class="filterr" />
+        <input type="text" placeholder="    Sort by                  &#9662;" class="sortt" />
       </div>
+      <input type="text" placeholder=" Search" class="searchh" />
 
 
-      <div class="formm">
-        <div class="up">
-           <input type="text" placeholder="    Filter by                 &#9662; " class="filterr" />
-  <input type="text" placeholder="    Sort by                  &#9662;" class="sortt" />
+    </div>
+
+    <div class="container">
+      <div class="row-1">
+        <div class="box-1">
+
+          <img src="images/ecllipse_5.png" alt="">
+          <h1>
+            <b>2025</b> <br>
+            <p style="font-weight: lighter;"> Olayide Kareem</p>
+          </h1>
+          <div class="mini">
+            <div class="mini-1">
+              <img src="images/icon-park-solid_like.png" alt=""><span style="margin-top: 0rem;">15</span>
+
+            </div>
+            <div class="mini-2">
+              <img src="images/mage_message-round.png" alt="">7
+            </div>
+          </div>
+          <button class="view">
+            View Memory
+          </button>
         </div>
-  <input type="text" placeholder=" Search" class="searchh" />
 
-        
-      </div>
 
-        <div class="container">
-            <div class="row-1">
-                <div class="box-1">
-                    
-                        <img src="images/ecllipse_5.png" alt="">
-                        <h1>
-<b>2025</b> <br><p style="font-weight: lighter;"> Olayide Kareem</p>
-                        </h1>
-                        <div class="mini">
-                           <div class="mini-1">
-                 <img src="images/icon-park-solid_like.png" alt=""><span style="margin-top: 0rem;">15</span>
 
-            </div><div class="mini-2">
-                <img src="images/mage_message-round.png" alt="">7
+
+        <div class="box-1">
+
+          <img src="images/ecllipse_3.png" alt="">
+          <h1>
+            <b>2025</b> <br>Adesayo Ekong
+          </h1>
+          <div class="mini">
+            <div class="mini-1">
+              <img src="images/icon-park-solid_like.png" alt="">30
+
             </div>
-                        </div>
-                        <button class="view">
-                            View Memory
-                        </button>
-                </div>
-            
-
-
-
-            <div class="box-1">
-                    
-                        <img src="images/ecllipse_3.png" alt="">
-                        <h1>
-<b>2025</b> <br>Adesayo Ekong
-                        </h1>
-                        <div class="mini">
-                           <div class="mini-1">
-                 <img src="images/icon-park-solid_like.png" alt="">30
-
-            </div><div class="mini-2">
-                <img src="images/mage_message-round.png" alt="">27
+            <div class="mini-2">
+              <img src="images/mage_message-round.png" alt="">27
             </div>
-                        </div>
-                        <button class="view">
-                            View Memory
-                        </button>
-                </div>
-
-
-                <div class="box-1">
-                    
-                        <img src="images/ecllipse_1.png" alt="">
-                        <h1>
-<b>2025</b> <br>Femi Richards
-                        </h1>
-                        <div class="mini">
-                           <div class="mini-1">
-                 <img src="images/icon-park-solid_like.png" alt="">15
-
-            </div><div class="mini-2">
-                <img src="images/mage_message-round.png" alt="">7
-            </div>
-                        </div>
-                        <button class="view">
-                            View Memory
-                        </button>
-                </div>
-                </div>
-                <div class="row-1">
-                <div class="box-2">
-                    
-                      <button class="box-image">
-                          <img src="images/row 2 a.jpg" alt="">
-                      </button>
-                        <h1>
-<b>2025</b> <br><p style="font-weight: lighter;"> Demilade Aremu</p>
-                        </h1>
-                        <div class="mini-3">
-                           <div class="mini-1">
-                 <img src="images/icon-park-solid_like.png" alt=""><span style="margin-top: 0rem;">15</span>
-
-            </div><div class="mini-2">
-                <img src="images/mage_message-round.png" alt="">7
-            </div>
-                        </div>
-                        <button class="view">
-                            View Memory
-                        </button> 
-                </div>
-            
-
-
-
-            <div class="box-2">
-                      <button class="box-image">
-                          <img src="images/row 2 b.jpg" alt="">
-                      </button>
-                        <h1>
-<b>2025</b> <br>Joy Felix
-                        </h1>
-                        <div class="mini-3">
-                           <div class="mini-1">
-                 <img src="images/icon-park-solid_like.png" alt="">15
-
-            </div><div class="mini-2">
-                <img src="images/mage_message-round.png" alt="">7
-            </div>
-                        </div>
-                        <button class="view">
-                            View Memory
-                        </button>
-                </div>
-
-
-                <div class="box-2">
-                      <button class="box-image">
-                          <img src="images/image-card-2.jpg" alt="">
-                      </button>
-                        <h1>
-<b>2025</b> <br>Folake Eno
-                        </h1>
-                        <div class="mini-3">
-                           <div class="mini-1">
-                 <img src="images/icon-park-solid_like.png" alt="">15
-
-            </div><div class="mini-2">
-                <img src="images/mage_message-round.png" alt="">7
-            </div>
-                        </div>
-                        <button class="view">
-                            View Memory
-                        </button>
-                </div>
-                </div>
-                <div class="row-1">
-                <div class="box-2">
-                    
-                        <button class="box-image">
-                          <img src="images/img_6.png" alt="">
-                      </button>
-                        <h1>
-<b>2025</b> <br><p style="font-weight: lighter;"> Patience Eka</p>
-                        </h1>
-                        <div class="mini-3">
-                           <div class="mini-1">
-                 <img src="images/icon-park-solid_like.png" alt=""><span style="margin-top: 0rem;">15</span>
-
-            </div><div class="mini-2">
-                <img src="images/mage_message-round.png" alt="">7
-            </div>
-                        </div>
-                        <button class="view">
-                            View Memory
-                        </button>
-                </div>
-            
-
-
-
-            <div class="box-2">
-                    
-<button class="box-image">
-                          <img src="images/img_4.png" alt="">
-                      </button>
-                        <h1>
-<b>2025</b> <br>Miju Julius
-                        </h1>
-                        <div class="mini-3">
-                           <div class="mini-1">
-                 <img src="images/icon-park-solid_like.png" alt="">15
-
-            </div><div class="mini-2">
-                <img src="images/mage_message-round.png" alt="">7
-            </div>
-                        </div>
-                        <button class="view">
-                            View Memory
-                        </button>
-                </div>
-
-
-                <div class="box-2">
-                    
-                        <button class="box-image">
-                          <img src="images/img_3.png" alt="">
-                      </button>
-                        <h1>
-<b>2025</b> <br>Dickson Umoh
-                        </h1>
-                        <div class="mini-3">
-                           <div class="mini-1">
-                 <img src="images/icon-park-solid_like.png" alt="">15
-
-            </div><div class="mini-2">
-                <img src="images/mage_message-round.png" alt="" >7
-            </div>
-                        </div>
-                        <button class="view">
-                            View Memory
-                        </button>
-                </div>
-                </div>
-            </div>
-            </div>
+          </div>
+          <button class="view">
+            View Memory
+          </button>
         </div>
+
+
+        <div class="box-1">
+
+          <img src="images/ecllipse_1.png" alt="">
+          <h1>
+            <b>2025</b> <br>Femi Richards
+          </h1>
+          <div class="mini">
+            <div class="mini-1">
+              <img src="images/icon-park-solid_like.png" alt="">15
+
+            </div>
+            <div class="mini-2">
+              <img src="images/mage_message-round.png" alt="">7
+            </div>
+          </div>
+          <button class="view">
+            View Memory
+          </button>
+        </div>
+      </div>
+      <div class="row-1">
+        <div class="box-2">
+
+          <button class="box-image">
+            <img src="images/row 2 a.jpg" alt="">
+          </button>
+          <h1>
+            <b>2025</b> <br>
+            <p style="font-weight: lighter;"> Demilade Aremu</p>
+          </h1>
+          <div class="mini-3">
+            <div class="mini-1">
+              <img src="images/icon-park-solid_like.png" alt=""><span style="margin-top: 0rem;">15</span>
+
+            </div>
+            <div class="mini-2">
+              <img src="images/mage_message-round.png" alt="">7
+            </div>
+          </div>
+          <button class="view">
+            View Memory
+          </button>
+        </div>
+
+
+
+
+        <div class="box-2">
+          <button class="box-image">
+            <img src="images/row 2 b.jpg" alt="">
+          </button>
+          <h1>
+            <b>2025</b> <br>Joy Felix
+          </h1>
+          <div class="mini-3">
+            <div class="mini-1">
+              <img src="images/icon-park-solid_like.png" alt="">15
+
+            </div>
+            <div class="mini-2">
+              <img src="images/mage_message-round.png" alt="">7
+            </div>
+          </div>
+          <button class="view">
+            View Memory
+          </button>
+        </div>
+
+
+        <div class="box-2">
+          <button class="box-image">
+            <img src="images/image-card-2.jpg" alt="">
+          </button>
+          <h1>
+            <b>2025</b> <br>Folake Eno
+          </h1>
+          <div class="mini-3">
+            <div class="mini-1">
+              <img src="images/icon-park-solid_like.png" alt="">15
+
+            </div>
+            <div class="mini-2">
+              <img src="images/mage_message-round.png" alt="">7
+            </div>
+          </div>
+          <button class="view">
+            View Memory
+          </button>
+        </div>
+      </div>
+      <div class="row-1">
+        <div class="box-2">
+
+          <button class="box-image">
+            <img src="images/img_6.png" alt="">
+          </button>
+          <h1>
+            <b>2025</b> <br>
+            <p style="font-weight: lighter;"> Patience Eka</p>
+          </h1>
+          <div class="mini-3">
+            <div class="mini-1">
+              <img src="images/icon-park-solid_like.png" alt=""><span style="margin-top: 0rem;">15</span>
+
+            </div>
+            <div class="mini-2">
+              <img src="images/mage_message-round.png" alt="">7
+            </div>
+          </div>
+          <button class="view">
+            View Memory
+          </button>
+        </div>
+
+
+
+
+        <div class="box-2">
+
+          <button class="box-image">
+            <img src="images/img_4.png" alt="">
+          </button>
+          <h1>
+            <b>2025</b> <br>Miju Julius
+          </h1>
+          <div class="mini-3">
+            <div class="mini-1">
+              <img src="images/icon-park-solid_like.png" alt="">15
+
+            </div>
+            <div class="mini-2">
+              <img src="images/mage_message-round.png" alt="">7
+            </div>
+          </div>
+          <button class="view">
+            View Memory
+          </button>
+        </div>
+
+
+        <div class="box-2">
+
+          <button class="box-image">
+            <img src="images/img_3.png" alt="">
+          </button>
+          <h1>
+            <b>2025</b> <br>Dickson Umoh
+          </h1>
+          <div class="mini-3">
+            <div class="mini-1">
+              <img src="images/icon-park-solid_like.png" alt="">15
+
+            </div>
+            <div class="mini-2">
+              <img src="images/mage_message-round.png" alt="">7
+            </div>
+          </div>
+          <button class="view">
+            View Memory
+          </button>
+        </div>
+      </div>
     </div>
-
-
-    <script>
-              const navbar = document.querySelector('.mobile-menu');
-
-              function menuToggle(button) {
-          navbar.classList.add("active");
-          button.classList.add('active');
-          document.body.classList.add('active');
-
-          // Optional: change padding dynamically
-          navbar.style.padding = "20px";
-      }
-
-
-                  const ul = document.getElementsByClassName("mobile-menu")
-      ul.style.padding("20px")
-
-
-
-              
-
-
-function closeToggle() {
-    navbar.classList.remove("active");
-    document.querySelector('.hamburger button').classList.remove('active');
-    document.body.classList.remove('active');
-}
-
-    </script>
-
-
-<footer>
-  <div class="footer-container">
-
-    <div class="part-1">
-      <div class="foot-logo">
-        <img src="images/momento logo2.png" alt="">
-      </div>
-
-      <div class="aboutus">
-        <h1>About Us</h1>
-        <p>Welcome to our special corner celebrating the incredible individuals 
-                        who make Septa thrive! This website is dedicated to our amazing team
-                        members, the heart and soul of everything we do. Here, we’ll mark each
-                        milestone, share well wishes, and acknowledge the unique contributions
-                        that each person brings. It’s our way of saying thank you for your dedication,
-                        hard work, and for being an invaluable part of the Septa family.</p>
-      </div>
-
-      <div class="bottom">
-        <p>Privacy Policy</p>
-        <p>Terms and Conditions</p>
-        <p>Admin</p>
-        <p>Version 1.0</p>
-      </div>
-      <div class="copyright">
-        <p>© 2025 Septa Academy Group 1-All rights reserved.</p>
-      </div>
-    </div>
-
-    <div class="part-2">
-      <div class="quick">
-        <h2>Quick Links</h2>
-        <p>Manage Employee</p>
-        <p>Moderate Post</p>
-        <p>Automation Testings</p>
-        <p>Upcoming Birthdays</p>
-        <p>View Analytics</p>
-        <p>Archive / Memory Wall</p>
-      </div>
-
-      <div class="cont">
-        <h2>Contact Us</h2>
-        <p><b>Call:</b><br>+234 905 446 9411</p>
-        <p><b>Email:</b><br>admin@septaacademy.com</p>
-      </div>
-
-      <!-- 👇 Add copyright under part-2 -->
-      
-    </div>
-
+  </div>
+  </div>
   </div>
 
-  <div class="last">
-    
-      
+
+  <script>
+    const navbar = document.querySelector('.mobile-menu');
+
+    function menuToggle(button) {
+      navbar.classList.add("active");
+      button.classList.add('active');
+      document.body.classList.add('active');
+
+      // Optional: change padding dynamically
+      navbar.style.padding = "20px";
+    }
+
+
+    const ul = document.getElementsByClassName("mobile-menu")
+    ul.style.padding("20px")
+
+
+
+
+
+
+    function closeToggle() {
+      navbar.classList.remove("active");
+      document.querySelector('.hamburger button').classList.remove('active');
+      document.body.classList.remove('active');
+    }
+
+  </script>
+
+
+  <footer>
+    <div class="footer-container">
+
+      <div class="part-1">
+        <div class="foot-logo">
+          <img src="images/momento logo2.png" alt="">
+        </div>
+
+        <div class="aboutus">
+          <h1>About Us</h1>
+          <p>Welcome to our special corner celebrating the incredible individuals
+            who make Septa thrive! This website is dedicated to our amazing team
+            members, the heart and soul of everything we do. Here, we’ll mark each
+            milestone, share well wishes, and acknowledge the unique contributions
+            that each person brings. It’s our way of saying thank you for your dedication,
+            hard work, and for being an invaluable part of the Septa family.</p>
+        </div>
+
+        <div class="bottom">
+          <p>Privacy Policy</p>
+          <p>Terms and Conditions</p>
+          <p>Admin</p>
+          <p>Version 1.0</p>
+        </div>
+        <div class="copyright">
+          <p>© 2025 Septa Academy Group 1-All rights reserved.</p>
+        </div>
+      </div>
+
+      <div class="part-2">
+        <div class="quick">
+          <h2>Quick Links</h2>
+          <p>Manage Employee</p>
+          <p>Moderate Post</p>
+          <p>Automation Testings</p>
+          <p>Upcoming Birthdays</p>
+          <p>View Analytics</p>
+          <p>Archive / Memory Wall</p>
+        </div>
+
+        <div class="cont">
+          <h2>Contact Us</h2>
+          <p><b>Call:</b><br>+234 905 446 9411</p>
+          <p><b>Email:</b><br>admin@septaacademy.com</p>
+        </div>
+
+        <!-- 👇 Add copyright under part-2 -->
+
+      </div>
+
+    </div>
+
+    <div class="last">
+
+
       <div class="last-1">
         <p>Privacy Policy</p>
         <p>Terms and Conditions</p>
@@ -448,8 +463,9 @@ function closeToggle() {
       <div class="last-2">
         <p>© 2025 Momento-All rights reserved.</p>
       </div>
-  </div>
-</footer>
+    </div>
+  </footer>
 
- </body>
- </html>
+</body>
+
+</html>

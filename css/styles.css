@@ -951,6 +951,7 @@ button[type="submit"] {
 
 	.nav.desktop {
 		display: block;
+		justify-content: space-between;
 	}
 
 	.nav.desktop div:first-child {
@@ -982,6 +983,7 @@ button[type="submit"] {
 
 	.show-or-hide {
 		display: block;
+		/* justify-content: space-between; */
 	}
 
 	.show-or-hide ul {
@@ -996,9 +998,11 @@ button[type="submit"] {
 	}
 
 	.show-or-hide ul li a {
-		font-size: 2rem;
+		font-size: 1.6rem;
+		font-weight: 600;
 		color: var(--white);
 		text-decoration: none;
+		
 	}
 
 	.show-or-hide + img {
