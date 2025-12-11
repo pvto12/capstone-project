@@ -953,7 +953,7 @@ button[type="submit"] {
 		display: block;
 		justify-content: space-between;
 	}
-
+	
 	.nav.desktop div:first-child {
 		display: flex;
 		justify-content: space-between;
