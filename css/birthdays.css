@@ -553,10 +553,6 @@ footer{
         background-color: var(--btn-color);
     }
 
-    /* .nav-bar{
-        padding: 10px;
-    } */
-
     li a{
         color: var(--btn-color);
     }
