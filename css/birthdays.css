@@ -532,7 +532,7 @@ footer{
     }
 
     .nav-bar{
-        padding: 20px 30px;
+        padding: 33px 22px;
     }
 
     .hamburger{
@@ -553,9 +553,9 @@ footer{
         background-color: var(--btn-color);
     }
 
-    .nav-bar{
+    /* .nav-bar{
         padding: 10px;
-    }
+    } */
 
     li a{
         color: var(--btn-color);
@@ -630,7 +630,8 @@ footer{
 
     /* form collection data */
     .form-box{
-        width: 450px;
+        width: 350px;
+
     }
 
     /* upcoming birthdays */
