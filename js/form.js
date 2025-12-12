@@ -136,13 +136,13 @@ document.addEventListener("DOMContentLoaded", function () {
 			Form();
 		});
 	}
-	if (window.location.pathname.includes("birthdays.html")) {
+	if (window.location.pathname.endsWith("birthdays.html")) {
 		loadData("present");
 	}
-	if (window.location.pathname.includes("upcoming.html")) {
+	if (window.location.pathname.endsWith("upcoming.html")) {
 		loadData("upcoming");
 	}
-	if (window.location.pathname.includes("archive.html")) {
+	if (window.location.pathname.endsWith("archive.html")) {
 		loadData("archive");
 	}
 });
