@@ -1,7 +1,9 @@
 // firebase configuraton
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
-import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+// import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+// import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
+// import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+
+import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBWjrhKby3-z5I6XTZ_RnjLqVGfwx2j_8E",
@@ -163,7 +165,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // 	location.reload();
 // }
 
-import { collection, getDocs, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
 document.addEventListener("DOMContentLoaded", function () {
 	const clearBtn = document.getElementById("clear-data-btn");
