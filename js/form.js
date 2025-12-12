@@ -148,17 +148,32 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //clearing data
-document.addEventListener("DOMContentLoaded", function () {
-	const clearBtn = document.getElementById("clear-data-btn");
+// document.addEventListener("DOMContentLoaded", function () {
+// 	const clearBtn = document.getElementById("clear-data-btn");
 
-	if (clearBtn) {
-		clearBtn.addEventListener("click", clearAllData);
-	}
-});
-function clearAllData() {
-	localStorage.removeItem("present");
-	localStorage.removeItem("upcoming");
-	localStorage.removeItem("archive");
-	alert("All entry has been cleared!");
-	location.reload();
+// 	if (clearBtn) {
+// 		clearBtn.addEventListener("click", clearAllData);
+// 	}
+// });
+// function clearAllData() {
+// 	localStorage.removeItem("present");
+// 	localStorage.removeItem("upcoming");
+// 	localStorage.removeItem("archive");
+// 	alert("All entry has been cleared!");
+// 	location.reload();
+// }
+
+async function clearAllData() {
+    const collections = ["present", "upcoming", "archive"];
+    
+    for (const colName of collections) {
+        const snapshot = await getDocs(collection(db, colName));
+        for (const docSnap of snapshot.docs) {
+            await deleteDoc(doc(db, colName, docSnap.id));
+        }
+    }
+
+    alert("All entries have been cleared from Firebase!");
+    location.reload();
 }
+
