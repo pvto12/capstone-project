@@ -1,3 +1,25 @@
+// firebase configuraton
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
+import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBWjrhKby3-z5I6XTZ_RnjLqVGfwx2j_8E",
+  authDomain: "capstone-project-d45ed.firebaseapp.com",
+  projectId: "capstone-project-d45ed",
+  storageBucket: "capstone-project-d45ed.firebasestorage.app",
+  messagingSenderId: "822973326470",
+  appId: "1:822973326470:web:b5bee4f5916d097b415d07",
+  measurementId: "G-W5JDPH5F6S"
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+const db = getFirestore(app);
+
+
+
+
 //form functionality and re-routing
 function getSavedList(key) {
 	return JSON.parse(localStorage.getItem(key)) || [];
@@ -7,7 +29,7 @@ function saveList(key, list) {
 	localStorage.setItem(key, JSON.stringify(list));
 }
 
-function Form() {
+async function Form() {
 	let salutation = document.getElementById("salutation").value;
 	let firstName = document.getElementById("firstname").value;
 	let lastName = document.getElementById("lastname").value;
@@ -18,7 +40,6 @@ function Form() {
 	let dept = document.getElementById("department").value;
 	let bio = document.getElementById("bio").value;
 
-	// const modifyDob = dob.split("-").reverse().join("-");
 
 	let dobDate = new Date(dob);
 	let dobMonth = dobDate.getMonth() + 1;
@@ -49,30 +70,51 @@ function Form() {
 		redirectPage = "./archive.html";
 	}
 
-	let list = getSavedList(listName);
-	if (!list.some((item) => 
-			item.firstName === record.firstName && 
-			item.lastName === record.lastName && item.dob === record.dob)) 
-	{
-		list.push(record);
-		saveList(listName, list);
-	}
+	await addDoc(collection(db, listName), record);
+
+	// let list = getSavedList(listName);
+	// if (!list.some((item) => 
+	// 		item.firstName === record.firstName && 
+	// 		item.lastName === record.lastName && item.dob === record.dob)) 
+	// {
+	// 	list.push(record);
+	// 	saveList(listName, list);
+	// }
 
     alert("Your input was successful");
     window.location.href = redirectPage;
 }
 
-function loadData(listName) {
-	let list = JSON.parse(localStorage.getItem(listName)) || [];
+async function loadData(listName) {
+	// let list = JSON.parse(localStorage.getItem(listName)) || [];
 	let container = document.getElementById("dataContainer");
-
-	if (list.length === 0) {
+	let querySnapshot =await getDocs(collection(db, listName));
+	if (querySnapshot.empty){
 		container.innerHTML = "<p>No records yet.</p>";
 		return;
 	}
+	// if (list.length === 0) {
+	// 	container.innerHTML = "<p>No records yet.</p>";
+	// 	return;
+	// }
 
-	container.innerHTML = list.map((item) => `
-        <div class="record">
+	// container.innerHTML = list.map((item) => `
+    //     <div class="record">
+    //         <p><strong>Name:</strong> ${item.salutation} ${item.firstName} ${item.lastName}</p>
+    //         <p><strong>Gender:</strong> ${item.gender}</p>
+    //         <p><strong>Date of Birth:</strong> ${item.dob}</p>
+    //         <p><strong>Hobby:</strong> ${item.hobby}</p>
+    //         <p><strong>Quote:</strong> ${item.quote}</p>
+    //         <p><strong>Department:</strong> ${item.dept}</p>
+    //         <p><strong>Short Bio:</strong> ${item.bio}</p>
+    //     </div>
+    // `).join("");
+
+	let html = "";
+	querySnapshot.forEach((doc) => {
+		const item = doc.data();
+		html += `
+		<div class="record">
             <p><strong>Name:</strong> ${item.salutation} ${item.firstName} ${item.lastName}</p>
             <p><strong>Gender:</strong> ${item.gender}</p>
             <p><strong>Date of Birth:</strong> ${item.dob}</p>
@@ -81,7 +123,9 @@ function loadData(listName) {
             <p><strong>Department:</strong> ${item.dept}</p>
             <p><strong>Short Bio:</strong> ${item.bio}</p>
         </div>
-    `).join("");
+		`;
+	});
+	container.innerHTML = html;
 }
 
 document.addEventListener("DOMContentLoaded", function () {

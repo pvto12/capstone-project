@@ -124,6 +124,8 @@ li a:hover{
 
 /* celebrant of the day */
 #celebrant{
+    display: flex;
+    flex-direction: column;
     position: relative;
     margin-top: 40px;
 }
