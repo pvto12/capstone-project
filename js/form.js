@@ -184,6 +184,6 @@ async function clearAllData() {
         }
     }
 
-    alert("All entries have been cleared from Firebase!");
+    alert("All entries have been cleared!");
     location.reload();
 }
