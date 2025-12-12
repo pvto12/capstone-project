@@ -163,11 +163,23 @@ document.addEventListener("DOMContentLoaded", function () {
 // 	location.reload();
 // }
 
+import { collection, getDocs, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+
+document.addEventListener("DOMContentLoaded", function () {
+	const clearBtn = document.getElementById("clear-data-btn");
+
+	if (clearBtn) {
+		clearBtn.addEventListener("click", clearAllData);
+	}
+});
+
 async function clearAllData() {
     const collections = ["present", "upcoming", "archive"];
     
     for (const colName of collections) {
-        const snapshot = await getDocs(collection(db, colName));
+        const colRef = collection(db, colName);
+        const snapshot = await getDocs(colRef);
+
         for (const docSnap of snapshot.docs) {
             await deleteDoc(doc(db, colName, docSnap.id));
         }
@@ -176,4 +188,3 @@ async function clearAllData() {
     alert("All entries have been cleared from Firebase!");
     location.reload();
 }
-
